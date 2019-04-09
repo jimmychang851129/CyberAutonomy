@@ -1,5 +1,10 @@
 # Cyber Autonomy
 
+## setup
+用virtualenv 建立python3.6
+virtualenv使用教學請看[note](https://hackmd.io/gnNUv5YOQdin9mHmafaEqg?both)
+用python3.6 pip install requirements.txt
+
 ## environment
 
 python == 3.6
@@ -36,5 +41,3 @@ stored all html files
 default directory for this project
 define the template path and all routing path, etc
 
-## https
-sample https server
