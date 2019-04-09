@@ -1,16 +1,15 @@
 # Cyber Autonomy
 
-## Index
-[toc]
-
 ## environment
 
 python == 3.6
+
 pip3 install requirements.txt
 
 ## Django tutorial & note
 
 [note](https://hackmd.io/gnNUv5YOQdin9mHmafaEqg?both)
+
 [tutorial](https://www.youtube.com/watch?v=F5mRW0jo-U4)
 
 ## File introduction
