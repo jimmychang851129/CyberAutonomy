@@ -1,0 +1,7 @@
+{"Files": ["Canada", "France", "Germany", "Italy", "Japan", "Uk", "US"],
+ "Loaddir": "./CPAnalysis/CPCrawling/connectable/",
+ "Savedir": "./CPAnalysis/CPCrawling/result/",
+ "StartDate": "201811",
+ "WebpageTimeout": 5,
+ "driverPath": "/Users/jimmy/Desktop/CA/crawl/chromedriver",
+ "nowDate": "201904"}
