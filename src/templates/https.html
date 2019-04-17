@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="script/chart.min.js"></script>
+	<script src="script/jquery.min.js"></script>
+	<meta charset="utf-8"></meta>
+	<link rel='stylesheet' href="style/bootstrap.min.css"></link>
+	<link rel="stylesheet" href="style/style.css"></link>
+	<title>G8 Government Websites HTTPS Scanning</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="menuborder"><a href="index.html"><span class="menubar">Home</span></a></li>
+      <li class="menuborder active"><a href="#"><span class="menubar">HTTPS</span></a></li>
+      <li class="menuborder"><a href="#"><span class="menubar">HSTS</span></a></li>
+      <li class="menuborder"><a href="tls.html"><span class="menubar">TLS vulnerability</span></a></li>
+      <li class="menuborder"><a href="#"><span class="menubar">Root CA</span></a></li>
+      <li class="menuborder"><a href="#"><span class="menubar">Content Provider</span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12" style="background: grey;">
+			<form id="https_search" action="" method="post" class="select-panel form-group">
+				<label>Please Choose for Scanning Country:</label>
+				<!-- Add season with ajax -->
+				<select class="form-control" name="https_country">
+					<option>Overall Comparison</option>
+					<option>USA</option>
+					<option>Canada</option>
+					<option>France</option>
+					<option>Germany</option>
+					<option>Italy</option>
+					<option>Japan</option>
+					<option>UK</option>
+					<option>Taiwan</option>
+				</select>
+				<label>Scanning Season:</label>
+				<select class="form-control" name="https_season">
+					<option>August 2017</option>
+					<option>October 2018</option>
+				</select>
+				<button id="https_submit" class="search-button" type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div id="chartcontainer" class="row" style="background-color: black;">
+	</div>
+
+	<div class="row">
+		<h1>footer</h1>
+	</div>
+
+</div>
+
+</body>
+</html>
+<script>
+
+  // auto scroll
+  function scrollgraph(argument) {
+		$('html, body').animate({
+	    scrollTop: $("#chartcontainer").offset().top
+	  }, 600);
+  }
+	var sendform = $("#https_search");
+  // clear previous records
+  sendform.find("#https_submit").on("click", function() {
+  	$("#chart").remove();
+    $("#chartcontainer").append('<canvas id="chart" class="chartboard"></canvas>');
+
+    if(sendform.find('select[name="https_country"]').val() === 'Overall Comparison'){
+    // TEST CHART!
+			var myPieChart = new Chart('chart', {
+		    type: 'bar',
+		    data: {
+		    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
+		    	datasets: [{
+		    		data: [40,10,10,10,10,5,5,10],
+		    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
+		    	}],
+		    },
+	    	options: {
+	        title: {
+	            display: true,
+	            text: 'G8 Government top100 HTTPS adoption rate',
+	            fontColor: '#FFF',
+	            fontSize: 18
+	        },
+	        scales: {
+		        yAxes: [{
+	            ticks: {
+                beginAtZero: true,
+                steps: 10,
+                stepValue: 6
+              }
+		        }]
+			    },
+			    legend: {
+			      display: false
+			    }
+		    }
+			});
+			showdetail(myPieChart);
+		}else{
+			var myPieChart = new Chart('chart', {
+		    type: 'pie',
+		    data: {
+		    	labels: ['HTTPS adoption',"no adoption"],
+		    	datasets: [{
+		    		data: [40,60],
+		    		backgroundColor: ["#555555", "#ff6666"]
+		    	}],
+		    },
+	    	options: {
+	        title: {
+	            display: true,
+	            text: 'USA Government top100 HTTPS adoption rate',
+	            fontColor: '#FFF',
+		          fontSize: 18
+	        }
+		    }
+			});
+			showdetail(myPieChart);
+		}
+		scrollgraph();
+  })
+
+
+  // AJAX submit form
+  sendform.submit(function(e) {
+    $.ajax({
+      type: sendform.attr('method'),
+      url: sendform.attr('action'),
+      data: sendform.serialize(),
+      success: function(data)
+      {
+				var object = JSON.parse(data);
+				//TODO: if [one country] - pie chart
+				var myPieChart = new Chart('chart', {
+				    type: 'pie',
+				    data: {
+				    	labels: ['HTTPS adoption',"no adoption"],
+				    	datasets: [{
+				    		data: [40,60],
+				    		backgroundColor: ["#555555", "#ff6666"]
+				    	}],
+				    },
+			    	options: {
+				        title: {
+				            display: true,
+				            text: 'USA Government top100 HTTPS adoption rate',
+				            fontColor: '#FFF',
+					          fontSize: 22
+				        }
+				    }
+				});
+
+				//TODO: if [all comparison] - bar chart
+				var myPieChart = new Chart('chart', {
+			    type: 'bar',
+			    data: {
+			    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
+			    	datasets: [{
+			    		data: [40,10,10,10,10,5,5,10],
+			    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
+			    	}],
+			    },
+		    	options: {
+		        title: {
+		            display: true,
+		            text: 'G8 Government top100 HTTPS adoption rate',
+		            fontColor: '#FFF',
+		            fontSize: 18
+		        },
+		        scales: {
+			        yAxes: [{
+		            ticks: {
+	                beginAtZero: true,
+	                steps: 10,
+	                stepValue: 6
+	              }
+			        }]
+				    },
+				    legend: {
+				      display: false
+				    }
+			    }
+				});
+
+      },
+      complete: function(xhr, status) {
+        console.log("HTTPS search requested!");
+      }
+    });
+    e.preventDefault();
+  });
+
+  // get chart label name for post
+  function showdetail(chartptx) {
+		$("#chart").click( function(evt){
+        var activePoints = chartptx.getElementsAtEvent(evt);
+        var clickedElementindex = activePoints[0]["_index"];
+        var label = chartptx.data.labels[clickedElementindex];
+        var url = "http://example.com/?label=" + label;
+        alert(url);
+    });
+  }
+	
+</script>
