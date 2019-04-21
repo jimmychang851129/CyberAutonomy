@@ -26,24 +26,26 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12" style="background: grey;">
-			<form id="https_search" action="" method="post" class="select-panel form-group">
+			<form id="https_search" class="select-panel form-group">
+				{% csrf_token %}
 				<label>Please Choose for Scanning Country:</label>
 				<!-- Add season with ajax -->
-				<select class="form-control" name="https_country">
-					<option>Overall Comparison</option>
-					<option>USA</option>
-					<option>Canada</option>
-					<option>France</option>
-					<option>Germany</option>
-					<option>Italy</option>
-					<option>Japan</option>
-					<option>UK</option>
-					<option>Taiwan</option>
+				<select class="form-control" name="filetype">
+					<option value="0">Overall Comparison</option>
+					<option value="1">USA</option>
+					<option value="2">Canada</option>
+					<option value="3">France</option>
+					<option value="4">Germany</option>
+					<option value="5">Italy</option>
+					<option value="6">Japan</option>
+					<option value="7">UK</option>
+					<option value="8">Taiwan</option>
 				</select>
 				<label>Scanning Season:</label>
-				<select class="form-control" name="https_season">
-					<option>August 2017</option>
-					<option>October 2018</option>
+				<select class="form-control" name="season">
+					{% for seasons in time %}
+					<option>{{seasons}}</option>
+					{% endfor %}
 				</select>
 				<button id="https_submit" class="search-button" type="submit">Search</button>
 			</form>
@@ -62,6 +64,17 @@
 </body>
 </html>
 <script>
+	var MonthEng = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'December'};
+	// $(document).ready(function() {
+	// 	var monthlist = {{ time|safe }};
+	// 	for(var i=0; i<monthlist.length; i++){
+	// 		var month = monthlist[i].substr(4,6);
+	// 		month = MonthEng[month];
+	// 		var opt = month + " " + monthlist[i].substr(0,4);
+	// 		console.log(opt);
+	// 		$("#https_season").append("<option>"+opt+"</option>");
+	// 	}
+	// });
 
   // auto scroll
   function scrollgraph(argument) {
@@ -71,136 +84,100 @@
   }
 	var sendform = $("#https_search");
   // clear previous records
-  sendform.find("#https_submit").on("click", function() {
+  $("#https_submit").click(function(e) {
   	$("#chart").remove();
     $("#chartcontainer").append('<canvas id="chart" class="chartboard"></canvas>');
 
-    if(sendform.find('select[name="https_country"]').val() === 'Overall Comparison'){
-    // TEST CHART!
-			var myPieChart = new Chart('chart', {
-		    type: 'bar',
-		    data: {
-		    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
-		    	datasets: [{
-		    		data: [40,10,10,10,10,5,5,10],
-		    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
-		    	}],
-		    },
-	    	options: {
-	        title: {
-	            display: true,
-	            text: 'G8 Government top100 HTTPS adoption rate',
-	            fontColor: '#FFF',
-	            fontSize: 18
-	        },
-	        scales: {
-		        yAxes: [{
-	            ticks: {
-                beginAtZero: true,
-                steps: 10,
-                stepValue: 6
-              }
-		        }]
-			    },
-			    legend: {
-			      display: false
-			    }
-		    }
-			});
-			showdetail(myPieChart);
-		}else{
-			var myPieChart = new Chart('chart', {
-		    type: 'pie',
-		    data: {
-		    	labels: ['HTTPS adoption',"no adoption"],
-		    	datasets: [{
-		    		data: [40,60],
-		    		backgroundColor: ["#555555", "#ff6666"]
-		    	}],
-		    },
-	    	options: {
-	        title: {
-	            display: true,
-	            text: 'USA Government top100 HTTPS adoption rate',
-	            fontColor: '#FFF',
-		          fontSize: 18
-	        }
-		    }
-			});
-			showdetail(myPieChart);
-		}
-		scrollgraph();
-  })
-
-
-  // AJAX submit form
-  sendform.submit(function(e) {
+    // AJAX submit form
+    e.preventDefault();
     $.ajax({
-      type: sendform.attr('method'),
-      url: sendform.attr('action'),
+      type: 'POST',
+      url: 'HTTPS_Request',
       data: sendform.serialize(),
+      dataType: "html",
       success: function(data)
       {
 				var object = JSON.parse(data);
-				//TODO: if [one country] - pie chart
-				var myPieChart = new Chart('chart', {
-				    type: 'pie',
-				    data: {
-				    	labels: ['HTTPS adoption',"no adoption"],
-				    	datasets: [{
-				    		data: [40,60],
-				    		backgroundColor: ["#555555", "#ff6666"]
-				    	}],
-				    },
-			    	options: {
+
+				try{
+					var filetype = parseInt(object["filetype"]);
+					console.log(filetype);
+					if(filetype === 0){
+						//TODO: if [one country] - pie chart
+						var myPieChart = new Chart('chart', {
+						    type: 'pie',
+						    data: {
+						    	labels: ['HTTPS adoption',"no adoption"],
+						    	datasets: [{
+						    		data: [parseInt(object["data"]), 100-parseInt(object["data"])],
+						    		backgroundColor: ["#ff6666","#555555"]
+						    	}],
+						    },
+					    	options: {
+						        title: {
+						            display: true,
+						            text: object["Country"] + ' Government top100 HTTPS adoption rate',
+						            fontColor: '#FFF',
+							          fontSize: 22
+						        },
+						        legend: {
+						        	labels: {fontColor: '#d4ffc6'}
+						        }
+						    }
+						});
+					} else if(filetype >=1 && filetype <= 8){
+						//TODO: if [all comparison] - bar chart
+						var myPieChart = new Chart('chart', {
+					    type: 'bar',
+					    data: {
+					    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
+					    	datasets: [{
+					    		data: object["data"],
+					    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
+					    	}],
+					    },
+				    	options: {
 				        title: {
 				            display: true,
-				            text: 'USA Government top100 HTTPS adoption rate',
+				            text: 'G8 Government top100 HTTPS adoption rate',
 				            fontColor: '#FFF',
-					          fontSize: 22
-				        }
-				    }
-				});
-
-				//TODO: if [all comparison] - bar chart
-				var myPieChart = new Chart('chart', {
-			    type: 'bar',
-			    data: {
-			    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
-			    	datasets: [{
-			    		data: [40,10,10,10,10,5,5,10],
-			    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
-			    	}],
-			    },
-		    	options: {
-		        title: {
-		            display: true,
-		            text: 'G8 Government top100 HTTPS adoption rate',
-		            fontColor: '#FFF',
-		            fontSize: 18
-		        },
-		        scales: {
-			        yAxes: [{
-		            ticks: {
-	                beginAtZero: true,
-	                steps: 10,
-	                stepValue: 6
-	              }
-			        }]
-				    },
-				    legend: {
-				      display: false
-				    }
-			    }
-				});
+				            fontSize: 18
+				        },
+				        scales: {
+				        	xAxes: [{
+				            ticks: {
+			                fontColor: '#d4ffc6'
+			              }
+					        }],
+					        yAxes: [{
+				            ticks: {
+			                beginAtZero: true,
+			                steps: 10,
+			                stepValue: 6,
+			                fontColor: '#EAD5E4'
+			              }
+					        }]
+						    },
+						    legend: {
+						      display: false
+						    }
+					    }
+						});
+					}
+					showdetail(myPieChart);
+					scrollgraph();
+				}catch{
+					console.log("bad response!");
+				}
 
       },
       complete: function(xhr, status) {
         console.log("HTTPS search requested!");
       }
     });
-    e.preventDefault();
-  });
+
+  })
+
 
   // get chart label name for post
   function showdetail(chartptx) {
