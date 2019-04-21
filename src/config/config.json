@@ -3,6 +3,7 @@
  "Savedir": "./result/",
  "StartDate": "201811",
  "DateList": ["201811","201904"],
+ "CountryList":["US","Canada","France","Germany","Italy","Japan","Uk","Taiwan"],
  "WebpageTimeout": 5,
  "driverPath": "/Users/jimmy/Desktop/CA/crawl/chromedriver",
  "nowDate": "201904"}

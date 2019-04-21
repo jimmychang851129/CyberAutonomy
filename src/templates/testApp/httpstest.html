@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Https Homepage</title>
+</head>
+<body>
+	<h1>Https homepage</h1>
+	<p>query date output data</p>
+	<form method="POST" action="http://127.0.0.1:8000/HTTPS_Request">{% csrf_token %}
+	Date query : <input type="text" name="season" plcaeholder="20180711">
+	Country query : <select class="form-control" name="filetype">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+				</select>
+	<input type="submit" value="submit">
+	</form>
+</body>
+</html>

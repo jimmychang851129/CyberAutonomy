@@ -19,9 +19,11 @@ from django.urls import path
 from homepage.views import home_page # from app import views.py
 from CPAnalysis.views import CPHome_page,CPDate
 from HSTSAnalysis.views import HSTSHome_page
-from CAAnalysis.views import CAHome_page
-from HTTPSAnalysis.views import HTTPSHome_page
+from CAAnalysis.views import CAHome_page, CA_Request
+from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request
 from TLSAnalysis.views import TLSHome_page
+from testApp.views import testHttpsApp
+
 # with name parameter, we can refer to it by name rather than url
 urlpatterns = [
     # path('admin/', admin.site.urls),
@@ -32,4 +34,6 @@ urlpatterns = [
     path('CAAnalysis',CAHome_page,name='CAAnalysis'),
     path('HTTPSAnalysis',HTTPSHome_page,name='HTTPSAnalysis'),
     path('TLSAnalysis',TLSHome_page,name='TLSAnalysis'),
+    path('HTTPS_Request',HTTPS_Request,name='HTTPS_Request'),
+    path('testHttps',testHttpsApp,name='testHttps'),
 ]
