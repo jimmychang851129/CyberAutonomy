@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 import csv,os,json
 
 filedir = os.path.dirname(os.path.realpath('__file__'))
@@ -29,11 +29,11 @@ def HTTPS_Request(request, *args, **kwargs):
 		"Country" : "no"
 	}
 	if str(dataDate) not in conf['DateList']:
-		context['message'] = 'season invalid'
-		return render(request,"HTTPSAnalysis/https.html",context)
+		context['message'] = 'season invalid : ' + str(dataDate)
+		return JsonResponse(context,safe=False)
 	if country < 0 or country > 8:
-		context['message'] = 'countrycode invalid'
-		return render(request,"HTTPSAnalysis/https.html",context)
+		context['message'] = 'countrycode invalid : ' + str(country)
+		return JsonResponse(context,safe=False)
 
 	context['message'] = 'OK'
 	if country == 0:	# not yet implement
@@ -48,8 +48,7 @@ def HTTPS_Request(request, *args, **kwargs):
 			f.close()
 		context['data'] = cntList
 		print("context = ",context)
-		return HttpResponse(context['data'])
-		# return render(request,"HTTPSAnalysis/https.html",context)
+		return JsonResponse(context,safe=False)
 	else:
 		context["Country"] = conf["CountryList"][country-1]
 		context['filetype'] = '0'
@@ -63,4 +62,4 @@ def HTTPS_Request(request, *args, **kwargs):
 		f.close()
 		context['data'] = cnt
 		print("context = ",context)
-	return HttpResponse(context['data'])
+		return JsonResponse(context,safe=False)
