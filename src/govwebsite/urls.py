@@ -25,10 +25,10 @@ from TLSAnalysis.views import TLSHome_page
 # with name parameter, we can refer to it by name rather than url
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('',home_page,name='home'),	# name parameter is used as a variable, other program called it by this name
+    path('home',home_page,name='home'),	# name parameter is used as a variable, other program called it by this name
     path('CPAnalysis',CPHome_page,name='CP'),
     path('CPDate',CPDate,name='CPDate'),
-    path('HSTSAnalysis',CPDate,name='HSTS'),
+    path('HSTSAnalysis',HSTSHome_page,name='HSTSAnalysis'),
     path('CAAnalysis',CAHome_page,name='CAAnalysis'),
     path('HTTPSAnalysis',HTTPSHome_page,name='HTTPSAnalysis'),
     path('TLSAnalysis',TLSHome_page,name='TLSAnalysis'),

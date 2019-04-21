@@ -7,16 +7,16 @@
 	<meta charset="utf-8"></meta>
 	<link rel='stylesheet' href="{% static 'style/bootstrap.min.css' %}"></link>
 	<link rel="stylesheet" href="{% static 'style/style.css' %}"></link>
-	<title>G8 Government Websites TLS vulnerability</title>
+	<title>G8 Government Websites HSTS Scanning</title>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li class="menuborder"><a href="home"><span class="menubar">Home</span></a></li>
-      <li class="menuborder"><a href="HTTPSAnalysis"><span class="menubar">HTTPS</span></a></li>
-      <li class="menuborder"><a href="HSTSAnalysis"><span class="menubar">HSTS</span></a></li>
-      <li class="menuborder active"><a href="#"><span class="menubar">TLS vulnerability</span></a></li>
+      <li class="menuborder active"><a href="HSTSAnalysis"><span class="menubar">HTTPS</span></a></li>
+      <li class="menuborder"><a href="#"><span class="menubar">HSTS</span></a></li>
+      <li class="menuborder"><a href="TLSAnalysis"><span class="menubar">TLS vulnerability</span></a></li>
       <li class="menuborder"><a href="CAAnalysis"><span class="menubar">Root CA</span></a></li>
       <li class="menuborder"><a href="CPAnalysis"><span class="menubar">Content Provider</span></a></li>
     </ul>
@@ -78,61 +78,52 @@
     if(sendform.find('select[name="https_country"]').val() === 'Overall Comparison'){
     // TEST CHART!
 			var myPieChart = new Chart('chart', {
-		    type: 'line',
-		    data: {
-		    	labels: ['0','1','2','3','4','5','6','7','8','9','10','11'],
-		    	datasets: [{
-		    		label: 'USA',
-		    		data: [0,0,1,3,10,15,15,20,25,30,40,42],
-						borderColor: ["rgb(60, 157, 181, 0.8)"],
-						fill: false,
-		    	},{
-		    		label: 'Canada',
-		    		data: [0,0,3,10,15,18,20,25,30,40,50,55],
-						borderColor: ["rgba(177, 235, 19, 0.8)"],
-						fill: false,
-		    	},{
-		    		label: 'France',
-		    		data: [0,1,3,6,10,15,20,25,30,40,66,70],
-						borderColor: ["rgba(102, 255, 187, 0.5)"],
-						fill: false,
-		    	},
-		    	]
-		    },
-	    	options: {
-	        title: {
-	            display: true,
-	            text: 'G8 Government top100 Vulnerabilities Resilience',
-	            fontColor: '#FFF',
-	            fontSize: 18
-	        },
-	        elements: {
-	        	line: {
-	        		tension: 0
-	        	}
-	        }
-		    }
-			});
-			showdetail(myPieChart);
-		}else{
-			var myPieChart = new Chart('chart', {
 		    type: 'bar',
 		    data: {
-		    	labels: ['Beast','Heartbleed','Poodle','Freak','Logjam','Drown','Sweet32','Cross Protocol','RC4','Renegotiation','CRIME'],
+		    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
 		    	datasets: [{
-		    		data: [40,60,4,5,7,7,8,1,10,34,1],
-		    		backgroundColor: ["#3B9CB3","#024A5B","#66ffb1","#03BB75","#7b85c1","#cfa7f9","#986cd1","#ab6bd6","#bc4e42","#b7434b","#bc8b42"]
+		    		data: [40,10,10,10,10,5,5,10],
+		    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
 		    	}],
 		    },
 	    	options: {
 	        title: {
 	            display: true,
-	            text: 'USA Government top100 SSL stripping Vulnerabilities',
+	            text: 'G8 Government top100 HTTPS adoption rate',
+	            fontColor: '#FFF',
+	            fontSize: 18
+	        },
+	        scales: {
+		        yAxes: [{
+	            ticks: {
+                beginAtZero: true,
+                steps: 10,
+                stepValue: 6
+              }
+		        }]
+			    },
+			    legend: {
+			      display: false
+			    }
+		    }
+			});
+			showdetail(myPieChart);
+		}else{
+			var myPieChart = new Chart('chart', {
+		    type: 'pie',
+		    data: {
+		    	labels: ['HTTPS adoption',"no adoption"],
+		    	datasets: [{
+		    		data: [40,60],
+		    		backgroundColor: ["#555555", "#ff6666"]
+		    	}],
+		    },
+	    	options: {
+	        title: {
+	            display: true,
+	            text: 'USA Government top100 HTTPS adoption rate',
 	            fontColor: '#FFF',
 		          fontSize: 18
-	        },
-	        legend: {
-	        	display: false
 	        }
 		    }
 			});
