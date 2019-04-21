@@ -41,3 +41,5 @@ stored all html files
 default directory for this project
 define the template path and all routing path, etc
 
+### API format
+https://hackmd.io/N8HC6N8ORom9MKh_v0GiXw
