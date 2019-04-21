@@ -1,6 +1,6 @@
 {"Files": ["Canada", "France", "Germany", "Italy", "Japan", "Uk", "US", "Taiwan"],
  "Loaddir": "./CPAnalysis/CPCrawling/connectable/",
- "Savedir": "./result/",
+ "Savedir": "result/",
  "StartDate": "201811",
  "DateList": ["201811","201904"],
  "CountryList":["US","Canada","France","Germany","Italy","Japan","Uk","Taiwan"],
