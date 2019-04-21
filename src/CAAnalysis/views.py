@@ -26,7 +26,7 @@ def CA_Request(request, *args, **kwargs):
 		"data" : [],
 		"messge": "no"
 	}
-	if str(dateDate) not in conf['DateList']:
+	if str(dataDate) not in conf['DateList']:
 		context['message'] = 'season invalid'
 		return render(request,"CAAnalysis/ca.html",context)
 	if country < 0 or country > 8:

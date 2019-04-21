@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
 import csv,os,json
 
 filedir = os.path.dirname(os.path.realpath('__file__'))
@@ -23,11 +24,45 @@ def HSTS_Request(request, *args, **kwargs):
 	conf = json.loads(f.read())
 	context = {
 		"data" : [],
-		"messge": "no"
+		"message": "no"
 	}
-	if str(dateDate) not in conf['DateList']:
+	if str(dataDate) not in conf['DateList']:
 		context['message'] = 'season invalid'
-		return render(request,"HSTSAnalysis/hsts.html",context)
+		return JsonResponse(context,safe=False)
 	if country < 0 or country > 8:
 		context['message'] = 'countrycode invalid'
-		return render(request,"HSTSAnalysis/hsts.html",context)
+		return JsonResponse(context,safe=False)
+	
+	context['message'] = 'OK'
+	if country == 0:		# all countries
+		context['filetype'] = '0'
+		cntList = [0,0,0,0,0,0,0,0]
+		tmppath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/thoroughscan")
+		for i in range(len(conf['CountryList'])):
+			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
+			print("filepath = ",filepath)
+			f = open(filepath)
+			c = csv.reader(f)
+			for line in c:
+				if "Ready" in line[2] and 'present' in line[17]:
+					cntList[i] += 1
+			f.close()
+		context['data'] = cntList
+		print("context = ",context)
+		return JsonResponse(context,safe=False)
+	else:				# one country
+		context["Country"] = conf["CountryList"][country-1]
+		context['filetype'] = '1'
+		filepath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/thoroughscan")
+		filepath = os.path.join(filepath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.txt")
+		print("filepath = ",filepath)
+		f = open(filepath)
+		c = csv.reader(f)
+		cnt = 0
+		for line in c:
+			if "ready" in line[2] and line[17] == 'present':
+				cnt += 1
+		f.close()
+		context['data'] = cnt
+		print("context = ",context)
+		return JsonResponse(context,safe=False)
