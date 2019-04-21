@@ -29,15 +29,15 @@ def HTTPS_Request(request, *args, **kwargs):
 		"Country" : "no"
 	}
 	if str(dataDate) not in conf['DateList']:
-		context['message'] = 'season invalid'
+		context['message'] = 'season invalid : ' + str(dataDate)
 		return JsonResponse(context,safe=False)
 	if country < 0 or country > 8:
-		context['message'] = 'countrycode invalid'
+		context['message'] = 'countrycode invalid : ' + str(country)
 		return JsonResponse(context,safe=False)
 
 	context['message'] = 'OK'
-	if country == 0:	# not yet implement
-		context['filetype'] = '1'
+	if country == 0:
+		context['filetype'] = '0'
 		cntList = [0,0,0,0,0,0,0,0]
 		tmppath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/fastscan")
 		for i in range(len(conf['CountryList'])):
@@ -51,7 +51,7 @@ def HTTPS_Request(request, *args, **kwargs):
 		return JsonResponse(context,safe=False)
 	else:
 		context["Country"] = conf["CountryList"][country-1]
-		context['filetype'] = '0'
+		context['filetype'] = '1'
 		filepath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/fastscan")
 		filepath = os.path.join(filepath, dataDate+"_"+conf['CountryList'][country-1]+"_https_support_website.txt")
 		print("filepath = ",filepath)
@@ -62,4 +62,5 @@ def HTTPS_Request(request, *args, **kwargs):
 		f.close()
 		context['data'] = cnt
 		print("context = ",context)
-	return JsonResponse(context,safe=False)
+
+		return JsonResponse(context,safe=False)

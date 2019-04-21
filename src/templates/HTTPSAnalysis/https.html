@@ -64,18 +64,6 @@
 </body>
 </html>
 <script>
-	var MonthEng = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'December'};
-	// $(document).ready(function() {
-	// 	var monthlist = {{ time|safe }};
-	// 	for(var i=0; i<monthlist.length; i++){
-	// 		var month = monthlist[i].substr(4,6);
-	// 		month = MonthEng[month];
-	// 		var opt = month + " " + monthlist[i].substr(0,4);
-	// 		console.log(opt);
-	// 		$("#https_season").append("<option>"+opt+"</option>");
-	// 	}
-	// });
-
   // auto scroll
   function scrollgraph(argument) {
 		$('html, body').animate({
@@ -102,7 +90,7 @@
 				try{
 					var filetype = parseInt(object["filetype"]);
 					console.log(filetype);
-					if(filetype === 0){
+					if(filetype >=1 && filetype <= 8){
 						//TODO: if [one country] - pie chart
 						var myPieChart = new Chart('chart', {
 						    type: 'pie',
@@ -125,7 +113,7 @@
 						        }
 						    }
 						});
-					} else if(filetype >=1 && filetype <= 8){
+					} else if(filetype === 0){
 						//TODO: if [all comparison] - bar chart
 						var myPieChart = new Chart('chart', {
 					    type: 'bar',
