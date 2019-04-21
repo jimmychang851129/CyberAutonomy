@@ -1,0 +1,112 @@
+site = https://www.education.fr
+error = HTTPSConnectionPool(host='www.education.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4978>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.pagesperso-orange.fr
+error = HTTPSConnectionPool(host='www.pagesperso-orange.fr', port=443): Read timed out. (read timeout=10)
+site = https://pagesperso-orange.fr
+error = HTTPSConnectionPool(host='pagesperso-orange.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:847)'),))
+site = https://ens-lyon.fr
+error = HTTPSConnectionPool(host='ens-lyon.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4b70>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
+site = http://ens-lyon.fr
+error = HTTPConnectionPool(host='ens-lyon.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4978>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
+site = https://www.cned.fr
+error = HTTPSConnectionPool(host='www.cned.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:847)'),))
+site = https://cned.fr
+error = HTTPSConnectionPool(host='cned.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNKNOWN_PROTOCOL] unknown protocol (_ssl.c:847)'),))
+site = https://www.assemblee-nationale.fr
+error = HTTPSConnectionPool(host='www.assemblee-nationale.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:847)'),))
+site = https://assemblee-nationale.fr
+error = HTTPSConnectionPool(host='assemblee-nationale.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:847)'),))
+site = https://www.rpr.assemblee-nationale.fr
+error = HTTPSConnectionPool(host='www.rpr.assemblee-nationale.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106063f98>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://rpr.assemblee-nationale.fr
+error = HTTPSConnectionPool(host='rpr.assemblee-nationale.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1060632e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.rpr.assemblee-nationale.fr
+error = HTTPConnectionPool(host='www.rpr.assemblee-nationale.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1060634a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://rpr.assemblee-nationale.fr
+error = HTTPConnectionPool(host='rpr.assemblee-nationale.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106063438>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.justice.gouv.fr
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://justice.gouv.fr
+error = HTTPSConnectionPool(host='justice.gouv.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x106063358>, 'Connection to justice.gouv.fr timed out. (connect timeout=10)'))
+site = https://www.ac-dijon.fr
+error = HTTPSConnectionPool(host='www.ac-dijon.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b46d8>, 'Connection to www.ac-dijon.fr timed out. (connect timeout=10)'))
+site = https://www.finances.gouv.fr
+error = HTTPSConnectionPool(host='www.finances.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4c88>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://finances.gouv.fr
+error = HTTPSConnectionPool(host='finances.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b49b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.finances.gouv.fr
+error = HTTPConnectionPool(host='www.finances.gouv.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b49e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://finances.gouv.fr
+error = HTTPConnectionPool(host='finances.gouv.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.budget.gouv.fr
+error = HTTPSConnectionPool(host='www.budget.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4f60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://budget.gouv.fr
+error = HTTPSConnectionPool(host='budget.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.budget.gouv.fr
+error = HTTPConnectionPool(host='www.budget.gouv.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4d68>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://budget.gouv.fr
+error = HTTPConnectionPool(host='budget.gouv.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4518>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.cesbio.ups-tlse.fr
+error = HTTPSConnectionPool(host='www.cesbio.ups-tlse.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4e80>, 'Connection to www.cesbio.ups-tlse.fr timed out. (connect timeout=10)'))
+site = https://cesbio.ups-tlse.fr
+error = HTTPSConnectionPool(host='cesbio.ups-tlse.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106071eb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://cesbio.ups-tlse.fr
+error = HTTPConnectionPool(host='cesbio.ups-tlse.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106071240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.ign.fr
+error = HTTPSConnectionPool(host='www.ign.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b42b0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://ign.fr
+error = HTTPSConnectionPool(host='ign.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1060710b8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.chez-alice.fr
+error = HTTPSConnectionPool(host='www.chez-alice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x106071d30>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://chez-alice.fr
+error = HTTPSConnectionPool(host='chez-alice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1060714a8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.culturecommunication.gouv.fr
+error = HTTPSConnectionPool(host='www.culturecommunication.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057ab8d0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://culturecommunication.gouv.fr
+error = HTTPSConnectionPool(host='culturecommunication.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b45c0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.culture.gouv.fr
+error = HTTPSConnectionPool(host='www.culture.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4a20>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://culture.gouv.fr
+error = HTTPSConnectionPool(host='culture.gouv.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10605e4a8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.ca-paris.justice.fr
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://ca-paris.justice.fr
+error = HTTPSConnectionPool(host='ca-paris.justice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b46d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.ca-grenoble.justice.fr
+error = HTTPSConnectionPool(host='www.ca-grenoble.justice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4be0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://ca-grenoble.justice.fr
+error = HTTPSConnectionPool(host='ca-grenoble.justice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4be0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.ca-grenoble.justice.fr
+error = HTTPConnectionPool(host='www.ca-grenoble.justice.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b44e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://ca-grenoble.justice.fr
+error = HTTPConnectionPool(host='ca-grenoble.justice.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b49e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.tgi-angouleme.justice.fr
+error = HTTPSConnectionPool(host='www.tgi-angouleme.justice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://tgi-angouleme.justice.fr
+error = HTTPSConnectionPool(host='tgi-angouleme.justice.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b46d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.tgi-angouleme.justice.fr
+error = HTTPConnectionPool(host='www.tgi-angouleme.justice.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4898>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://tgi-angouleme.justice.fr
+error = HTTPConnectionPool(host='tgi-angouleme.justice.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4eb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.cea.fr
+error = HTTPSConnectionPool(host='www.cea.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4eb8>, 'Connection to www.cea.fr timed out. (connect timeout=10)'))
+site = https://cea.fr
+error = HTTPSConnectionPool(host='cea.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4358>, 'Connection to cea.fr timed out. (connect timeout=10)'))
+site = https://www.in2p3.fr
+error = HTTPSConnectionPool(host='www.in2p3.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:847)'),))
+site = https://in2p3.fr
+error = HTTPSConnectionPool(host='in2p3.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:847)'),))
+site = https://www.home.nordnet.fr
+error = HTTPSConnectionPool(host='www.home.nordnet.fr', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607c908>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://home.nordnet.fr
+error = HTTPSConnectionPool(host='home.nordnet.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10607cb00>, 'Connection to home.nordnet.fr timed out. (connect timeout=10)'))
+site = http://www.home.nordnet.fr
+error = HTTPConnectionPool(host='www.home.nordnet.fr', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1057b4e48>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.marseille.fr
+error = HTTPSConnectionPool(host='www.marseille.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4320>, 'Connection to www.marseille.fr timed out. (connect timeout=10)'))
+site = https://marseille.fr
+error = HTTPSConnectionPool(host='marseille.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4cf8>, 'Connection to marseille.fr timed out. (connect timeout=10)'))
+site = http://www.marseille.fr
+error = HTTPConnectionPool(host='www.marseille.fr', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x106072390>, 'Connection to www.marseille.fr timed out. (connect timeout=10)'))
+site = http://marseille.fr
+error = HTTPConnectionPool(host='marseille.fr', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x106072e10>, 'Connection to marseille.fr timed out. (connect timeout=10)'))

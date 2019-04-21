@@ -1,0 +1,136 @@
+site = https://www.emb-japan.go.jp
+error = HTTPSConnectionPool(host='www.emb-japan.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://emb-japan.go.jp
+error = HTTPSConnectionPool(host='emb-japan.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7a90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.emb-japan.go.jp
+error = HTTPConnectionPool(host='www.emb-japan.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7860>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://emb-japan.go.jp
+error = HTTPConnectionPool(host='emb-japan.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.mext.go.jp
+error = HTTPSConnectionPool(host='www.mext.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7978>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://mext.go.jp
+error = HTTPSConnectionPool(host='mext.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b470>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://mext.go.jp
+error = HTTPConnectionPool(host='mext.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7ac8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.gsi.go.jp
+error = HTTPSConnectionPool(host='www.gsi.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7b00>, 'Connection to www.gsi.go.jp timed out. (connect timeout=10)'))
+site = https://gsi.go.jp
+error = HTTPSConnectionPool(host='gsi.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://gsi.go.jp
+error = HTTPConnectionPool(host='gsi.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab74a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.affrc.go.jp
+error = HTTPSConnectionPool(host='www.affrc.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7c50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://affrc.go.jp
+error = HTTPSConnectionPool(host='affrc.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7dd8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.affrc.go.jp
+error = HTTPConnectionPool(host='www.affrc.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab75c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://affrc.go.jp
+error = HTTPConnectionPool(host='affrc.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7860>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.maff.go.jp
+error = HTTPSConnectionPool(host='www.maff.go.jp', port=443): Read timed out. (read timeout=10)
+site = https://maff.go.jp
+error = HTTPSConnectionPool(host='maff.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://maff.go.jp
+error = HTTPConnectionPool(host='maff.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7c18>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.jfa.maff.go.jp
+error = HTTPSConnectionPool(host='www.jfa.maff.go.jp', port=443): Read timed out. (read timeout=10)
+site = https://jfa.maff.go.jp
+error = HTTPSConnectionPool(host='jfa.maff.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2c668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://jfa.maff.go.jp
+error = HTTPConnectionPool(host='jfa.maff.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2c710>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.courts.go.jp
+error = HTTPSConnectionPool(host='www.courts.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2c1d0>, 'Connection to www.courts.go.jp timed out. (connect timeout=10)'))
+site = https://courts.go.jp
+error = HTTPSConnectionPool(host='courts.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2c5c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://courts.go.jp
+error = HTTPConnectionPool(host='courts.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2cd68>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.bosai.go.jp
+error = HTTPSConnectionPool(host='www.bosai.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2c710>, 'Connection to www.bosai.go.jp timed out. (connect timeout=10)'))
+site = https://bosai.go.jp
+error = HTTPSConnectionPool(host='bosai.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2c710>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://bosai.go.jp
+error = HTTPConnectionPool(host='bosai.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2c1d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.bunka.go.jp
+error = HTTPSConnectionPool(host='www.bunka.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2c080>, 'Connection to www.bunka.go.jp timed out. (connect timeout=10)'))
+site = https://bunka.go.jp
+error = HTTPSConnectionPool(host='bunka.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2cdd8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://bunka.go.jp
+error = HTTPConnectionPool(host='bunka.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2c828>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.sangiin.go.jp
+error = HTTPSConnectionPool(host='www.sangiin.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2ca58>, 'Connection to www.sangiin.go.jp timed out. (connect timeout=10)'))
+site = https://sangiin.go.jp
+error = HTTPSConnectionPool(host='sangiin.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab77b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://sangiin.go.jp
+error = HTTPConnectionPool(host='sangiin.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab79b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.shugiin.go.jp
+error = HTTPSConnectionPool(host='www.shugiin.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7630>, 'Connection to www.shugiin.go.jp timed out. (connect timeout=10)'))
+site = https://shugiin.go.jp
+error = HTTPSConnectionPool(host='shugiin.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://shugiin.go.jp
+error = HTTPConnectionPool(host='shugiin.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.kokuminhogo.go.jp
+error = HTTPSConnectionPool(host='www.kokuminhogo.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7588>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://kokuminhogo.go.jp
+error = HTTPSConnectionPool(host='kokuminhogo.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b5c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://kokuminhogo.go.jp
+error = HTTPConnectionPool(host='kokuminhogo.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a9bef0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.nistep.go.jp
+error = HTTPSConnectionPool(host='www.nistep.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7be0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://nistep.go.jp
+error = HTTPSConnectionPool(host='nistep.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7518>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://nistep.go.jp
+error = HTTPConnectionPool(host='nistep.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b290f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.bousai.go.jp
+error = HTTPSConnectionPool(host='www.bousai.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2a0b8>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://bousai.go.jp
+error = HTTPSConnectionPool(host='bousai.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2a6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://bousai.go.jp
+error = HTTPConnectionPool(host='bousai.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2aa20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.shugiintv.go.jp
+error = HTTPSConnectionPool(host='www.shugiintv.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7dd8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://shugiintv.go.jp
+error = HTTPSConnectionPool(host='shugiintv.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab79e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://shugiintv.go.jp
+error = HTTPConnectionPool(host='shugiintv.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7be0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.gender.go.jp
+error = HTTPSConnectionPool(host='www.gender.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7940>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://gender.go.jp
+error = HTTPSConnectionPool(host='gender.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2a4a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://gender.go.jp
+error = HTTPConnectionPool(host='gender.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2a048>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.archives.go.jp
+error = HTTPSConnectionPool(host='www.archives.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7eb8>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://archives.go.jp
+error = HTTPSConnectionPool(host='archives.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://archives.go.jp
+error = HTTPConnectionPool(host='archives.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3b828>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.scj.go.jp
+error = HTTPSConnectionPool(host='www.scj.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b3c8>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://scj.go.jp
+error = HTTPSConnectionPool(host='scj.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://scj.go.jp
+error = HTTPConnectionPool(host='scj.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3b828>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.nmao.go.jp
+error = HTTPSConnectionPool(host='www.nmao.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3bdd8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://nmao.go.jp
+error = HTTPSConnectionPool(host='nmao.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b38240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://nmao.go.jp
+error = HTTPConnectionPool(host='nmao.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b386d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.ncgg.go.jp
+error = HTTPSConnectionPool(host='www.ncgg.go.jp', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104b38780>, 'Connection to www.ncgg.go.jp timed out. (connect timeout=10)'))
+site = https://ncgg.go.jp
+error = HTTPSConnectionPool(host='ncgg.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b38320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://ncgg.go.jp
+error = HTTPConnectionPool(host='ncgg.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3b278>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.momak.go.jp
+error = HTTPSConnectionPool(host='www.momak.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b38518>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://momak.go.jp
+error = HTTPSConnectionPool(host='momak.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b278>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://momak.go.jp
+error = HTTPConnectionPool(host='momak.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3b128>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.esri.go.jp
+error = HTTPSConnectionPool(host='www.esri.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b2b0>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://esri.go.jp
+error = HTTPSConnectionPool(host='esri.go.jp', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b3c8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://esri.go.jp
+error = HTTPConnectionPool(host='esri.go.jp', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3b668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))

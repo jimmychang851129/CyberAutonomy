@@ -1,0 +1,24 @@
+site = https://www.usps.gov
+error = Exceeded 30 redirects.
+site = https://usps.gov
+error = HTTPSConnectionPool(host='usps.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2b630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.usps.gov
+error = Exceeded 30 redirects.
+site = http://usps.gov
+error = HTTPConnectionPool(host='usps.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105464e80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.hud.gov
+error = HTTPSConnectionPool(host='www.hud.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544be48>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://hud.gov
+error = HTTPSConnectionPool(host='hud.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105435160>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = http://www.hud.gov
+error = HTTPConnectionPool(host='www.hud.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2ba58>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://hud.gov
+error = HTTPConnectionPool(host='hud.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2bd68>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://www.americorps.gov
+error = HTTPSConnectionPool(host='www.americorps.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470080>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://americorps.gov
+error = HTTPSConnectionPool(host='americorps.gov', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470e80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.americorps.gov
+error = HTTPConnectionPool(host='www.americorps.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470518>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://americorps.gov
+error = HTTPConnectionPool(host='americorps.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))

@@ -1,0 +1,134 @@
+The website supports HTTPS, URL = https://www.cwb.gov.tw
+The website doesnt support HTTPS : dongshan.nat.gov.tw
+The website doesnt support HTTPS : nat.gov.tw
+Redirection URL history 1 = https://gazette.nat.gov.tw/
+Redirection URL history 2 = https://gazette.nat.gov.tw/egFront
+The website supports HTTPS, URL = https://gazette.nat.gov.tw/egFront/
+The website supports HTTPS, URL = https://btdo.gov.taipei
+The website supports HTTPS, URL = https://zsdo.gov.taipei
+The website supports HTTPS, URL = https://www.gov.taipei
+The website supports HTTPS, URL = https://www.sinica.edu.tw
+Redirection URL history 1 = https://www.ntpc.gov.tw/
+The website supports HTTPS, URL = https://www.ntpc.gov.tw/ch/index.jsp
+The website supports HTTPS, URL = https://www.ncl.edu.tw
+The website supports HTTPS, URL = https://www.tc.edu.tw
+The website supports HTTPS, URL = https://www.agriculture.taichung.gov.tw
+Redirection URL history 1 = http://www.beitun.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.beitun.taichung.gov.tw/
+The website doesnt support HTTPS : chinshui.taichung.gov.tw
+The website doesnt support HTTPS : civil.taichung.gov.tw
+Redirection URL history 1 = http://www.construction.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.construction.taichung.gov.tw/
+The website doesnt support HTTPS : culture.taichung.gov.tw
+Redirection URL history 1 = http://www.daan.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.daan.taichung.gov.tw/
+Redirection URL history 1 = http://www.dadu.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.dadu.taichung.gov.tw/
+The website doesnt support HTTPS : dajia.taichung.gov.tw
+The website doesnt support HTTPS : dali.taichung.gov.tw
+The website doesnt support HTTPS : daya.taichung.gov.tw
+The website supports HTTPS, URL = https://dbas.taichung.gov.tw
+The website supports HTTPS, URL = https://www.east.taichung.gov.tw
+The website supports HTTPS, URL = https://www.economic.taichung.gov.tw
+The website doesnt support HTTPS : epb.taichung.gov.tw
+The website supports HTTPS, URL = https://www.ethics.taichung.gov.tw
+The website supports HTTPS, URL = https://www.fengyuan.taichung.gov.tw
+The website doesnt support HTTPS : finance.taichung.gov.tw
+The website supports HTTPS, URL = https://www.fire.taichung.gov.tw
+The website doesnt support HTTPS : hakka.taichung.gov.tw
+Redirection URL history 1 = http://www.health.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.health.taichung.gov.tw/
+The website doesnt support HTTPS : heping.taichung.gov.tw
+The website doesnt support HTTPS : howli.taichung.gov.tw
+The website supports HTTPS, URL = https://www.im.taichung.gov.tw
+The website doesnt support HTTPS : labor.taichung.gov.tw
+The website doesnt support HTTPS : land.taichung.gov.tw
+The website doesnt support HTTPS : legal.taichung.gov.tw
+Redirection URL history 1 = http://www.longjing.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.longjing.taichung.gov.tw/
+Redirection URL history 1 = http://www.nantun.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.nantun.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.news.taichung.gov.tw
+The website doesnt support HTTPS : north.taichung.gov.tw
+The website supports HTTPS, URL = https://personnel.taichung.gov.tw
+Redirection URL history 1 = https://www.police.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.police.taichung.gov.tw/ch/index.jsp
+The website doesnt support HTTPS : rdec.taichung.gov.tw
+The website supports HTTPS, URL = https://www.secretariat.taichung.gov.tw
+The website supports HTTPS, URL = https://www.shalu.taichung.gov.tw
+The website doesnt support HTTPS : shengang.taichung.gov.tw
+Redirection URL history 1 = http://www.shigang.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.shigang.taichung.gov.tw/
+The website doesnt support HTTPS : society.taichung.gov.tw
+The website supports HTTPS, URL = https://www.south.taichung.gov.tw
+The website supports HTTPS, URL = https://www.taichung.gov.tw
+The website supports HTTPS, URL = https://www.taiping.taichung.gov.tw
+Redirection URL history 1 = http://www.tanzi.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.tanzi.taichung.gov.tw/
+The website doesnt support HTTPS : tax.taichung.gov.tw
+The website doesnt support HTTPS : tourism.taichung.gov.tw
+The website supports HTTPS, URL = https://www.traffic.taichung.gov.tw
+The website doesnt support HTTPS : tungshih.taichung.gov.tw
+The website supports HTTPS, URL = https://www.ud.taichung.gov.tw
+The website doesnt support HTTPS : waiputcc.taichung.gov.tw
+Redirection URL history 1 = http://www.west.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.west.taichung.gov.tw/
+The website doesnt support HTTPS : wufeng.taichung.gov.tw
+Redirection URL history 1 = http://www.wuri.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.wuri.taichung.gov.tw/
+Redirection URL history 1 = http://www.xinshe.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.xinshe.taichung.gov.tw/
+Redirection URL history 1 = http://www.xitun.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.xitun.taichung.gov.tw/
+The website supports HTTPS, URL = https://www.kh.edu.tw
+Redirection URL history 1 = https://aac.moj.gov.tw/
+Redirection URL history 2 = http://www.tps.moj.gov.tw/
+The website supports HTTPS, URL = https://www.tps.moj.gov.tw/
+Redirection URL history 1 = https://www.kmc.moj.gov.tw/
+Redirection URL history 2 = https://www.kmc.moj.gov.tw/mp.asp?mp=028
+The website supports HTTPS, URL = https://www.kmc.moj.gov.tw/mp028.html
+Redirection URL history 1 = https://www.kmh.moj.gov.tw/
+Redirection URL history 2 = https://www.kmh.moj.gov.tw/mp.asp?mp=008
+The website supports HTTPS, URL = https://www.kmh.moj.gov.tw/mp008.html
+Redirection URL history 1 = https://www.ljc.moj.gov.tw/
+Redirection URL history 2 = https://www.ljc.moj.gov.tw/mp.asp?mp=029
+The website supports HTTPS, URL = https://www.ljc.moj.gov.tw/mp029.html
+The website supports HTTPS, URL = https://www.mjac.moj.gov.tw
+Redirection URL history 1 = https://www.moj.gov.tw/
+Redirection URL history 2 = https://www.moj.gov.tw/Default.aspx
+The website supports HTTPS, URL = https://www.moj.gov.tw/mp-001.html
+Redirection URL history 1 = https://www.tpa.moj.gov.tw/
+Redirection URL history 2 = https://www.tpa.moj.gov.tw/mp.asp?mp=094
+The website supports HTTPS, URL = https://www.tpa.moj.gov.tw/mp094.html
+The website supports HTTPS, URL = https://www.tph.moj.gov.tw
+The website supports HTTPS, URL = https://www.tpk.moj.gov.tw
+The website supports HTTPS, URL = https://www.tps.moj.gov.tw
+The website supports HTTPS, URL = https://www.tyc.edu.tw
+The website supports HTTPS, URL = https://www.mvdis.gov.tw
+Redirection URL history 1 = https://www.moex.gov.tw/
+The website supports HTTPS, URL = https://wwwc.moex.gov.tw/main/home/wfrmHome.aspx
+The website supports HTTPS, URL = https://adh.mohw.gov.tw
+Redirection URL history 1 = https://chnh.mohw.gov.tw/
+The website supports HTTPS, URL = https://chnh.mohw.gov.tw/home.aspx
+Redirection URL history 1 = https://crch.mohw.gov.tw/
+The website supports HTTPS, URL = https://crch.mohw.gov.tw/home.aspx
+The website supports HTTPS, URL = https://crsch.mohw.gov.tw
+The website supports HTTPS, URL = https://ersch.mohw.gov.tw
+Redirection URL history 1 = https://nrch.mohw.gov.tw/
+The website supports HTTPS, URL = https://nrch.mohw.gov.tw/default_page.asp
+The website supports HTTPS, URL = https://www.nrsch.mohw.gov.tw
+The website supports HTTPS, URL = https://nteni.mohw.gov.tw
+The website supports HTTPS, URL = https://phsch.mohw.gov.tw
+The website supports HTTPS, URL = https://srch.mohw.gov.tw
+The website supports HTTPS, URL = https://srsch.mohw.gov.tw
+Redirection URL history 1 = https://tneni.mohw.gov.tw/
+The website supports HTTPS, URL = https://tneni.mohw.gov.tw/main/index.aspx
+The website supports HTTPS, URL = https://www.bali.mohw.gov.tw
+The website supports HTTPS, URL = https://www.ccd.mohw.gov.tw
+The website supports HTTPS, URL = https://www.chhw.mohw.gov.tw
+The website supports HTTPS, URL = https://www.chis.mohw.gov.tw
+The website supports HTTPS, URL = https://www.chyi.mohw.gov.tw
+The website supports HTTPS, URL = https://www.cnpc.mohw.gov.tw
+The website supports HTTPS, URL = https://www.fyh.mohw.gov.tw
+The website supports HTTPS, URL = https://www.hwln.mohw.gov.tw
+The website supports HTTPS, URL = https://www.kln.mohw.gov.tw

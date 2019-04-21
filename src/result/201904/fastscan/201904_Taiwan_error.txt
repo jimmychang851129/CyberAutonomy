@@ -1,0 +1,286 @@
+site = https://www.dongshan.nat.gov.tw
+error = HTTPSConnectionPool(host='www.dongshan.nat.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://dongshan.nat.gov.tw
+error = HTTPSConnectionPool(host='dongshan.nat.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470128>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.dongshan.nat.gov.tw
+error = HTTPConnectionPool(host='www.dongshan.nat.gov.tw', port=80): Read timed out. (read timeout=10)
+site = http://dongshan.nat.gov.tw
+error = HTTPConnectionPool(host='dongshan.nat.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10546bfd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.nat.gov.tw
+error = HTTPSConnectionPool(host='www.nat.gov.tw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10546b8d0>, 'Connection to www.nat.gov.tw timed out. (connect timeout=10)'))
+site = https://nat.gov.tw
+error = HTTPSConnectionPool(host='nat.gov.tw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10546b588>, 'Connection to nat.gov.tw timed out. (connect timeout=10)'))
+site = http://www.nat.gov.tw
+error = HTTPConnectionPool(host='www.nat.gov.tw', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105470eb8>, 'Connection to www.nat.gov.tw timed out. (connect timeout=10)'))
+site = http://nat.gov.tw
+error = HTTPConnectionPool(host='nat.gov.tw', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105470908>, 'Connection to nat.gov.tw timed out. (connect timeout=10)'))
+site = https://www.gazette.nat.gov.tw
+error = HTTPSConnectionPool(host='www.gazette.nat.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470dd8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.btdo.gov.taipei
+error = HTTPSConnectionPool(host='www.btdo.gov.taipei', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b128>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.zsdo.gov.taipei
+error = HTTPSConnectionPool(host='www.zsdo.gov.taipei', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b2b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.beitun.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.beitun.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://beitun.taichung.gov.tw
+error = HTTPSConnectionPool(host='beitun.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b128>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.chinshui.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.chinshui.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://chinshui.taichung.gov.tw
+error = HTTPSConnectionPool(host='chinshui.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544bd68>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.chinshui.taichung.gov.tw
+error = HTTPConnectionPool(host='www.chinshui.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544b860>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://chinshui.taichung.gov.tw
+error = HTTPConnectionPool(host='chinshui.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544b588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.civil.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.civil.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://civil.taichung.gov.tw
+error = HTTPSConnectionPool(host='civil.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b9e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.civil.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://civil.taichung.gov.tw
+error = HTTPConnectionPool(host='civil.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1054709b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.construction.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://construction.taichung.gov.tw
+error = HTTPSConnectionPool(host='construction.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.culture.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.culture.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1054702e8>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://culture.taichung.gov.tw
+error = HTTPSConnectionPool(host='culture.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ba7208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.culture.taichung.gov.tw
+error = HTTPConnectionPool(host='www.culture.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ba77f0>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = http://culture.taichung.gov.tw
+error = HTTPConnectionPool(host='culture.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ba7da0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.daan.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.daan.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://daan.taichung.gov.tw
+error = HTTPSConnectionPool(host='daan.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470f60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.dadu.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.dadu.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://dadu.taichung.gov.tw
+error = HTTPSConnectionPool(host='dadu.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470eb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.dajia.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.dajia.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://dajia.taichung.gov.tw
+error = HTTPSConnectionPool(host='dajia.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.dajia.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.dajia.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544beb8>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = http://dajia.taichung.gov.tw
+error = HTTPConnectionPool(host='dajia.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ba7c88>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.dali.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.dali.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://dali.taichung.gov.tw
+error = HTTPSConnectionPool(host='dali.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ba7940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.dali.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.dali.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = http://dali.taichung.gov.tw
+error = HTTPConnectionPool(host='dali.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544b080>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.daya.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.daya.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://daya.taichung.gov.tw
+error = HTTPSConnectionPool(host='daya.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.daya.taichung.gov.tw
+error = HTTPConnectionPool(host='www.daya.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470438>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = http://daya.taichung.gov.tw
+error = HTTPConnectionPool(host='daya.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470ef0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.dbas.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.dbas.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://www.epb.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://epb.taichung.gov.tw
+error = HTTPSConnectionPool(host='epb.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ba7f98>, 'Connection to epb.taichung.gov.tw timed out. (connect timeout=10)'))
+site = http://www.epb.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://epb.taichung.gov.tw
+error = HTTPConnectionPool(host='epb.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x105470f60>, 'Connection to epb.taichung.gov.tw timed out. (connect timeout=10)'))
+site = https://www.finance.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.finance.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://finance.taichung.gov.tw
+error = HTTPSConnectionPool(host='finance.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544bbe0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.finance.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://finance.taichung.gov.tw
+error = HTTPConnectionPool(host='finance.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ba70f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.hakka.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://hakka.taichung.gov.tw
+error = HTTPSConnectionPool(host='hakka.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9beb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.hakka.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.hakka.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = http://hakka.taichung.gov.tw
+error = HTTPConnectionPool(host='hakka.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a9bf60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.health.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://health.taichung.gov.tw
+error = HTTPSConnectionPool(host='health.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b278>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.heping.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.heping.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://heping.taichung.gov.tw
+error = HTTPSConnectionPool(host='heping.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544bf60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.heping.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.heping.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = http://heping.taichung.gov.tw
+error = HTTPConnectionPool(host='heping.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.howli.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.howli.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1054702b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://howli.taichung.gov.tw
+error = HTTPSConnectionPool(host='howli.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.howli.taichung.gov.tw
+error = HTTPConnectionPool(host='www.howli.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://howli.taichung.gov.tw
+error = HTTPConnectionPool(host='howli.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.labor.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.labor.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470d30>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://labor.taichung.gov.tw
+error = HTTPSConnectionPool(host='labor.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.labor.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://labor.taichung.gov.tw
+error = HTTPConnectionPool(host='labor.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.land.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.land.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1054701d0>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://land.taichung.gov.tw
+error = HTTPSConnectionPool(host='land.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.land.taichung.gov.tw
+error = HTTPConnectionPool(host='www.land.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1054705c0>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = http://land.taichung.gov.tw
+error = HTTPConnectionPool(host='land.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544bd68>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.legal.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://legal.taichung.gov.tw
+error = HTTPSConnectionPool(host='legal.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.legal.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://legal.taichung.gov.tw
+error = HTTPConnectionPool(host='legal.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544b358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.longjing.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.longjing.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://longjing.taichung.gov.tw
+error = HTTPSConnectionPool(host='longjing.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b3c8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.nantun.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.nantun.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b2b0>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = https://nantun.taichung.gov.tw
+error = HTTPSConnectionPool(host='nantun.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544bf60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.north.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.north.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://north.taichung.gov.tw
+error = HTTPSConnectionPool(host='north.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544beb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.north.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.north.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544ba58>: Failed to establish a new connection: [Errno 65] No route to host',))
+site = http://north.taichung.gov.tw
+error = HTTPConnectionPool(host='north.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1054704e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.personnel.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.personnel.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://www.rdec.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://rdec.taichung.gov.tw
+error = HTTPSConnectionPool(host='rdec.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7eb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.rdec.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://rdec.taichung.gov.tw
+error = HTTPConnectionPool(host='rdec.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470fd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.shengang.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.shengang.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://shengang.taichung.gov.tw
+error = HTTPSConnectionPool(host='shengang.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1054703c8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.shengang.taichung.gov.tw
+error = HTTPConnectionPool(host='www.shengang.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470470>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://shengang.taichung.gov.tw
+error = HTTPConnectionPool(host='shengang.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105470b00>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.shigang.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.shigang.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://shigang.taichung.gov.tw
+error = HTTPSConnectionPool(host='shigang.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b908>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.society.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://society.taichung.gov.tw
+error = HTTPSConnectionPool(host='society.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.society.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://society.taichung.gov.tw
+error = HTTPConnectionPool(host='society.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ba7710>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.tanzi.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.tanzi.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://tanzi.taichung.gov.tw
+error = HTTPSConnectionPool(host='tanzi.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7a58>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.tax.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.tax.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b4e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://tax.taichung.gov.tw
+error = HTTPSConnectionPool(host='tax.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b4e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.tax.taichung.gov.tw
+error = HTTPConnectionPool(host='www.tax.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a9bf28>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://tax.taichung.gov.tw
+error = HTTPConnectionPool(host='tax.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104a9b630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.tourism.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://tourism.taichung.gov.tw
+error = HTTPSConnectionPool(host='tourism.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544ba20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.tourism.taichung.gov.tw
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = http://tourism.taichung.gov.tw
+error = HTTPConnectionPool(host='tourism.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544bac8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.tungshih.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.tungshih.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b048>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://tungshih.taichung.gov.tw
+error = HTTPSConnectionPool(host='tungshih.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.tungshih.taichung.gov.tw
+error = HTTPConnectionPool(host='www.tungshih.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544bf60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://tungshih.taichung.gov.tw
+error = HTTPConnectionPool(host='tungshih.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10544b358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.waiputcc.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.waiputcc.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b9e8>, 'Connection to www.waiputcc.taichung.gov.tw timed out. (connect timeout=10)'))
+site = https://waiputcc.taichung.gov.tw
+error = HTTPSConnectionPool(host='waiputcc.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7c50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.waiputcc.taichung.gov.tw
+error = HTTPConnectionPool(host='www.waiputcc.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104ab7a58>, 'Connection to www.waiputcc.taichung.gov.tw timed out. (connect timeout=10)'))
+site = http://waiputcc.taichung.gov.tw
+error = HTTPConnectionPool(host='waiputcc.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7dd8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.west.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.west.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://west.taichung.gov.tw
+error = HTTPSConnectionPool(host='west.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.wufeng.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.wufeng.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://wufeng.taichung.gov.tw
+error = HTTPSConnectionPool(host='wufeng.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.wufeng.taichung.gov.tw
+error = HTTPConnectionPool(host='www.wufeng.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab7be0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://wufeng.taichung.gov.tw
+error = HTTPConnectionPool(host='wufeng.taichung.gov.tw', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab70b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.wuri.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.wuri.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://wuri.taichung.gov.tw
+error = HTTPSConnectionPool(host='wuri.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7c50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.xinshe.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.xinshe.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://xinshe.taichung.gov.tw
+error = HTTPSConnectionPool(host='xinshe.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b898>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.xitun.taichung.gov.tw
+error = HTTPSConnectionPool(host='www.xitun.taichung.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://xitun.taichung.gov.tw
+error = HTTPSConnectionPool(host='xitun.taichung.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b908>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.aac.moj.gov.tw
+error = HTTPSConnectionPool(host='www.aac.moj.gov.tw', port=443): Read timed out. (read timeout=10)
+site = https://www.adh.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.adh.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470048>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.chnh.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.chnh.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470a90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.crch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.crch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab70b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.crsch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.crsch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.ersch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.ersch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470a90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.nrch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.nrch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470e48>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.nteni.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.nteni.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10544b048>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.phsch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.phsch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7c88>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.srch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.srch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1054701d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.srsch.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.srsch.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470908>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.tneni.mohw.gov.tw
+error = HTTPSConnectionPool(host='www.tneni.mohw.gov.tw', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105470a58>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))

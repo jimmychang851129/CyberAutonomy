@@ -1,0 +1,30 @@
+site = https://www.nrw.de
+error = HTTPSConnectionPool(host='www.nrw.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x106072f98>, 'Connection to www.nrw.de timed out. (connect timeout=10)'))
+site = https://nrw.de
+error = HTTPSConnectionPool(host='nrw.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057abeb8>, 'Connection to nrw.de timed out. (connect timeout=10)'))
+site = https://www.bezuegerechner.bva.bund.de
+error = HTTPSConnectionPool(host='www.bezuegerechner.bva.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607c320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.bitv-lotse.bund.de
+error = HTTPSConnectionPool(host='www.bitv-lotse.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607c320>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.dwd.bund.de
+error = HTTPSConnectionPool(host='www.dwd.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607cef0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://dwd.bund.de
+error = HTTPSConnectionPool(host='dwd.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607cfd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.dwd.bund.de
+error = HTTPConnectionPool(host='www.dwd.bund.de', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10607c400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://dwd.bund.de
+error = HTTPConnectionPool(host='dwd.bund.de', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10607c208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.lernplattform.bund.de
+error = HTTPSConnectionPool(host='www.lernplattform.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607c400>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.oss.bund.de
+error = HTTPSConnectionPool(host='www.oss.bund.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10607ccc0>, 'Connection to www.oss.bund.de timed out. (connect timeout=10)'))
+site = https://oss.bund.de
+error = HTTPSConnectionPool(host='oss.bund.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4ba8>, 'Connection to oss.bund.de timed out. (connect timeout=10)'))
+site = https://www.sozialwerk.bund.de
+error = HTTPSConnectionPool(host='www.sozialwerk.bund.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x1057b4e48>, 'Connection to www.sozialwerk.bund.de timed out. (connect timeout=10)'))
+site = https://sozialwerk.bund.de
+error = HTTPSConnectionPool(host='sozialwerk.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607f6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://sozialwerk.bund.de
+error = HTTPConnectionPool(host='sozialwerk.bund.de', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10607f5f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.x500.bund.de
+error = HTTPSConnectionPool(host='www.x500.bund.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10607f5f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))

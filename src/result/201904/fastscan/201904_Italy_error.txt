@@ -1,0 +1,270 @@
+site = https://www.web.tiscali.it
+error = HTTPSConnectionPool(host='www.web.tiscali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://web.tiscali.it
+error = HTTPSConnectionPool(host='web.tiscali.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b470>, 'Connection to web.tiscali.it timed out. (connect timeout=10)'))
+site = http://www.web.tiscali.it
+error = HTTPConnectionPool(host='www.web.tiscali.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2ba20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.mef.gov.it
+error = HTTPSConnectionPool(host='www.mef.gov.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a710>, 'Connection to www.mef.gov.it timed out. (connect timeout=10)'))
+site = https://mef.gov.it
+error = HTTPSConnectionPool(host='mef.gov.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea8208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://mef.gov.it
+error = HTTPConnectionPool(host='mef.gov.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2b860>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.archivi.beniculturali.it
+error = HTTPSConnectionPool(host='www.archivi.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a6a0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://archivi.beniculturali.it
+error = HTTPSConnectionPool(host='archivi.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bd30>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.librari.beniculturali.it
+error = HTTPSConnectionPool(host='www.librari.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe048>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://librari.beniculturali.it
+error = HTTPSConnectionPool(host='librari.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebebe0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = http://www.librari.beniculturali.it
+error = HTTPConnectionPool(host='www.librari.beniculturali.it', port=80): Read timed out. (read timeout=10)
+site = http://librari.beniculturali.it
+error = HTTPConnectionPool(host='librari.beniculturali.it', port=80): Read timed out. (read timeout=10)
+site = https://www.darc.beniculturali.it
+error = HTTPSConnectionPool(host='www.darc.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe080>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://darc.beniculturali.it
+error = HTTPSConnectionPool(host='darc.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.darc.beniculturali.it
+error = HTTPConnectionPool(host='www.darc.beniculturali.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e1a5f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://darc.beniculturali.it
+error = HTTPConnectionPool(host='darc.beniculturali.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e1a5f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.arti.beniculturali.it
+error = HTTPSConnectionPool(host='www.arti.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a4a8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://arti.beniculturali.it
+error = HTTPSConnectionPool(host='arti.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a5f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.arti.beniculturali.it
+error = HTTPConnectionPool(host='www.arti.beniculturali.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e1a588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://arti.beniculturali.it
+error = HTTPConnectionPool(host='arti.beniculturali.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e1a6a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.grafica.arti.beniculturali.it
+error = HTTPSConnectionPool(host='www.grafica.arti.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a6a0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://grafica.arti.beniculturali.it
+error = HTTPSConnectionPool(host='grafica.arti.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bdd8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.archeologia.beniculturali.it
+error = HTTPSConnectionPool(host='www.archeologia.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b240>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://archeologia.beniculturali.it
+error = HTTPSConnectionPool(host='archeologia.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea8048>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.paesaggio.beniculturali.it
+error = HTTPSConnectionPool(host='www.paesaggio.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4630>, 'Connection to www.paesaggio.beniculturali.it timed out. (connect timeout=10)'))
+site = https://paesaggio.beniculturali.it
+error = HTTPSConnectionPool(host='paesaggio.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe1d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.paesaggio.beniculturali.it
+error = HTTPConnectionPool(host='www.paesaggio.beniculturali.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104fa4550>, 'Connection to www.paesaggio.beniculturali.it timed out. (connect timeout=10)'))
+site = http://paesaggio.beniculturali.it
+error = HTTPConnectionPool(host='paesaggio.beniculturali.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ea8d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.iccd.beniculturali.it
+error = HTTPSConnectionPool(host='www.iccd.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b748>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://iccd.beniculturali.it
+error = HTTPSConnectionPool(host='iccd.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bb00>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.icr.beniculturali.it
+error = HTTPSConnectionPool(host='www.icr.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bc18>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://icr.beniculturali.it
+error = HTTPSConnectionPool(host='icr.beniculturali.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe908>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://regione.lombardia.it
+error = HTTPSConnectionPool(host='regione.lombardia.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebeba8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://regione.lombardia.it
+error = HTTPConnectionPool(host='regione.lombardia.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebe0f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.rete.toscana.it
+error = HTTPSConnectionPool(host='www.rete.toscana.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe6a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://rete.toscana.it
+error = HTTPSConnectionPool(host='rete.toscana.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe0f0>, 'Connection to rete.toscana.it timed out. (connect timeout=10)'))
+site = http://www.rete.toscana.it
+error = HTTPConnectionPool(host='www.rete.toscana.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebed68>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://rete.toscana.it
+error = HTTPConnectionPool(host='rete.toscana.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104ebe7f0>, 'Connection to rete.toscana.it timed out. (connect timeout=10)'))
+site = https://www.ambitalia-tn.bo.cnr.it
+error = HTTPSConnectionPool(host='www.ambitalia-tn.bo.cnr.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa42e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://ambitalia-tn.bo.cnr.it
+error = HTTPSConnectionPool(host='ambitalia-tn.bo.cnr.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.ambitalia-tn.bo.cnr.it
+error = HTTPConnectionPool(host='www.ambitalia-tn.bo.cnr.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4710>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://ambitalia-tn.bo.cnr.it
+error = HTTPConnectionPool(host='ambitalia-tn.bo.cnr.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa49e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.mission.itu.int
+error = HTTPSConnectionPool(host='www.mission.itu.int', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4b70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://mission.itu.int
+error = HTTPSConnectionPool(host='mission.itu.int', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa49b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.mission.itu.int
+error = HTTPConnectionPool(host='www.mission.itu.int', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4978>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://mission.itu.int
+error = HTTPConnectionPool(host='mission.itu.int', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4e80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.missions.itu.int
+error = HTTPSConnectionPool(host='www.missions.itu.int', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa41d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://missions.itu.int
+error = HTTPSConnectionPool(host='missions.itu.int', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4e80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.missions.itu.int
+error = HTTPConnectionPool(host='www.missions.itu.int', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://missions.itu.int
+error = HTTPConnectionPool(host='missions.itu.int', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4a20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.segredif.difesa.it
+error = HTTPSConnectionPool(host='www.segredif.difesa.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a518>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://segredif.difesa.it
+error = HTTPSConnectionPool(host='segredif.difesa.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b898>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.segredif.difesa.it
+error = HTTPConnectionPool(host='www.segredif.difesa.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2b160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://segredif.difesa.it
+error = HTTPConnectionPool(host='segredif.difesa.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2b550>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.esercito.difesa.it
+error = HTTPSConnectionPool(host='www.esercito.difesa.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:847)'),))
+site = https://esercito.difesa.it
+error = HTTPSConnectionPool(host='esercito.difesa.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2ba58>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://esercito.difesa.it
+error = HTTPConnectionPool(host='esercito.difesa.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.marina.difesa.it
+error = HTTPSConnectionPool(host='www.marina.difesa.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:847)'),))
+site = https://marina.difesa.it
+error = HTTPSConnectionPool(host='marina.difesa.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa49b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://marina.difesa.it
+error = HTTPConnectionPool(host='marina.difesa.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ea84e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://aeronautica.difesa.it
+error = HTTPSConnectionPool(host='aeronautica.difesa.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea8748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://aeronautica.difesa.it
+error = HTTPConnectionPool(host='aeronautica.difesa.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ea8dd8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://arpa.veneto.it
+error = HTTPSConnectionPool(host='arpa.veneto.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea8828>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://arpa.veneto.it
+error = HTTPConnectionPool(host='arpa.veneto.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2bd30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.comune.torino.it
+error = HTTPSConnectionPool(host='www.comune.torino.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa42b0>, 'Connection to www.comune.torino.it timed out. (connect timeout=10)'))
+site = https://comune.torino.it
+error = HTTPSConnectionPool(host='comune.torino.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea88d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://comune.torino.it
+error = HTTPConnectionPool(host='comune.torino.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ea8518>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://camcom.it
+error = HTTPSConnectionPool(host='camcom.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4748>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://camcom.it
+error = HTTPConnectionPool(host='camcom.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104fa4cc0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.salute.gov.it
+error = HTTPSConnectionPool(host='www.salute.gov.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4080>, 'Connection to www.salute.gov.it timed out. (connect timeout=10)'))
+site = https://salute.gov.it
+error = HTTPSConnectionPool(host='salute.gov.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104faf208>, 'Connection to salute.gov.it timed out. (connect timeout=10)'))
+site = https://www.inail.it
+error = HTTPSConnectionPool(host='www.inail.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa40b8>, 'Connection to www.inail.it timed out. (connect timeout=10)'))
+site = https://inail.it
+error = HTTPSConnectionPool(host='inail.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa4d68>, 'Connection to inail.it timed out. (connect timeout=10)'))
+site = http://www.inail.it
+error = HTTPConnectionPool(host='www.inail.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104ebe9e8>, 'Connection to www.inail.it timed out. (connect timeout=10)'))
+site = http://inail.it
+error = HTTPConnectionPool(host='inail.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104ebe3c8>, 'Connection to inail.it timed out. (connect timeout=10)'))
+site = https://www.regione.sicilia.it
+error = HTTPSConnectionPool(host='www.regione.sicilia.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:847)'),))
+site = https://regione.sicilia.it
+error = HTTPSConnectionPool(host='regione.sicilia.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe438>, 'Connection to regione.sicilia.it timed out. (connect timeout=10)'))
+site = http://regione.sicilia.it
+error = HTTPConnectionPool(host='regione.sicilia.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104e2b160>, 'Connection to regione.sicilia.it timed out. (connect timeout=10)'))
+site = https://www.crs.lombardia.it
+error = HTTPSConnectionPool(host='www.crs.lombardia.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2ba20>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://crs.lombardia.it
+error = HTTPSConnectionPool(host='crs.lombardia.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b6a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://crs.lombardia.it
+error = HTTPConnectionPool(host='crs.lombardia.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2ba58>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.miur.it
+error = HTTPSConnectionPool(host='www.miur.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:847)'),))
+site = https://miur.it
+error = HTTPSConnectionPool(host='miur.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b908>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://miur.it
+error = HTTPConnectionPool(host='miur.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2b080>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.enea.it
+error = HTTPSConnectionPool(host='www.enea.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2ba20>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://enea.it
+error = HTTPSConnectionPool(host='enea.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bb70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://enea.it
+error = HTTPConnectionPool(host='enea.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebef60>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://regione.fvg.it
+error = HTTPSConnectionPool(host='regione.fvg.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea8dd8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://regione.fvg.it
+error = HTTPConnectionPool(host='regione.fvg.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2bac8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.sirio.regione.liguria.it
+error = HTTPSConnectionPool(host='www.sirio.regione.liguria.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b9b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://sirio.regione.liguria.it
+error = HTTPSConnectionPool(host='sirio.regione.liguria.it', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSUPPORTED_PROTOCOL] unsupported protocol (_ssl.c:847)'),))
+site = http://www.sirio.regione.liguria.it
+error = HTTPConnectionPool(host='www.sirio.regione.liguria.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e2bcf8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.www2.comune.bologna.it
+error = HTTPSConnectionPool(host='www.www2.comune.bologna.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b828>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.carabinieri.it
+error = HTTPSConnectionPool(host='www.carabinieri.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bdd8>, 'Connection to www.carabinieri.it timed out. (connect timeout=10)'))
+site = https://carabinieri.it
+error = HTTPSConnectionPool(host='carabinieri.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebec88>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://carabinieri.it
+error = HTTPConnectionPool(host='carabinieri.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebeb70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.vigilfuoco.it
+error = HTTPSConnectionPool(host='www.vigilfuoco.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe5c0>, 'Connection to www.vigilfuoco.it timed out. (connect timeout=10)'))
+site = https://vigilfuoco.it
+error = HTTPSConnectionPool(host='vigilfuoco.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ec7160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://vigilfuoco.it
+error = HTTPConnectionPool(host='vigilfuoco.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ec75f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.regione.campania.it
+error = HTTPSConnectionPool(host='www.regione.campania.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea8240>, 'Connection to www.regione.campania.it timed out. (connect timeout=10)'))
+site = https://regione.campania.it
+error = HTTPSConnectionPool(host='regione.campania.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebef60>, 'Connection to regione.campania.it timed out. (connect timeout=10)'))
+site = https://www.regione.calabria.it
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://regione.calabria.it
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://www.regione.puglia.it
+error = HTTPSConnectionPool(host='www.regione.puglia.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2be10>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://regione.puglia.it
+error = HTTPSConnectionPool(host='regione.puglia.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bdd8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.mit.gov.it
+error = HTTPSConnectionPool(host='www.mit.gov.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebea90>, 'Connection to www.mit.gov.it timed out. (connect timeout=10)'))
+site = https://mit.gov.it
+error = HTTPSConnectionPool(host='mit.gov.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebeac8>, 'Connection to mit.gov.it timed out. (connect timeout=10)'))
+site = https://www.governo.it
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://governo.it
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://www.sistemapiemonte.it
+error = HTTPSConnectionPool(host='www.sistemapiemonte.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104fa9710>, 'Connection to www.sistemapiemonte.it timed out. (connect timeout=10)'))
+site = https://sistemapiemonte.it
+error = HTTPSConnectionPool(host='sistemapiemonte.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ecb6a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://sistemapiemonte.it
+error = HTTPConnectionPool(host='sistemapiemonte.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ecbb70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.regione.basilicata.it
+error = HTTPSConnectionPool(host='www.regione.basilicata.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ecbba8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://regione.basilicata.it
+error = HTTPSConnectionPool(host='regione.basilicata.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebeb00>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.energia.it
+error = HTTPSConnectionPool(host='www.energia.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://energia.it
+error = HTTPSConnectionPool(host='energia.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe1d0>, 'Connection to energia.it timed out. (connect timeout=10)'))
+site = http://www.energia.it
+error = HTTPConnectionPool(host='www.energia.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ecbb70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://energia.it
+error = HTTPConnectionPool(host='energia.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104e2b7f0>, 'Connection to energia.it timed out. (connect timeout=10)'))
+site = https://www.protezionecivile.gov.it
+error = HTTPSConnectionPool(host='www.protezionecivile.gov.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2bbe0>, 'Connection to www.protezionecivile.gov.it timed out. (connect timeout=10)'))
+site = https://protezionecivile.gov.it
+error = HTTPSConnectionPool(host='protezionecivile.gov.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b7b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://protezionecivile.gov.it
+error = HTTPConnectionPool(host='protezionecivile.gov.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ea8358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.comune.genova.it
+error = HTTPSConnectionPool(host='www.comune.genova.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ea87b8>, 'Connection to www.comune.genova.it timed out. (connect timeout=10)'))
+site = https://comune.genova.it
+error = HTTPSConnectionPool(host='comune.genova.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104e1a550>, 'Connection to comune.genova.it timed out. (connect timeout=10)'))
+site = https://www.tesoro.it
+error = HTTPSConnectionPool(host='www.tesoro.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104e2b320>, 'Connection to www.tesoro.it timed out. (connect timeout=10)'))
+site = https://tesoro.it
+error = HTTPSConnectionPool(host='tesoro.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebeeb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://tesoro.it
+error = HTTPConnectionPool(host='tesoro.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebeac8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.dgt.tesoro.it
+error = HTTPSConnectionPool(host='www.dgt.tesoro.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebe470>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://dgt.tesoro.it
+error = HTTPSConnectionPool(host='dgt.tesoro.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebeac8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.dgt.tesoro.it
+error = HTTPConnectionPool(host='www.dgt.tesoro.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebe208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://dgt.tesoro.it
+error = HTTPConnectionPool(host='dgt.tesoro.it', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ebe208>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.regione.umbria.it
+error = HTTPSConnectionPool(host='www.regione.umbria.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebeb00>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://regione.umbria.it
+error = HTTPSConnectionPool(host='regione.umbria.it', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ebea90>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.gdf.it
+error = HTTPSConnectionPool(host='www.gdf.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ecb0b8>, 'Connection to www.gdf.it timed out. (connect timeout=10)'))
+site = https://gdf.it
+error = HTTPSConnectionPool(host='gdf.it', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ecbcf8>, 'Connection to gdf.it timed out. (connect timeout=10)'))
+site = http://gdf.it
+error = HTTPConnectionPool(host='gdf.it', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x104fba0f0>, 'Connection to gdf.it timed out. (connect timeout=10)'))

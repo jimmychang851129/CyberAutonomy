@@ -6,7 +6,12 @@ confpath = "./config/config.json" # same directory as manage.py
 
 # Create your views here.
 def CPHome_page(request, *args, **kwargs):
-	return render(request,"CPAnalysis/CPHomepage.html",{})
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	context ={
+		"time" : conf['DateList'],
+	}
+	return render(request,"CPAnalysis/CPHomepage.html",context)
 
 def CPDate(request,*args,**kwargs):
 	data = request.POST

@@ -1,0 +1,491 @@
+https://www.nih.gov,text/css,https://js.api.here.com/v3/3.0/mapsjs-ui.css,Taiwan
+https://www.nih.gov,application/x-javascript,https://js.api.here.com/v3/3.0/mapsjs-mapevents.js,Taiwan
+https://www.nih.gov,application/x-javascript,https://js.api.here.com/v3/3.0/mapsjs-service.js,Taiwan
+https://www.nih.gov,application/x-javascript,https://js.api.here.com/v3/3.0/mapsjs-ui.js,Taiwan
+https://www.nih.gov,application/x-javascript,https://js.api.here.com/v3/3.0/mapsjs-core.js,Taiwan
+https://www.nih.gov,application/x-javascript,https://dnn506yrbagrg.cloudfront.net/pages/scripts/0011/2616.js,United States
+https://www.nih.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.nih.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.nih.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.noaa.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.noaa.gov,application/javascript,https://search.noaa.gov/assets/sayt_loader.js,United States
+https://www.noaa.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.noaa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.nasa.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.nasa.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js?_=1555741692503,United States
+https://www.nasa.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.nasa.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.nasa.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.dark.ltr.css,United States
+https://www.nasa.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.dark.ltr.css,United States
+https://www.state.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.state.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.state.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.state.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.state.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.state.gov,application/json; charset=UTF-8,https://edge.api.brightcove.com/playback/v1/accounts/1705665025/videos/6027971464001,United States
+https://www.state.gov,application/json; charset=UTF-8,https://edge.api.brightcove.com/playback/v1/accounts/1705665025/videos/6025290559001,United States
+https://www.state.gov,image/jpeg,https://brightcove.hs.llnwd.net/v2/unsecured/media/1705665025/201904/122/1705665025_6027974575001_6027971464001-vs.jpg?pubId=1705665025&videoId=6027971464001,Japan
+https://www.state.gov,application/json; charset=UTF-8,https://edge.api.brightcove.com/playback/v1/accounts/1705665025/videos/6027126385001,United States
+https://www.state.gov,image/jpeg,https://brightcove.hs.llnwd.net/v2/unsecured/media/1705665025/201904/402/1705665025_6027126086001_6027126385001-vs.jpg?pubId=1705665025&videoId=6027126385001,Japan
+https://www.weather.gov,application/json; charset=UTF-8,https://edge.api.brightcove.com/playback/v1/accounts/1705665025/videos/6026491922001,United States
+https://www.weather.gov,image/jpeg,https://brightcove.hs.llnwd.net/v2/unsecured/media/1705665025/201904/2986/1705665025_6026495838001_6026491922001-vs.jpg?pubId=1705665025&videoId=6026491922001,Japan
+https://www.weather.gov,image/png,https://forecast.weather.gov/wwamap/png/ak.png,Taiwan
+https://www.weather.gov,image/png,https://forecast.weather.gov/wwamap/png/US.png,Taiwan
+https://www.weather.gov,application/json; charset=UTF-8,https://analytics.foresee.com/ingest/events,United States
+https://www.ed.gov,application/x-javascript,https://www2.ed.gov/style/foresee/foresee-trigger.js,United States
+https://www.ed.gov,image/gif,https://www2.ed.gov/images/languageicon.gif,United States
+https://www.ed.gov,application/x-javascript,https://s3.amazonaws.com/new.cetrk.com/pages/scripts/0009/9201.js,United States
+https://www.ed.gov,application/x-javascript,https://www2.ed.gov/style/foresee/foresee-surveydef.js?build=3,United States
+https://www.ed.gov,text/css,https://www2.ed.gov/style/foresee/foresee-dhtml.css?build=3,United States
+https://www.irs.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.irs.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.irs.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/tweet.2b7769d244a8dfeb3ab9d97583412dec.js,United States
+https://www.cdc.gov,text/css; charset=utf-8,https://platform.twitter.com/css/tweet.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.cdc.gov,text/css; charset=utf-8,https://platform.twitter.com/css/tweet.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.cdc.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/b67fc6a152?a=70700070&v=1118.0c07c19&to=blMHY0AHDUcDUEZQWFcZJFRGDwxaTUNTXlJmVQRUWgM%3D&rst=1950&ref=https://www.irs.gov/&ap=36&be=621&fe=1942&dc=1463&perf=%7B%22timing%22:%7B%22of%22:1555741714011,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:14,%22c%22:14,%22s%22:157,%22ce%22:450,%22rq%22:451,%22rp%22:587,%22rpe%22:591,%22dl%22:595,%22di%22:1463,%22ds%22:1463,%22de%22:1517,%22dc%22:1941,%22l%22:1941,%22le%22:1943%7D,%22navigation%22:%7B%7D%7D&at=QhQEFQgdHkk%3D&jsonp=NREUM.setToken",United States
+https://www.cdc.gov,application/x-javascript,https://ds-aksb-a.akamaihd.net/aksb.min.js,United States
+https://www.cdc.gov,image/gif,https://cdc.112.2o7.net/b/ss/cdcgov/1/JS-2.0.0/s0220147393091?AQB=1&pccr=true&&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A28%3A37%206%20-480&fid=105BB78E915D13CB-3303E09A8E01A79E&ce=UTF-8&pageName=Centers%20for%20Disease%20Control%20and%20Prevention&g=https%3A%2F%2Fwww.cdc.gov%2F&cc=USD&ch=CDC%20Top%20Tier&server=www.cdc.gov&events=event43&h1=CDC%20Top%20Tier%7ECDC.gov%20Home%20Page&l1=www.cdc.gov&c2=https%3A%2F%2Fwww.cdc.gov%2F&c3=CDC%2C%20%2024%2F7%2C%20%20protect%20America%2C%20%20health%2C%20%20safety%2C%20%20security%20threats%2C%20%20foreign%2C%20%20U.S.%20diseases%2C%20%20chronic%2C%20%20acute%2C%20%20curable%2C%20%20preventable%2C%20%20human%20error%2C%20%20deliberate%20attack%2C%20%20supports%20communities%2C%20CDC%20Organization&c5=eng&c8=Web%20Page&c22=CDC%20Top%20Tier&c23=CDC.gov%20Home%20Page&c26=centers%20for%20disease%20control%20and%20prevention&c30=centers%20for%20disease%20control%20and%20prevention&c31=https%3A%2F%2Fwww.cdc.gov%2F&c35=2%3A28%20AM&c36=Saturday&c46=https%3A%2F%2Fwww.cdc.gov%2F&c49=md&c53=AppMeasurement%201.7%20-%20Feb%2010%2C%202017&v53=2%3A28%20AM%7CSaturday%7CEST&c54=D%3Dg&v54=D%3Dg&c56=15&v56=%2B1&c57=1&v57=D%3Dc57&c58=First%20Visit&v58=D%3Dc58&c60=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_12_6%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20HeadlessChrome%2F73.0.3683.103%20Safari%2F537.36&c61=D%3Dv61&c62=04%2F20%2F2019&v62=04%2F20%2F2019&c73=https%3A%2F%2Fwww.cdc.gov%2F&v73=https%3A%2F%2Fwww.cdc.gov%2F&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&AQE=1,United States
+https://www.uscis.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.uscis.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.uscis.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.uscis.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.uscis.gov,application/javascript,https://ceciva.uscis.gov/Alme/Scripts/NIT.ScriptManager.js,United States
+https://www.uscis.gov,application/json; charset=UTF-8,https://analytics.foresee.com/ingest/events,United States
+https://www.uscis.gov,application/javascript,https://ceciva.uscis.gov/Alme/scripts/NIT.Launch.min.js?1555741720283,United States
+https://medlineplus.gov/,application/javascript,https://ceciva.uscis.gov/Alme/Scripts/jquery-1.11.2.min.js,United States
+https://medlineplus.gov/,application/javascript,https://ceciva.uscis.gov/Alme/Scripts/jquery-ui-light-1.11.4.min.js,United States
+https://medlineplus.gov/,application/javascript,https://ceciva.uscis.gov/Alme/includes/NIT.min.js?1.0.65353.1,United States
+https://medlineplus.gov/,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://medlineplus.gov/,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://medlineplus.gov/,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://medlineplus.gov/,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://medlineplus.gov/,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://medlineplus.gov/,application/javascript,https://www.nlm.nih.gov/coop_all.js?_=1555741722837,United States
+https://medlineplus.gov/,application/javascript,https://www.nlm.nih.gov/core/nlm-autocomplete/1.0/nlm-autocomplete.js,United States
+https://medlineplus.gov/,application/javascript,https://www.nlm.nih.gov/core/nlm-notifyExternal/1.0/nlm-notifyExternal.js,United States
+https://www.dhs.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.dhs.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.dhs.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.dhs.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.dhs.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.dhs.gov,application/javascript,https://search.dhs.gov/assets/sayt_loader.js,United States
+https://www.dhs.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.dhs.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.dhs.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.dhs.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/877b02039c?a=140456413,2052686&v=1118.0c07c19&to=ZFYHMhZSXUpRUkcKDF0cJAUQWlxXH1VbEDxdRwQVO1JfXEJFbBQKV1QAEg%3D%3D&rst=1880&ref=https://www.dhs.gov/ntas&ap=326&be=1836&fe=1876&dc=1853&perf=%7B%22timing%22:%7B%22of%22:1555741725539,%22n%22:0,%22r%22:0,%22re%22:829,%22f%22:829,%22dn%22:829,%22dne%22:829,%22c%22:829,%22ce%22:829,%22rq%22:832,%22rp%22:1823,%22rpe%22:1829,%22dl%22:1830,%22di%22:1853,%22ds%22:1853,%22de%22:1853,%22dc%22:1876,%22l%22:1876,%22le%22:1876%7D,%22navigation%22:%7B%22rc%22:1%7D%7D&at=SBEERF5ITkQ%3D&jsonp=NREUM.setToken",United States
+https://www.usgs.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/877b02039c?a=140456413,2052686&v=1118.0c07c19&to=ZFYHMhZSXUpRUkcKDF0cMBQNHFpXVFRLTRNbQw%3D%3D&rst=2478&ref=https://www.dhs.gov/&ap=18&be=110&fe=2474&dc=492&perf=%7B%22timing%22:%7B%22of%22:1555741725183,%22n%22:0,%22f%22:1,%22dn%22:3,%22dne%22:52,%22c%22:52,%22s%22:56,%22ce%22:65,%22rq%22:65,%22rp%22:73,%22rpe%22:76,%22dl%22:79,%22di%22:492,%22ds%22:492,%22de%22:622,%22dc%22:2474,%22l%22:2474,%22le%22:2476%7D,%22navigation%22:%7B%7D%7D&at=SBEERF5ITkQ%3D&jsonp=NREUM.setToken",United States
+https://www.usgs.gov,image/png,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/real-time-v2.png?itok=KalKXRdj,United States
+https://www.usgs.gov,image/png,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/_products_v3.png?itok=QkBVBg5a,United States
+https://www.usgs.gov,image/png,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/science_v4.png?itok=xWcQIZEv,United States
+https://www.usgs.gov,image/jpeg,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/USGS%2005051522%20RED%20RIVER%20OF%20THE%20NORTH%20AT%20HICKSON%2C%20ND%20040319%20%28ADCP%20QM%29%20BY%20ERNIE%20MCCOY%20%281%29.JPG?itok=kEM9twV0,United States
+https://www.usgs.gov,image/jpeg,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/vhp_img3105.jpg?itok=ZPQ68-4p,United States
+https://www.usgs.gov,image/jpeg,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/9393583691_a645918c8f_o.jpg?itok=oocHL3ko,United States
+https://www.usgs.gov,image/jpeg,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/YoungWhoopingCrane-jlf.jpg?itok=YtL9MlvP,United States
+https://www.usgs.gov,image/png,https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/carousel_large/public/thumbnails/image/5-goals-v2.png?itok=tAVPLep3,United States
+https://www.usda.gov,application/javascript,https://us1.siteimprove.com/js/siteanalyze_63343.js,United States
+https://www.usembassy.gov,image/gif,https://www.usajobs.gov/Content/images/gif/dot.gif,United States
+https://www.usembassy.gov,application/json; charset=utf-8,https://www.usajobs.gov/Account/RetrieveUserPreferences,United States
+https://www.usembassy.gov,application/json; charset=utf-8,https://www.usajobs.gov/Notification/GetNotificationsForLanding,United States
+https://www.usembassy.gov,text/css,https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css?ver=745e58d72202eb3426252402996a8376,United States
+https://www.usembassy.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.usembassy.gov,application/javascript,https://cdn-3.convertexperiments.com/js/10014524-10015207.js,United States
+https://www.va.gov,text/css,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/style.7d511b61311bd17bb41a1fcb18d97fbe-1555695752769.css,United States
+https://www.va.gov,text/css,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/static-pages.19fa22798ebe9c4aa6ce7fe25c602bc0-1555695752769.css,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/js/record-event.js,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/js/settings.js,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/vendor.entry.c3cb701f06e757a324c8-1555695752769.js,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/static-pages.entry.fc528fadc6ad5de08fd6-1555695752769.js,United States
+https://www.va.gov,image/png,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/tiny-usa-flag.png,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/js/foresee/vagovprod.js,United States
+https://www.va.gov,image/svg+xml,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/icon-dot-gov.svg,United States
+https://www.va.gov,image/svg+xml,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/icon-https.svg,United States
+https://www.va.gov,image/svg+xml,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/arrow-right-white.svg,United States
+https://www.va.gov,image/png,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/header-logo.png,United States
+https://www.va.gov,image/svg+xml,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/VCL-icon-white.svg,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/js/incompatible-browser.js,United States
+https://www.va.gov,image/png,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/homepage/veterans-banner-tablet-2.png,United States
+https://www.va.gov,image/png,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/vcl-logo.png,United States
+https://www.va.gov,image/svg+xml,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/img/arrow-down-white.svg,United States
+https://www.va.gov,text/javascript,https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/js/google-analytics.js,United States
+https://www.uspto.gov,text/javascript,https://components.uspto.gov/js/ais/12-www.js,United States
+https://www.uspto.gov,text/javascript,https://components.uspto.gov/js/Uni-Fed-Min.js,United States
+https://www.fda.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.fda.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.fda.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.loc.gov,image/jpeg,http://www.loc.gov/static/home/images/featured/congress_A-L.jpg,United States
+https://www.loc.gov,image/gif,https://smon.loc.gov/b/ss/locgovprod/1/JS-2.4.0-D7QN/s07230462086182?AQB=1&pccr=true&vidn=2E5D5E2F052A3F9D-60000106C0000683&&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A29%3A50%206%20-480&D=D%3D&fid=7A01AA34CB62C5DB-3B4E324140196B42&ce=UTF-8&ns=thelibraryofcongress&g=https%3A%2F%2Fwww.loc.gov%2F&server=www.loc.gov&events=event40&c1=Home%20%7C%20Library%20of%20Congress&v8=2%3A15PM&c9=PRODDEC2012-1&v9=Saturday&c10=Project%20One&c11=%2F%20-%20Home&c15=basic&v15=D%3Dg&c16=None&v19=PRODDEC2012-1&c21=Home&c22=0.000401973724365&c38=%2F&c48=Facet%5BDigitized%5D-%28false%29%20&c60=81937&c68=8&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&AQE=1,United States
+https://www.loc.gov,image/jpeg,http://www.loc.gov/static/home/images/trending/t-fsa.jpg,United States
+https://www.loc.gov,image/jpeg,http://www.loc.gov/static/home/images/trending/slate-news-archive.jpg,United States
+https://www.epa.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/694e8754d9?a=11081342&v=1118.0c07c19&to=NldUMERQXxFSUU0KXw8ddwdCWF4MHEJYBFU%2BX1cKV1ZUEGxCWARVPldOAVVERQc%3D&rst=3990&ref=https://www.nist.gov/&ap=323&be=1203&fe=3965&dc=2521&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1555741791052,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:7,%22c%22:7,%22s%22:237,%22ce%22:704,%22rq%22:704,%22rp%22:1165,%22rpe%22:1170,%22dl%22:1174,%22di%22:2518,%22ds%22:2520,%22de%22:2619,%22dc%22:3964,%22l%22:3964,%22le%22:3975%7D,%22navigation%22:%7B%7D%7D&at=GhBXRgxKTB8%3D&jsonp=NREUM.setToken",United States
+https://www.uscourts.gov,application/javascript,https://www.browsealoud.com/plus/scripts/2.5.4/ba.js,United States
+https://www.uscourts.gov,application/javascript,https://plus.browsealoud.com/modules/2.5.4/ba-library.min.js,United States
+https://www.uscourts.gov,application/javascript,https://plus.browsealoud.com/modules/2.5.4/ba-library-ui.min.js,United States
+https://www.uscourts.gov,application/x-javascript,https://plus.browsealoud.com/js/urlinfo/www.uscourts.gov.js,United States
+https://www.uscourts.gov,text/css,https://plus.browsealoud.com/modules/2.5.4/css/browsealoud.css?v=2.5.4,United States
+https://www.ftc.gov,application/x-javascript,https://sadmin.brightcove.com/js/BrightcoveExperiences.js,United States
+https://www.ftc.gov,application/javascript,https://players.brightcove.net/1087587715001/Vy0NWmo9x_default/index.min.js,Taiwan
+https://www.ftc.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.ftc.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.ftc.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.ftc.gov,application/json; charset=UTF-8,https://edge.api.brightcove.com/playback/v1/accounts/1087587715001/videos/6010238509001,United States
+https://www.ftc.gov,image/jpeg,https://cf-images.us-east-1.prod.boltdns.net/v1/static/1305620551001/e01d322f-634f-42c4-9b2f-14e7b55589c2/ceb0e064-b473-45bc-aef1-8b162533a058/1280x720/match/image.jpg,United States
+https://www.ftc.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.census.gov,application/json; charset=UTF-8,https://analytics.foresee.com/ingest/events,United States
+https://www.census.gov,text/javascript,https://content.govdelivery.com/overlay/js/7353.js,Netherlands
+https://www.census.gov,image/gif,https://censusbureau.d1.sc.omtrdc.net/b/ss/cebucensusglobalprod/1/JS-2.0.0-D7QN/s02501350903958?AQB=1&pccr=true&vidn=2E5D5E35852A94D7-60000300A00949BC&&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A30%3A3%206%20-480&D=D%3D&fid=6D4198E9B4293AB1-3DDC32C09BB85C0D&ce=UTF-8&ns=censusbureau&cdp=2&fpCookieDomainPeriods=2&pageName=Census.gov_166506&g=https%3A%2F%2Fwww.census.gov%2F&cc=USD&ch=Census%20Home&events=event5&c2=Census.gov_166506&v11=2%3A30PM&c12=D%3Dbw&v12=Saturday&c13=DPL&v13=New&c14=en&v14=First%20Visit&v15=1&c20=census.gov&v20=census.gov&v51=https%3A%2F%2Fwww.census.gov%2F&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&AQE=1,United States
+https://www.census.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCENSUS/2019/03/2460428/overlay-social-2019-01_original.png,Netherlands
+https://www.census.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCENSUS/2019/03/2460430/overlay-social-2019-03_original.png,Netherlands
+https://www.census.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCENSUS/2019/03/2460429/overlay-social-2019-05_original.png,Netherlands
+https://www.census.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCENSUS/2019/03/2460431/overlay-social-2019-04_original.png,Netherlands
+https://www.census.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCENSUS/2019/03/2460432/overlay-social-2019-02_original.png,Netherlands
+https://www.census.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCENSUS/2019/03/2481297/over-2-2019_original.png,Netherlands
+https://www.census.gov,image/gif,https://censusbureau.d1.sc.omtrdc.net/b/ss/cebucensusglobalprod/1/JS-1.8.0/s05412457895273?AQB=1&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A30%3A4%206%20-480&fid=6D4198E9B4293AB1-3DDC32C09BB85C0D&ce=UTF-8&ns=censusbureau&pageName=Population%20Widget&g=https%3A%2F%2Fwww.census.gov%2Fpopulationwidget%2Fpopulationwidget.php&events=event5&c2=Population%20Widget&v11=2%3A30PM&v12=Saturday&v13=New&v14=First%20Visit&v15=1&c51=AppMeasurement%201.8.0&v51=D%3Dg&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=250&bh=176&AQE=1,United States
+https://www.bls.gov,application/json; charset=UTF-8,https://analytics.foresee.com/ingest/events,United States
+https://www.bls.gov,image/gif,https://6032860.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.bls.gov%2F&title=U.S.%20Bureau%20of%20Labor%20Statistics&res=1280x800&accountid=6032860&rt=736&prev=1555741859835&luid=1db477e9-fb23-7642-041e-f6816ed8e738&rnd=40694,Germany
+https://www.fema.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/9360826e15?a=81062415&v=1123.df1c7f8&to=MVNbZhQFXEAEVBBfWQgZeFESDV1dSlEWWVgSG0lTAQE%3D&rst=735&ref=https://www.whitehouse.gov/&ap=529&be=318&fe=694&dc=684&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1555741806898,%22n%22:0,%22f%22:1,%22dn%22:2,%22dne%22:16,%22c%22:16,%22s%22:19,%22ce%22:92,%22rq%22:92,%22rp%22:282,%22rpe%22:287,%22dl%22:290,%22di%22:684,%22ds%22:685,%22de%22:691,%22dc%22:694,%22l%22:694,%22le%22:696%7D,%22navigation%22:%7B%7D%7D&at=HRRYEFwfT04%3D&jsonp=NREUM.setToken",United States
+https://www.usa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.usa.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.usa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.usa.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.usa.gov,image/png,https://app-usa-modeast-prod-a01239f.s3.amazonaws.com/Logo_USAGov.png,United States
+https://www.senate.gov,application/javascript; charset=utf-8,https://zn1nx7vebqbovfqmp-cemgsa.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_1NX7veBqBOvfQmp&Q_LOC=https%3A%2F%2Fwww.usa.gov%2F&t=1555741811930,Netherlands
+https://www.senate.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_1NX7veBqBOvfQmp&Q_LOC=https%3A%2F%2Fwww.usa.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.senate.gov,application/javascript,https://gov1.siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.senate.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_1NX7veBqBOvfQmp&Q_LOC=https%3A%2F%2Fwww.usa.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web&t=1555741812539&Q_VSI=%7B%22SI_0qTnOTXfmihXPgx%22%3A%22DependencyResolver%22%2C%22SI_1XHUnb52JkGZWm1%22%3A%22DependencyResolver%22%2C%22SI_73docIEzcO1TnbD%22%3A%22DependencyResolver%22%2C%22SI_85MFxpnny7MpLb7%22%3A%22DependencyResolver%22%2C%22SI_cN3J6fZP1LRfG1D%22%3A%22DependencyResolver%22%2C%22SI_d0hH6KnZICUcYJf%22%3A%22DependencyResolver%22%7D&Q_DPR=true,Netherlands
+https://www.senate.gov,application/javascript,https://s.webtrends.com/js/webtrends.min.js,Hong Kong
+https://www.senate.gov,application/javascript,https://s.webtrends.com/js/advancedLinkTracking.js,Hong Kong
+https://www.cia.gov/index.html,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.cia.gov/index.html,application/javascript;,https://secure.flickr.com/services/feeds/photoset.gne?set=72157632812220423&nsid=59094030@N08&lang=en-us&format=json&jsoncallback=jQuery18305166311666611352_1555741817376&_=1555741817606,United States
+https://www.cia.gov/index.html,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.cia.gov/index.html,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.cia.gov/index.html,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.cia.gov/index.html,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.healthcare.gov,application/x-javascript,https://assets.healthcare.gov/resources/libs/bootstrap/3.1.1/js/bootstrap.min.js,United States
+https://www.healthcare.gov,application/x-javascript,https://assets.healthcare.gov/resources/libs/jquery/1.11/js/jquery.min.js,United States
+https://www.healthcare.gov,application/x-javascript,https://assets.healthcare.gov/resources/libs/lodash/2.4.1/lodash.compat.js,United States
+https://www.healthcare.gov,application/x-javascript,https://assets.healthcare.gov/resources/libs/optimizely/optimizely.js,United States
+https://www.healthcare.gov,application/javascript,https://cdn3.optimizely.com/js/geo2.js,Netherlands
+https://www.healthcare.gov,text/javascript,https://content.govdelivery.com/overlay/js/6653.js,Netherlands
+https://www.faa.gov,application/json;charset=utf-8,https://dpm.demdex.net/id?d_visid_ver=2.1.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=AC781C8B53308D4B0A490D4D%40AdobeOrg&d_nsid=0&ts=1555741830042,Japan
+https://www.faa.gov,application/x-javascript,https://faa.d2.sc.omtrdc.net/id?d_visid_ver=2.1.0&d_fieldgroup=A&mcorgid=AC781C8B53308D4B0A490D4D%40AdobeOrg&mid=74362565778042809773048244186245928320&ts=1555741830273,United States
+https://www.faa.gov,image/gif,https://faa.d2.sc.omtrdc.net/b/ss/faagovdev/1/JS-2.1.0/s0472374255070?AQB=1&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A30%3A30%206%20-480&mid=74362565778042809773048244186245928320&aamlh=11&ce=UTF-8&ns=AC781C8B53308D4B0A490D4D%40AdobeOrg&pageName=faa%3AFederal%20Aviation%20Administration&g=https%3A%2F%2Fwww.faa.gov%2F&cc=USD&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&c9=D%3Dg&v9=D%3Dg&c10=D%3DUser-Agent&v10=D%3DUser-Agent&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&mcorgid=AC781C8B53308D4B0A490D4D%40AdobeOrg&AQE=1,United States
+https://www.faa.gov,application/json; charset=UTF-8,https://analytics.foresee.com/ingest/events,United States
+https://www.faa.gov,image/gif,https://dpm.demdex.net/ibs:dpid=411&dpuuid=XLq8hwAAEh3gL8Fc,Japan
+https://www.cbp.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.cbp.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.cbp.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.cbp.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.cbp.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.cbp.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.cbp.gov,application/x-javascript;charset=utf-8,https://snap.licdn.com/li.lms-analytics/insight.min.js,Taiwan
+https://www.cbp.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.cbp.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.cbp.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.cbp.gov,image/gif,https://us1.siteimprove.com/image.aspx?url=https%3A%2F%2Fwww.cbp.gov%2F&title=U.S.%20Customs%20and%20Border%20Protection%20%7C%20Securing%20America%27s%20Borders&res=1280x800&accountid=6034474&rt=1720&prev=1555741851435&luid=52e0ff7e-2ad5-c629-268b-dedd8067ba4a&rnd=98884,United States
+https://www.hhs.gov,application/x-javascript,https://ds-aksb-a.akamaihd.net/aksb.min.js,Taiwan
+https://www.hhs.gov,application/x-javascript,https://dnn506yrbagrg.cloudfront.net/pages/scripts/0005/7360.js?432150,United States
+https://www.recreation.gov,application/x-javascript,https://secure.quantserve.com/quant.js,Singapore
+https://www.transportation.gov/,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.transportation.gov/,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.transportation.gov/,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.transportation.gov/,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.fbi.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/8df93ee9fb?a=51791052&v=1118.0c07c19&to=NgBbNRBRC0MEAEQIDg9KbBMLHwxeAQZITxEJFQ%3D%3D&rst=1325&ref=https://www.transportation.gov/&ap=36&be=353&fe=1319&dc=888&perf=%7B%22timing%22:%7B%22of%22:1555741846047,%22n%22:0,%22f%22:1,%22dn%22:2,%22dne%22:49,%22c%22:49,%22s%22:55,%22ce%22:88,%22rq%22:88,%22rp%22:315,%22rpe%22:321,%22dl%22:324,%22di%22:888,%22ds%22:888,%22de%22:1017,%22dc%22:1319,%22l%22:1319,%22le%22:1320%7D,%22navigation%22:%7B%7D%7D&at=GkdYQ1hLGE0%3D&jsonp=NREUM.setToken",United States
+https://www.cancer.gov,image/gif,"https://nci.122.2o7.net/b/ss/nciglobal,ncienterprise/1/JS-2.9.0-D7QN/s03257884296136?AQB=1&pccr=true&vidn=2E5D5E4F052A8D02-60000301000831B2&&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A30%3A54%206%20-480&D=D%3D&fid=5B2189218869C901-3747167A02746C98&ce=UTF-8&ns=nci&pageName=www.cancer.gov%2F&g=https%3A%2F%2Fwww.cancer.gov%2F&cc=USD&ch=NCI%20Homepage&pageType=nciHome&events=event1%2Cevent47%3D17&c1=https%3A%2F%2Fwww.cancer.gov%2F&v1=www.cancer.gov%2F&h1=www.cancer.gov&v2=english&c3=%2F&v5=Tablet&c6=Comprehensive%20Cancer%20Information&c8=english&c10=Comprehensive%20Cancer%20Information%20-%20National%20Cancer%20Institute&c25=01%2F01%2F1980&c26=2019%7C4%7C20%7C14&c29=2%3A30%20AM%7CSaturday&c42=Normal&c44=NCI%20Homepage&v44=NCI%20Homepage&c65=17&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&AQE=1",United States
+https://www.fcc.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.fcc.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.fcc.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.fcc.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.fcc.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.opm.gov,text/javascript,https://ws.audioeye.com/ae.js,United States
+https://www.opm.gov,text/javascript,https://ws.audioeye.com/ae.js,United States
+https://www.opm.gov,text/javascript,https://ws.audioeye.com/ae.js,United States
+https://www.osha.gov,application/json,https://www.sba.gov/api/content/mainMenu.json,United States
+https://www.osha.gov,application/json,https://www.sba.gov/api/content/siteMap.json,United States
+https://www.osha.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.osha.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.osha.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/button.dd024c345fc26f7c7a8d9938b67e5d3d.js,United States
+https://www.osha.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.osha.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.osha.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.osha.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.osha.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.osha.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.congress.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.congress.gov,image/gif,https://smon.congress.gov/b/ss/loclegislative/1/JS-2.5.0-D7QN/s06407181737965?AQB=1&pccr=true&vidn=2E5D5E6B052A08C8-40000106C000012F&&ndh=1&pf=1&t=20%2F3%2F2019%2014%3A31%3A49%206%20-480&D=D%3D&fid=0CBE48DB03216934-1D5AB8986C908E3E&ce=ISO-8859-1&ns=thelibraryofcongress&pageName=Congress.gov%20%7C%20Library%20of%20Congress&g=https%3A%2F%2Fwww.congress.gov%2F&cc=USD&ch=Congress.gov&server=www.congress.gov&events=event40&c1=https%3A%2F%2Fwww.congress.gov%2F&v8=2%3A30PM&c9=PRODDEC2012-1&v9=Saturday&v15=D%3Dg&v19=PRODDEC2012-1&c46=none&c68=16&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&AQE=1,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-responsive.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/base.css,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/libs/modernizr/2.7.1/js/modernizr.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/tealiumTagLoad.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/libs/jquery/1.11/js/jquery.min.js,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/libs/fonts/adobeBlank/adobe-blank.css,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/icon-medicare.jpg,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/logo/site-logo.png,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/508addthis.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-global.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-media.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-newsroom.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-bucket.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/social-media-widget.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/dynamic.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-widgets.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-homepage.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/storypages.css,United States
+https://www.cms.gov,text/css,https://assets.cms.gov/resources/cms/css/cms-center.css,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/libs/jqueryMigrate/1.2.1/js/jquery-migrate-1.2.1.min.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/global/js/jquery.equalHeights.plugins.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/libs/bootstrap/3.1.1/js/bootstrap.min.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/jquery.508carousel.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/navbar_events.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/libs/jquery-ui/1.10.4/js/jquery-ui.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/global/js/jquery.ui.widget.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/global-functions.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/global/js/jquery.ui.accordion.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/jpanelmenu/jquery.jpanelmenu.min.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/app-adv.js,United States
+https://www.cms.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.cms.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.cms.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/hc-detect_v0.9.js,United States
+https://www.cms.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/icons/btn-email-update.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/icons/btn-cms-twitter.png,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/icon-healthcare.jpg,United States
+https://www.cms.gov,image/svg+xml,https://design.cms.gov/public/images/warning.svg,Netherlands
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/icons/btn-cms-youtube.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/icons/btn-cms-rssfeed.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/logo/cms.gov-footer.png,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/icon-ikn.jpg,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/homepage_banner.jpg,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/tealiumHeadTag.js,United States
+https://www.cms.gov,application/x-javascript,https://assets.cms.gov/resources/cms/javascript/tealiumBodyTag.js,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/background/bg-page-title.jpg,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/bg-sidebar-left.jpg,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/homepage/bg-sidebar-news.png,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/bg-oragne.jpg,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/homepage/bg-title-border-longer.png,United States
+https://www.cms.gov,image/jpeg,https://assets.cms.gov/resources/cms/images/homepage/bg-site-widget.jpg,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/logo/hhslogo.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/homepage/bg-blue-arrow.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/homepage/social-media/bucket-back.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/homepage/social-media/bucket-front.png,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/background/ft-email-icon.png,United States
+https://www.cms.gov,image/gif,https://assets.cms.gov/resources/global/images/clear.gif,United States
+https://www.cms.gov,image/png,https://assets.cms.gov/resources/cms/images/icons/modal_close.png,United States
+https://www.nsf.gov,application/vnd.api+json,"https://www.cms.gov/jsonapi/node/press_releases/?sort=-field_date&fields[node--press_releases]=title,path,field_date&filter[status][value]=1&page[limit]=5",Netherlands
+https://www.nsf.gov,application/vnd.api+json,"https://www.cms.gov/jsonapi/node/fact_sheets/?sort=-field_date&fields[node--fact_sheets]=title,path,field_date&filter[status][value]=1&page[limit]=5",Netherlands
+https://www.nsf.gov,application/javascript; charset=utf-8,https://zn7ngtyxwjbrjz6xb-cms.gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Random%20ID=1555741923402&Q_ZID=ZN_7NGTYXWJbRJz6Xb&Q_LOC=https%3A%2F%2Fwww.cms.gov%2F,Netherlands
+https://www.nsf.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_7NGTYXWJbRJz6Xb&Q_LOC=https%3A%2F%2Fwww.cms.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.medicare.gov,text/css,https://assets.cms.gov/resources/libs/fonts/adobeBlank/adobe-blank.css,United States
+https://www.medicare.gov,text/css,https://assets.cms.gov/resources/global/css/sharewidget-4.0.css,United States
+https://www.medicare.gov,application/x-javascript,https://assets.cms.gov/Resources/Global/JS/sharewidget-4.0.js,United States
+https://www.medicare.gov,text/css,https://assets.cms.gov/Resources/Medicare/CSS/FeedTabs.css,United States
+https://www.medicare.gov,application/x-javascript,https://assets.cms.gov/Resources/Global/JS/lib/jquery.listen.js,United States
+https://www.medicare.gov,application/x-javascript,https://assets.cms.gov/Resources/Global/JS/lib/jquery-1.7.2.js,United States
+https://www.medicare.gov,application/x-javascript,https://assets.cms.gov/Resources/Global/JS/lib/jquery-ui-1.8.17.custom.js,United States
+https://www.medicare.gov,application/x-javascript,https://assets.cms.gov/Resources/Global/JS/jquery.508tabs.js,United States
+https://www.medicare.gov,application/x-javascript,https://ds-aksb-a.akamaihd.net/aksb.min.js,Taiwan
+https://www.medicare.gov,image/png,https://assets.cms.gov/Resources/Medicare/Images/home/iconSprite.png,United States
+https://www.medicare.gov,text/javascript,https://content.govdelivery.com/overlay/js/7149.js,Netherlands
+https://www.medicare.gov,application/json; charset=utf-8,https://pixel.mediaiqdigital.com/pixel?pixel_id=1084310&uid=0,Singapore
+https://www.medicare.gov,application/javascript; charset=utf-8,https://zn56jl522ec1a1wzf-medicare.gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/?randomID=1555741929493&Q_ZID=ZN_56jL522eC1a1WZf&Q_LOC=https%3A%2F%2Fwww.medicare.gov%2F,Netherlands
+https://www.medicare.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCMSMYMEDICARE/2017/09/1548707/overlay-close_original.png,Netherlands
+https://www.medicare.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCMSMYMEDICARE/2019/02/2412661/social-overlay-01_original.png,Netherlands
+https://www.medicare.gov,image/png,https://content.govdelivery.com/attachments/fancy_images/USCMSMYMEDICARE/2019/02/2412662/social-overlay-02_original.png,Netherlands
+https://www.medicare.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_56jL522eC1a1WZf&Q_LOC=https%3A%2F%2Fwww.medicare.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.medicare.gov,application/javascript,https://gov1.siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.medicare.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_56jL522eC1a1WZf&Q_LOC=https%3A%2F%2Fwww.medicare.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web&t=1555741931406&Q_VSI=%7B%22SI_3e0OfIJ37DZYJ6Z%22%3A%22DependencyResolver%22%7D&Q_DPR=true,Netherlands
+https://www.medicare.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/04d273ebc4?a=160135793&v=1118.0c07c19&to=ZgBRMRcAXxVRAENYX19KcgYRCF4IHxNWVlVuBlIGDQQ%3D&rst=3294&ref=https://www.medicare.gov/&ap=24&be=828&fe=3074&dc=1871&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1555741927923,%22n%22:0,%22f%22:1,%22dn%22:2,%22dne%22:206,%22c%22:206,%22s%22:208,%22ce%22:282,%22rq%22:282,%22rp%22:789,%22rpe%22:792,%22dl%22:796,%22di%22:1871,%22ds%22:1871,%22de%22:1983,%22dc%22:3074,%22l%22:3074,%22le%22:3216%7D,%22navigation%22:%7B%7D%7D&at=SkdSR18aTBs%3D&jsonp=NREUM.setToken",United States
+https://www.dol.gov,image/gif,https://bam.nr-data.net/events/1/04d273ebc4?a=160135793&v=1118.0c07c19&to=ZgBRMRcAXxVRAENYX19KcgYRCF4IHxNWVlVuBlIGDQQ%3D&rst=4301&ref=https://www.medicare.gov/,United States
+https://www.dol.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.dol.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.dol.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.dol.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.dol.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.dol.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.tsa.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.tsa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.tsa.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.tsa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.eia.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.eia.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.eia.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.eia.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.eia.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/button.dd024c345fc26f7c7a8d9938b67e5d3d.js,United States
+https://www.nwcg.gov,application/x-javascript,https://www.eftps.gov/eftps/js/thirdParty/foresee/foresee-surveydef.js,United States
+https://www.nwcg.gov,text/css,https://www.eftps.gov/eftps/js/thirdParty/foresee/foresee-dhtml.css,United States
+https://www.nwcg.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.12.4.min.js,United States
+https://www.nwcg.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-migrate-1.4.1.min.js,United States
+https://www.nwcg.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.nwcg.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.12.4.min.js,United States
+https://www.nwcg.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-migrate-1.4.1.min.js,United States
+https://www.nwcg.gov,image/gif,https://us4.siteimprove.com/image.aspx?url=https%3A%2F%2Fwww.nwcg.gov%2F&title=NWCG%20%7C%20NWCG%20is%20an%20operational%20group%20designed%20to%20coordinate%20programs%20of%20the%20participating%20wildfire%20management%20agencies.&res=1280x800&accountid=6125046&rt=6562&prev=1555741961844&luid=28e36e23-c332-c100-0f5f-0f2f9b8908d1&rnd=58151,United States
+https://www.nwcg.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.nwcg.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.12.4.min.js,United States
+https://www.nwcg.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-migrate-1.4.1.min.js,United States
+https://www.nwcg.gov,image/gif,https://us4.siteimprove.com/image.aspx?url=https%3A%2F%2Fwww.nwcg.gov%2Fdraft-pms310-1&ref=https%3A%2F%2Fwww.nwcg.gov%2F&title=NWCG%20Standards%20for%20Wildland%20Fire%20Position%20Qualifications%2C%20PMS%20310-1%20%7C%20NWCG&res=1280x800&accountid=6125046&rt=1673&prev=1555741961844&luid=93a1c1d1-91e5-56e5-f41d-16307f1a88a5&rnd=2874,United States
+https://www.nwcg.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.nwcg.gov,image/gif,https://us4.siteimprove.com/image.aspx?url=https%3A%2F%2Fwww.nwcg.gov%2Fdraft-pms310-1&ref=https%3A%2F%2Fwww.nwcg.gov%2Fdraft-pms310-1&title=NWCG%20Standards%20for%20Wildland%20Fire%20Position%20Qualifications%2C%20PMS%20310-1%20%7C%20NWCG&res=1280x800&accountid=6125046&rt=1270&prev=1555741961844&luid=37b01cb1-0695-e6a3-9c9a-ae08d308e6d7&rnd=65303,United States
+https://www.drugabuse.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.drugabuse.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.drugabuse.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.drugabuse.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.drugabuse.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.lbl.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/c385fefcaf?a=70697698&v=1118.0c07c19&to=YwZaMkdYWhYCARJQV1pMeQVBUFsLTBIHXl1rAFkFXVw%3D&rst=3278&ref=https://home.treasury.gov/&ap=37&be=2053&fe=3237&dc=2982&perf=%7B%22timing%22:%7B%22of%22:1555741976652,%22n%22:0,%22f%22:1,%22dn%22:2,%22dne%22:48,%22c%22:48,%22s%22:54,%22ce%22:83,%22rq%22:83,%22rp%22:2015,%22rpe%22:2021,%22dl%22:2022,%22di%22:2982,%22ds%22:2982,%22de%22:3053,%22dc%22:3237,%22l%22:3237,%22le%22:3238%7D,%22navigation%22:%7B%7D%7D&at=T0FZRA9CSRg%3D&jsonp=NREUM.setToken",United States
+https://www.lbl.gov,application/javascript,https://w.soundcloud.com/player/api.js,United States
+https://www.gsa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.gsa.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.gsa.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.gsa.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.gsa.gov,application/x-javascript,https://img.en25.com/i/elqCfg.min.js,United States
+https://www.gsa.gov,image/gif,https://app_gsagov_prod_rdcgwaajp7wr.s3.amazonaws.com/home-focuson-gsa-strategic-plan-768x428.gif,United States
+https://www.gsa.gov,image/gif,https://us5.siteimprove.com/image.aspx?url=https%3A%2F%2Fwww.gsa.gov%2F&title=Home&res=1280x800&accountid=8808&rt=2328&prev=1555741997477&luid=724b9935-b536-7284-91cc-86df7460d000&rnd=95527,United States
+https://www.gsa.gov,image/gif,https://app_gsagov_prod_rdcgwaajp7wr.s3.amazonaws.com/home-focuson-fedmarketplace-768x428.gif,United States
+https://www.gsa.gov,image/gif,https://gsasolutionssecure.gsa.gov/visitor/v200/svrGP.aspx?pps=3&siteid=1311950425&ref2=elqNone&tzo=-480&ms=437&optin=disabled&elq1pcGUID=D8C9904FA2634729A92A55FE77C32FC9,United States
+https://www.aviationweather.gov,application/javascript; charset=utf-8,https://zne2jvm9sr8pqegvn-cemgsa.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_e2JVm9Sr8PqEgVn&Q_LOC=https%3A%2F%2Fwww.gsa.gov%2F&t=1555741987636,Netherlands
+https://www.aviationweather.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_e2JVm9Sr8PqEgVn&Q_LOC=https%3A%2F%2Fwww.gsa.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.aviationweather.gov,application/javascript,https://gov1.siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web,Netherlands
+https://www.aviationweather.gov,application/json,https://gov1.siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_e2JVm9Sr8PqEgVn&Q_LOC=https%3A%2F%2Fwww.gsa.gov%2F&Q_CLIENTVERSION=1.1.4&Q_CLIENTTYPE=web&t=1555741987912&Q_VSI=%7B%22SI_ezj3EMWW4kBeMPH%22%3A%22DependencyResolver%22%7D&Q_DPR=true,Netherlands
+https://www.aviationweather.gov,text/css,https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css,United States
+https://www.aviationweather.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.9.1.js,United States
+https://www.aviationweather.gov,application/javascript; charset=utf-8,https://code.jquery.com/ui/1.10.3/jquery-ui.js,United States
+https://www.defense.gov,text/css,https://www.aviationweather.gov/lib/OpenLayers-2.13.1/theme/default/style.css,Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=3&y=9&z=4,Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=3&y=10&z=4,Taiwan
+https://www.defense.gov,application/json,"https://www.aviationweather.gov/cgi-bin/json/IsigmetJSON.php?zoom=4&type=all&bbox=-140.94531249999,15.776868841241,-53.054687499996,58.232346201351",Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=4&y=9&z=4,Taiwan
+https://www.defense.gov,application/json,"https://www.aviationweather.gov/cgi-bin/json/AirepJSON.php?zoom=4&type=all&noneg=1&bbox=-140.94531249999,15.776868841241,-53.054687499996,58.232346201351",Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=4&y=10&z=4,Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=2&y=9&z=4,Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=2&y=10&z=4,Taiwan
+https://www.defense.gov,application/json,"https://www.aviationweather.gov/cgi-bin/json/CwaJSON.php?zoom=4&bbox=-132.15624999999,20.022416577252,-61.843749999996,53.98679846534",Taiwan
+https://www.defense.gov,image/png,"https://www.aviationweather.gov/cgi-bin/mapserver/basic?LAYERS=coast%2Ccoast-h%2Ccoast-us%2Ccntry%2Ccntry-h%2Ccntry-us%2Cstate%2Cstate-h%2Cstate-us%2Cisland%2Cisland-us%2Clake&STYLES=dark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX=-12523442.3725,2504688.8825,-10018753.83,5009377.425&WIDTH=256&HEIGHT=256",Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=3&y=8&z=4,Taiwan
+https://www.defense.gov,application/json,"https://www.aviationweather.gov/cgi-bin/json/SigmetJSON.php?zoom=4&type=all&bbox=-140.94531249999,15.776868841241,-53.054687499996,58.232346201351",Taiwan
+https://www.defense.gov,image/png,"https://www.aviationweather.gov/cgi-bin/mapserver/basic?LAYERS=coast%2Ccoast-h%2Ccoast-us%2Ccntry%2Ccntry-h%2Ccntry-us%2Cstate%2Cstate-h%2Cstate-us%2Cisland%2Cisland-us%2Clake&STYLES=dark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX=-10018753.83,2504688.8825,-7514065.2875,5009377.425&WIDTH=256&HEIGHT=256",Taiwan
+https://www.defense.gov,image/png,"https://www.aviationweather.gov/cgi-bin/mapserver/basic?LAYERS=coast%2Ccoast-h%2Ccoast-us%2Ccntry%2Ccntry-h%2Ccntry-us%2Cstate%2Cstate-h%2Cstate-us%2Cisland%2Cisland-us%2Clake&STYLES=dark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX=-12523442.3725,5009377.425,-10018753.83,7514065.9675&WIDTH=256&HEIGHT=256",Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=4&y=8&z=4,Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=2&y=8&z=4,Taiwan
+https://www.defense.gov,image/png,"https://www.aviationweather.gov/cgi-bin/mapserver/basic?LAYERS=coast%2Ccoast-h%2Ccoast-us%2Ccntry%2Ccntry-h%2Ccntry-us%2Cstate%2Cstate-h%2Cstate-us%2Cisland%2Cisland-us%2Clake&STYLES=dark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX=-15028130.915,2504688.8825,-12523442.3725,5009377.425&WIDTH=256&HEIGHT=256",Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=5&y=9&z=4,Taiwan
+https://www.defense.gov,image/png,"https://www.aviationweather.gov/cgi-bin/mapserver/basic?LAYERS=coast%2Ccoast-h%2Ccoast-us%2Ccntry%2Ccntry-h%2Ccntry-us%2Cstate%2Cstate-h%2Cstate-us%2Cisland%2Cisland-us%2Clake&STYLES=dark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark%2Cdark&TRANSPARENT=TRUE&FORMAT=image%2Fpng&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG%3A3857&BBOX=-10018753.83,5009377.425,-7514065.2875,7514065.9675&WIDTH=256&HEIGHT=256",Taiwan
+https://www.defense.gov,image/png,https://www.aviationweather.gov/cgi-bin/tilecache/tc.php?product=globe_light&x=5&y=8&z=4,Taiwan
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/18/2002118363/900/510/0/190417-F-YT646-0139X.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/19/2002118763/900/510/0/190418-D-BB251-101Y.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/17/2002117847/900/510/0/190410-A-YH902-2447C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/17/2002117591/900/510/0/190412-F-GY993-404C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/12/2002116154/900/510/0/190408-A-JM925-0013C.JPG,Netherlands
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1904/673171.jpg,United States
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/18/2002118003/900/510/0/190409-N-NG033-1012C.JPG,Netherlands
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1902/661055.jpg,United States
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/17/2002117845/900/510/0/190411-M-ZD670-1147C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/16/2002117188/900/510/0/190413-N-QN175-0009.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/11/2002115360/900/510/0/190410-F-GY993-148H.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/18/2002118383/900/510/0/190410-F-GA541-0227Y.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/04/2002109724/825/780/0/190211-D-DB155-001.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Jan/29/2002084065/825/780/0/170801-D-DB155-003.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2018/Nov/21/2002065703/825/780/0/131105-M-SS662-033.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Mar/07/2002097472/825/780/0/170713-D-ZZ999-0010C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2018/Sep/28/2002046109/825/780/0/180921-D-EE902-1016.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Jan/03/2002076902/825/780/0/181104-A-LK885-0084C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2018/Oct/02/2002047320/825/780/0/180803-M-RL017-739.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Feb/14/2002089788/825/780/0/181210-O-ZZ999-022A.JPG,Netherlands
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1902/658600.jpg,United States
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1901/657147.jpg,United States
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1904/670295.jpg,United States
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1904/671633.jpg,United States
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/19/2002118777/825/780/0/190419-D-HG842-0003.JPG,Netherlands
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1902/657923.jpg,United States
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1902/657918.jpg,United States
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/19/2002118716/825/780/0/190418-D-ZZ999-0002C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Apr/10/2002111831/825/780/0/170328-A-XI247-013C.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Jan/16/2002080494/825/780/0/190116-D-ZZ999-105.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2019/Mar/22/2002104771/825/780/0/190322-D-ID696-001.JPG,Netherlands
+https://www.defense.gov,image/jpg,https://media.defense.gov/2018/Nov/15/2002063548/2107/1405/0/181114-Z-SV252-0024C.JPG,Netherlands
+https://www.defense.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.defense.gov,application/x-javascript,https://stats.defense.gov/piwik.js,Netherlands
+https://www.defense.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.defense.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.defense.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1901/656212.jpg,United States
+https://www.defense.gov,image/jpeg,https://cdn.dvidshub.net/media/frames/video/1901/656212.jpg,United States
+https://www.defense.gov,image/gif,https://stats.defense.gov/piwik.php?action_name=U.S.%20Department%20of%20Defense&idsite=13&rec=1&r=297664&h=14&m=33&s=13&url=https%3A%2F%2Fwww.defense.gov%2F&_id=8ce28f6c876351b7&_idts=1555741993&_idvc=1&_idn=0&_refts=0&_viewts=1555741993&send_image=1&cookie=1&res=1280x800&gt_ms=28&pv_id=D7G33V,Netherlands
+https://www.airnow.gov,image/jpeg,https://files.airnowtech.org/airnow/today/cur_aqi_usa.jpg,United States
+https://www.airnow.gov,image/jpeg,https://files.airnowtech.org/airnow/today/forecast_aqi_20190420_usa.jpg,United States
+https://www.airnow.gov,image/gif,https://files.airnowtech.org/airnow/today/anim_aqi_usa.gif,United States
+https://www.fueleconomy.gov,text/css,https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css,United States
+https://www.fueleconomy.gov,application/javascript; charset=utf-8,https://code.jquery.com/ui/1.10.4/jquery-ui.js,United States
+https://www.fueleconomy.gov,image/png,https://code.jquery.com/ui/1.10.4/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png,United States
+https://www.federalreserve.gov,application/javascript,https://players.brightcove.net/66043936001/default_default/index.min.js,Taiwan
+https://www.federalreserve.gov,application/json; charset=UTF-8,https://edge.api.brightcove.com/playback/v1/accounts/66043936001/videos/6023922743001,United States
+https://www.nrel.gov,application/x-javascript,https://dnn506yrbagrg.cloudfront.net/pages/scripts/0011/5883.js?432150,United States
+https://www.consumerfinance.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.fws.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/c656a7b008?a=17418772&v=1118.0c07c19&to=ZlEAYkJWV0cEARFdWl8bJENeVE1dCgxKQ1RWQANfXERRVRcLC1MbR10HQUMNalEXFABiXFRD&rst=1617&ref=https://www.consumerfinance.gov/&qt=1&ap=410&be=631&fe=1607&dc=882&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1555742027241,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:430,%22c%22:430,%22s%22:433,%22ce%22:490,%22rq%22:491,%22rp%22:592,%22rpe%22:602,%22dl%22:599,%22di%22:881,%22ds%22:881,%22de%22:882,%22dc%22:1606,%22l%22:1606,%22le%22:1608%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken",United States
+https://www.fws.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.fws.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.fws.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.fws.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.fws.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.fws.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.fws.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.fws.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.fws.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.fs.fed.us,image/gif,https://8786.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.fs.fed.us%2F&title=Home%20%7C%20US%20Forest%20Service&res=1280x800&accountid=8786&rt=2563&prev=1555742128957&luid=37d96312-f3b3-e737-9c67-7e5551b93db9&rnd=1250,Germany
+https://www.nhtsa.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.11.2.min.js,United States
+https://www.anl.gov,text/javascript; charset=utf-8,https://platform-api.sharethis.com/js/sharethis.js,United States
+https://www.anl.gov,text/javascript,https://buttons-config.sharethis.com/js/59a5bae7229b4d00114b3c58.js,United States
+https://www.anl.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.anl.gov,application/javascript;charset=utf-8,https://player.vimeo.com/api/player.js,United States
+https://www.anl.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.anl.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.anl.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.anl.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.anl.gov,image/gif,https://us5.siteimprove.com/image.aspx?url=https%3A%2F%2Fwww.anl.gov%2F&title=Argonne%20National%20Laboratory%20Homepage%20%7C%20Argonne%20National%20Laboratory&res=1280x800&accountid=85888&rt=3159&prev=1555742140483&luid=c3c4d450-56b8-c933-bf55-62ed0f723d84&rnd=27214,United States
+https://www.export.gov/welcome,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/d80e1d980e?a=111338947&v=1118.0c07c19&to=ZgcDZEtUVksAVUBaV19NIFNNXFdWTlJGRkhQDj5AS1BnSgRYUFZKbg4IXlJG&rst=7359&ref=https://www.anl.gov/&ap=1646&be=1890&fe=7310&dc=3061&perf=%7B%22timing%22:%7B%22of%22:1555742073209,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:354,%22c%22:354,%22s%22:569,%22ce%22:1222,%22rq%22:1222,%22rp%22:1848,%22rpe%22:1852,%22dl%22:1855,%22di%22:3060,%22ds%22:3061,%22de%22:3133,%22dc%22:7310,%22l%22:7310,%22le%22:7316%7D,%22navigation%22:%7B%7D%7D&at=SkAAEgNORUU%3D&jsonp=NREUM.setToken",United States
+https://www.export.gov/welcome,text/css,https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css,United States
+https://www.export.gov/welcome,application/javascript; charset=utf-8,https://code.jquery.com/ui/1.11.4/jquery-ui.js,United States
+https://www.export.gov/welcome,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.10.2.js,United States
+https://www.peacecorps.gov,image/png,https://s3.amazonaws.com/files.peacecorps.gov/images/icon--chat.height-50.png,United States
+https://www.peacecorps.gov,image/png,https://s3.amazonaws.com/files.peacecorps.gov/images/icon--tech.height-50.png,United States
+https://www.peacecorps.gov,image/png,https://s3.amazonaws.com/files.peacecorps.gov/images/icon--calendar.height-50.png,United States
+https://www.peacecorps.gov,image/png,https://s3.amazonaws.com/files.peacecorps.gov/images/icon--laptop.height-50.png,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/Homepage_Feature_Teacher.2e16d0ba.fill-1200x900-c100.jpg,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/46F658B4-B129-484F-AD9C-43841.08710375.fill-600x300-c100.jpg,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/Carrie_Harvey.f9f122e7.fill-600x300-c100.jpg,United States
+https://www.peacecorps.gov,image/png,https://s3.amazonaws.com/files.peacecorps.gov/images/Jody2.b2f6fa5f.fill-600x300-c100.png,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/LGL_17367002_Bowers_M_1_900X1.2e16d0ba.fill-600x300-c100.jpg,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/WhatsApp_Image_2019-04-11_at_.2e16d0ba.fill-600x300-c100.jpg,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/1380128_10202424063867944_771.2e16d0ba.fill-600x300-c100.jpg,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/IMG_3083_2.8caf285d.fill-600x300-c100.jpg,United States
+https://www.peacecorps.gov,image/jpeg,https://s3.amazonaws.com/files.peacecorps.gov/images/100317_Paraguay_DSC1128_1.539e14f0.fill-600x300-c100.jpg,United States
+https://www.data.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-3.3.1.min.js,United States
+https://www.data.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-migrate-3.0.1.min.js,United States
+https://www.data.gov,image/png,https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2019/03/James-river-example-vessel-tracks.png,United States
+https://www.copyright.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/2e87881546?a=69574692&v=1123.df1c7f8&to=M1ABNkAAD0ACUxFfWgoaNhBbTghdB1UdGEUMRQ%3D%3D&rst=2780&ref=https://www.data.gov/&ap=626&be=251&fe=2738&dc=2726&perf=%7B%22timing%22:%7B%22of%22:1555742090915,%22n%22:0,%22f%22:1,%22dn%22:2,%22dne%22:156,%22c%22:156,%22s%22:160,%22ce%22:176,%22rq%22:177,%22rp%22:190,%22rpe%22:196,%22dl%22:198,%22di%22:2084,%22ds%22:2726,%22de%22:2738,%22dc%22:2738,%22l%22:2738,%22le%22:2740%7D,%22navigation%22:%7B%7D%7D&at=HxcCQAgaHE4%3D&jsonp=NREUM.setToken",United States
+https://www.copyright.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.copyright.gov,image/gif,https://smon.loc.gov/b/ss/locgovprod/1/H.27.5/s08049333636591?AQB=1&pccr=true&vidn=2E5D5EC8052A28A4-40000120C0001190&&ndh=1&t=20%2F3%2F2019%2014%3A34%3A56%206%20-480&fid=429B916499EAFCD1-2C2300A09D84894F&ce=UTF-8&ns=thelibraryofcongress&g=https%3A%2F%2Fwww.copyright.gov%2F&server=www.copyright.gov&events=event40&c1=U.S.%20Copyright%20Office&v8=2%3A30PM&c9=PRODDEC2012-1&v9=Saturday&v15=D%3Dg&v19=PRODDEC2012-1&c68=24&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=800&bh=600&AQE=1,United States
+https://www.copyright.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.copyright.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.ready.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.ready.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.ready.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.ready.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.ready.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.ahrq.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.ice.gov,application/javascript,https://search.usa.gov/assets/sayt_loader.js,United States
+https://www.ice.gov,text/css,https://search.usa.gov/assets/sayt.css,United States
+https://www.ice.gov,application/javascript,https://search.usa.gov/assets/sayt_loader_libs.js,United States
+https://www.ice.gov,image/png,https://search.usa.gov/assets/legacy/sayt/ui-bg_flat_75_ffffff_40x100-39ab7ccd9f4e82579da78a9241265df288d8eb65dbbd7cf48aed2d0129887df5.png,United States
+https://www.llnl.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-1.9.1.min.js,United States
+https://www.llnl.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-migrate-1.4.1.min.js,United States
+https://www.llnl.gov,text/javascript,https://analytics.llnl.gov/piwik.js,United States
+https://www.llnl.gov,application/javascript; charset=utf-8,https://platform.twitter.com/widgets.js,United States
+https://www.llnl.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/moment~timeline~tweet.6e5b62723488aee38af0c77681396a5b.js,United States
+https://www.llnl.gov,application/javascript; charset=utf-8,https://platform.twitter.com/js/timeline.4c6ab682148a0366f9efb1647a3f4799.js,United States
+https://www.llnl.gov,application/json; charset=utf-8,https://analytics.llnl.gov/get_id.php?name=www.llnl.gov&callback=jQuery191006384333029483846_1555742103890&_=1555742103891,United States
+https://www.llnl.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.llnl.gov,text/css; charset=utf-8,https://platform.twitter.com/css/timeline.0940efb0bc0eb82a2de893b3e7b414bf.light.ltr.css,United States
+https://www.llnl.gov,image/gif,https://analytics.llnl.gov/piwik.php?action_name=Lawrence%20Livermore%20National%20Laboratory%20%7C&idsite=1&rec=1&r=407664&h=14&m=35&s=5&url=https%3A%2F%2Fwww.llnl.gov%2F&_id=55b715e329521e81&_idts=1555742105&_idvc=1&_idn=0&_refts=0&_viewts=1555742105&send_image=1&cookie=1&res=1280x800&_cvar=%7B%221%22%3A%5B%22drupal%22%2C%22www.llnl.gov%22%5D%7D&gt_ms=326,United States
+https://www.llnl.gov,image/gif,https://analytics.llnl.gov/piwik.php?action_name=Lawrence%20Livermore%20National%20Laboratory%20%7C&idsite=168&rec=1&r=853248&h=14&m=35&s=5&url=https%3A%2F%2Fwww.llnl.gov%2F&_id=e316a5c3ac2fcc0b&_idts=1555742105&_idvc=1&_idn=0&_refts=0&_viewts=1555742105&send_image=1&cookie=1&res=1280x800&gt_ms=326,United States
+https://www.sandia.gov,application/javascript; charset=UTF-8,https://share-ng.sandia.gov/news/resources/news_releases/api/get_recent_posts/?count=5&callback=jQuery3110685949658085754_1555742109076&_=1555742109077,United States
+https://www.hrsa.gov,application/javascript; charset=utf-8,https://code.jquery.com/jquery-migrate-3.0.0.min.js,United States
+https://www.ornl.gov,text/javascript;charset=ISO-8859-1,"https://bam.nr-data.net/1/c385fefcaf?a=70697698&v=1118.0c07c19&to=YwZaMkdYWhYCARJQV1pMeQVBUFsLTBIHXl1rAFkFXVw%3D&rst=2573&ref=https://home.treasury.gov/&ap=37&be=1761&fe=2562&dc=2477&perf=%7B%22timing%22:%7B%22of%22:1555742136455,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:745,%22c%22:745,%22s%22:748,%22ce%22:763,%22rq%22:763,%22rp%22:1722,%22rpe%22:1731,%22dl%22:1730,%22di%22:2477,%22ds%22:2477,%22de%22:2550,%22dc%22:2561,%22l%22:2561,%22le%22:2562%7D,%22navigation%22:%7B%7D%7D&at=T0FZRA9CSRg%3D&jsonp=NREUM.setToken",United States

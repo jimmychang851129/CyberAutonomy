@@ -1,0 +1,102 @@
+site = https://www.cic.gc.ca
+error = HTTPSConnectionPool(host='www.cic.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5e3c8>, 'Connection to www.cic.gc.ca timed out. (connect timeout=10)'))
+site = https://cic.gc.ca
+error = HTTPSConnectionPool(host='cic.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5e198>, 'Connection to cic.gc.ca timed out. (connect timeout=10)'))
+site = https://www.www1.canada.ca
+error = HTTPSConnectionPool(host='www.www1.canada.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5ee10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.cra-arc.gc.ca
+error = HTTPSConnectionPool(host='www.cra-arc.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5ed30>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://cra-arc.gc.ca
+error = HTTPSConnectionPool(host='cra-arc.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fae35c0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.rcmp-grc.gc.ca
+error = HTTPSConnectionPool(host='www.rcmp-grc.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff3c8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://rcmp-grc.gc.ca
+error = HTTPSConnectionPool(host='rcmp-grc.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faffa58>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.army-armee.forces.gc.ca
+error = HTTPSConnectionPool(host='www.army-armee.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5ed30>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://army-armee.forces.gc.ca
+error = HTTPSConnectionPool(host='army-armee.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff400>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.forces.gc.ca
+error = HTTPSConnectionPool(host='www.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faec208>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://forces.gc.ca
+error = HTTPSConnectionPool(host='forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faec7f0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.jmc-cmj.forces.gc.ca
+error = HTTPSConnectionPool(host='www.jmc-cmj.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb00048>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://jmc-cmj.forces.gc.ca
+error = HTTPSConnectionPool(host='jmc-cmj.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faec470>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.ombudsman.forces.gc.ca
+error = HTTPSConnectionPool(host='www.ombudsman.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5e1d0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://ombudsman.forces.gc.ca
+error = HTTPSConnectionPool(host='ombudsman.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5efd0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.rcaf-arc.forces.gc.ca
+error = HTTPSConnectionPool(host='www.rcaf-arc.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff208>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://rcaf-arc.forces.gc.ca
+error = HTTPSConnectionPool(host='rcaf-arc.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faec240>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.navy-marine.forces.gc.ca
+error = HTTPSConnectionPool(host='www.navy-marine.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff630>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://navy-marine.forces.gc.ca
+error = HTTPSConnectionPool(host='navy-marine.forces.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb002e8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.servicecanada.gc.ca
+error = HTTPSConnectionPool(host='www.servicecanada.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff828>, 'Connection to www.servicecanada.gc.ca timed out. (connect timeout=10)'))
+site = https://servicecanada.gc.ca
+error = HTTPSConnectionPool(host='servicecanada.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faffa58>, 'Connection to servicecanada.gc.ca timed out. (connect timeout=10)'))
+site = https://www.inspection.gc.ca
+error = HTTPSConnectionPool(host='www.inspection.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff2e8>, 'Connection to www.inspection.gc.ca timed out. (connect timeout=10)'))
+site = https://inspection.gc.ca
+error = HTTPSConnectionPool(host='inspection.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb00cf8>, 'Connection to inspection.gc.ca timed out. (connect timeout=10)'))
+site = https://www.nserc-crsng.gc.ca
+error = HTTPSConnectionPool(host='www.nserc-crsng.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb00518>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://nserc-crsng.gc.ca
+error = HTTPSConnectionPool(host='nserc-crsng.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb00588>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.asc-csa.gc.ca
+error = HTTPSConnectionPool(host='www.asc-csa.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faec470>, 'Connection to www.asc-csa.gc.ca timed out. (connect timeout=10)'))
+site = https://asc-csa.gc.ca
+error = HTTPSConnectionPool(host='asc-csa.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5ef60>, 'Connection to asc-csa.gc.ca timed out. (connect timeout=10)'))
+site = https://www.canada.pch.gc.ca
+error = HTTPSConnectionPool(host='www.canada.pch.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5ef28>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://canada.pch.gc.ca
+error = HTTPSConnectionPool(host='canada.pch.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5e3c8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.canada.pch.gc.ca
+error = HTTPConnectionPool(host='www.canada.pch.gc.ca', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fa5ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://canada.pch.gc.ca
+error = HTTPConnectionPool(host='canada.pch.gc.ca', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fa5eeb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.hc-sc.gc.ca
+error = HTTPSConnectionPool(host='www.hc-sc.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5edd8>, 'Connection to www.hc-sc.gc.ca timed out. (connect timeout=10)'))
+site = https://hc-sc.gc.ca
+error = HTTPSConnectionPool(host='hc-sc.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa52908>, 'Connection to hc-sc.gc.ca timed out. (connect timeout=10)'))
+site = https://www.publications.gc.ca
+error = HTTPSConnectionPool(host='www.publications.gc.ca', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:847)'),))
+site = https://publications.gc.ca
+error = HTTPSConnectionPool(host='publications.gc.ca', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:847)'),))
+site = https://www.phac-aspc.gc.ca
+error = HTTPSConnectionPool(host='www.phac-aspc.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa52860>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://phac-aspc.gc.ca
+error = HTTPSConnectionPool(host='phac-aspc.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faecb38>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.cihr-irsc.gc.ca
+error = HTTPSConnectionPool(host='www.cihr-irsc.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb00f98>, 'Connection to www.cihr-irsc.gc.ca timed out. (connect timeout=10)'))
+site = https://cihr-irsc.gc.ca
+error = HTTPSConnectionPool(host='cihr-irsc.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faec2e8>, 'Connection to cihr-irsc.gc.ca timed out. (connect timeout=10)'))
+site = https://www.canlearn.ca
+error = HTTPSConnectionPool(host='www.canlearn.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff128>, 'Connection to www.canlearn.ca timed out. (connect timeout=10)'))
+site = https://canlearn.ca
+error = HTTPSConnectionPool(host='canlearn.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff278>, 'Connection to canlearn.ca timed out. (connect timeout=10)'))
+site = https://www.ontla.on.ca
+error = HTTPSConnectionPool(host='www.ontla.on.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faff668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://ontla.on.ca
+error = HTTPSConnectionPool(host='ontla.on.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fafff28>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.ontla.on.ca
+error = HTTPConnectionPool(host='www.ontla.on.ca', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10faff128>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://ontla.on.ca
+error = HTTPConnectionPool(host='ontla.on.ca', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10faff5f8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.sshrc-crsh.gc.ca
+error = HTTPSConnectionPool(host='www.sshrc-crsh.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fafff60>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://sshrc-crsh.gc.ca
+error = HTTPSConnectionPool(host='sshrc-crsh.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa525f8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.ncc-ccn.gc.ca
+error = HTTPSConnectionPool(host='www.ncc-ccn.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10faffef0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://ncc-ccn.gc.ca
+error = HTTPSConnectionPool(host='ncc-ccn.gc.ca', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5eeb8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+site = https://www.psc-cfp.gc.ca
+error = HTTPSConnectionPool(host='www.psc-cfp.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fa5eb70>, 'Connection to www.psc-cfp.gc.ca timed out. (connect timeout=10)'))
+site = https://psc-cfp.gc.ca
+error = HTTPSConnectionPool(host='psc-cfp.gc.ca', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x10fb00828>, 'Connection to psc-cfp.gc.ca timed out. (connect timeout=10)'))

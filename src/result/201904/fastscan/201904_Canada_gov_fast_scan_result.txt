@@ -1,0 +1,152 @@
+The website supports HTTPS, URL = https://www.cbc.ca
+Redirection URL history 1 = http://cic.gc.ca/
+The website doesnt support HTTPS : cic.gc.ca
+Redirection URL history 1 = https://www.canada.ca/
+Redirection URL history 2 = https://www.canada.ca/index.html
+The website supports HTTPS, URL = https://www.canada.ca/home.html
+The website supports HTTPS, URL = https://www1.canada.ca
+Redirection URL history 1 = https://www.gov.on.ca/
+The website supports HTTPS, URL = https://www.ontario.ca/
+Redirection URL history 1 = https://www.canadapost.ca/
+The website supports HTTPS, URL = https://www.canadapost.ca/cpc/en/home.page
+Redirection URL history 1 = http://www.cra-arc.gc.ca/
+The website supports HTTPS, URL = https://www.canada.ca/en/revenue-agency/cra-canada.html
+Redirection URL history 1 = https://www.yorku.ca/
+The website supports HTTPS, URL = https://www.yorku.ca/index.html
+The website supports HTTPS, URL = https://www.ucalgary.ca
+Redirection URL history 1 = https://www.radio-canada.ca/
+The website supports HTTPS, URL = https://ici.radio-canada.ca/
+Redirection URL history 1 = https://www.cbc.radio-canada.ca/
+The website supports HTTPS, URL = https://www.cbc.radio-canada.ca/en/
+Redirection URL history 1 = https://www.carleton.ca/
+The website supports HTTPS, URL = https://carleton.ca/
+The website supports HTTPS, URL = https://www.uottawa.ca
+Redirection URL history 1 = https://www.jobbank.gc.ca/
+Redirection URL history 2 = http://www.jobbank.gc.ca/home
+The website supports HTTPS, URL = https://www.jobbank.gc.ca/home
+The website supports HTTPS, URL = https://www.dal.ca
+The website supports HTTPS, URL = https://www.umanitoba.ca
+Redirection URL history 1 = https://www.viarail.ca/
+The website supports HTTPS, URL = https://www.viarail.ca/en
+The website supports HTTPS, URL = https://www.statcan.gc.ca
+Redirection URL history 1 = https://www.pc.gc.ca/
+The website supports HTTPS, URL = https://www.pc.gc.ca/en
+The website supports HTTPS, URL = https://www.canadainternational.gc.ca
+The website supports HTTPS, URL = https://www.ito.ic.gc.ca
+The website supports HTTPS, URL = https://www.ic.gc.ca
+The website supports HTTPS, URL = https://www.gov.mb.ca
+The website supports HTTPS, URL = https://www.justice.gc.ca
+The website supports HTTPS, URL = https://www.cbsa-asfc.gc.ca
+The website supports HTTPS, URL = https://www.bankofcanada.ca
+The website supports HTTPS, URL = https://www.tc.gc.ca
+The website supports HTTPS, URL = https://www.nrcan.gc.ca
+Redirection URL history 1 = http://rcmp-grc.gc.ca/
+The website doesnt support HTTPS : rcmp-grc.gc.ca
+The website supports HTTPS, URL = https://www.ccohs.ca
+The website supports HTTPS, URL = https://www.international.gc.ca
+Redirection URL history 1 = https://www.thecanadianencyclopedia.ca/
+The website supports HTTPS, URL = https://www.thecanadianencyclopedia.ca/en
+The website supports HTTPS, URL = https://www.sympatico.ca
+The website doesnt support HTTPS : army-armee.forces.gc.ca
+The website doesnt support HTTPS : forces.gc.ca
+The website doesnt support HTTPS : jmc-cmj.forces.gc.ca
+The website doesnt support HTTPS : ombudsman.forces.gc.ca
+The website doesnt support HTTPS : rcaf-arc.forces.gc.ca
+The website doesnt support HTTPS : navy-marine.forces.gc.ca
+Redirection URL history 1 = https://www.mint.ca/
+The website supports HTTPS, URL = https://www.mint.ca/store/template/home.jsp
+The website supports HTTPS, URL = https://www.gnb.ca
+Redirection URL history 1 = https://www.bdc.ca/
+The website supports HTTPS, URL = https://www.bdc.ca/en/pages/home.aspx
+Redirection URL history 1 = https://www.ec.gc.ca/
+The website supports HTTPS, URL = https://www.canada.ca/en/environment-climate-change.html
+Redirection URL history 1 = http://www.servicecanada.gc.ca/
+Redirection URL history 2 = http://www1.canada.ca/en/esdc/service-canada.html
+The website supports HTTPS, URL = https://www1.canada.ca/en/esdc/service-canada.html
+The website supports HTTPS, URL = https://www.tpsgc-pwgsc.gc.ca
+Redirection URL history 1 = https://www.nrc-cnrc.gc.ca/
+The website supports HTTPS, URL = https://nrc.canada.ca/en/
+Redirection URL history 1 = https://www.canadabusiness.ca/
+Redirection URL history 2 = http://canadabusiness.ca/
+Redirection URL history 3 = https://canadabusiness.ca/
+The website supports HTTPS, URL = https://www.canada.ca/en/services/business.html
+The website doesnt support HTTPS : inspection.gc.ca
+The website doesnt support HTTPS : nserc-crsng.gc.ca
+The website supports HTTPS, URL = https://www.dfo-mpo.gc.ca
+The website supports HTTPS, URL = https://www.nfb.ca
+The website supports HTTPS, URL = https://www.cmhc-schl.gc.ca
+The website doesnt support HTTPS : asc-csa.gc.ca
+The website supports HTTPS, URL = https://www.parl.ca
+The website doesnt support HTTPS : canada.pch.gc.ca
+The website doesnt support HTTPS : hc-sc.gc.ca
+Redirection URL history 1 = https://www.pch.gc.ca/
+The website supports HTTPS, URL = https://www.canada.ca/erreur404-error404.html
+The website doesnt support HTTPS : publications.gc.ca
+Redirection URL history 1 = https://www.bac-lac.gc.ca/
+The website supports HTTPS, URL = https://bac-lac.gc.ca
+The website supports HTTPS, URL = https://www.idrc.ca
+Redirection URL history 1 = https://www.agr.gc.ca/
+Redirection URL history 1 = https://agr.gc.ca/
+The website doesnt support HTTPS : agr.gc.ca
+The website supports HTTPS, URL = https://www.aadnc-aandc.gc.ca
+The website supports HTTPS, URL = https://www.gov.yk.ca
+Redirection URL history 1 = https://www.pm.gc.ca/
+The website supports HTTPS, URL = https://pm.gc.ca/
+Redirection URL history 1 = https://www.msvu.ca/
+The website supports HTTPS, URL = https://www.msvu.ca/en/home/default.aspx
+The website supports HTTPS, URL = https://www.gov.nt.ca
+The website supports HTTPS, URL = https://www.liberal.ca
+Redirection URL history 1 = http://phac-aspc.gc.ca/
+The website doesnt support HTTPS : phac-aspc.gc.ca
+Redirection URL history 1 = https://www.crtc.gc.ca/
+The website supports HTTPS, URL = https://crtc.gc.ca/
+The website supports HTTPS, URL = https://www.veterans.gc.ca
+Redirection URL history 1 = https://www.catsa.gc.ca/
+Redirection URL history 2 = https://www.catsa-acsta.gc.ca/
+The website supports HTTPS, URL = https://www.catsa-acsta.gc.ca/en
+Redirection URL history 1 = https://www.healthycanadians.gc.ca/
+The website supports HTTPS, URL = https://www.canada.ca/en/services/health.html
+The website doesnt support HTTPS : cihr-irsc.gc.ca
+The website supports HTTPS, URL = https://www.historymuseum.ca
+Redirection URL history 1 = http://www.canlearn.ca/
+Redirection URL history 2 = http://www.canlearn.ca/eng/index.shtml
+Redirection URL history 3 = http://www.canlearn.ca/cgi-bin/op-so/err/redirect-outbound.asp?status=301%20Moved%20Permanently&redirect_path=/eng/index.shtml&url=https%3A%2F%2Fwww.canada.ca%2Fen%2Femployment-social-development%2Fservices%2Fstudent-financial-aid.html
+Redirection URL history 4 = https://www.canada.ca/en/employment-social-development/services/student-financial-aid.html
+Redirection URL history 5 = https://www.canada.ca/en/services/jobs/education/student-financial-aid.html
+The website supports HTTPS, URL = https://www.canada.ca/en/services/benefits/education/student-aid.html
+The website supports HTTPS, URL = https://www.tbs-sct.gc.ca
+The website doesnt support HTTPS : ontla.on.ca
+Redirection URL history 1 = https://www.canadacouncil.ca/
+The website supports HTTPS, URL = https://canadacouncil.ca/
+Redirection URL history 1 = http://sshrc-crsh.gc.ca/
+The website doesnt support HTTPS : sshrc-crsh.gc.ca
+Redirection URL history 1 = https://www.voyage.gc.ca/
+The website supports HTTPS, URL = https://voyage.gc.ca/
+The website supports HTTPS, URL = https://www.army.ca
+The website supports HTTPS, URL = https://www.tradecommissioner.gc.ca
+Redirection URL history 1 = https://www.openparliament.ca/
+The website supports HTTPS, URL = https://openparliament.ca/
+The website supports HTTPS, URL = https://www.fin.gc.ca
+The website supports HTTPS, URL = https://www.publicsafety.gc.ca
+The website supports HTTPS, URL = https://www.ndp.ca
+Redirection URL history 1 = http://www.ncc-ccn.gc.ca/
+The website doesnt support HTTPS : ncc-ccn.gc.ca
+The website supports HTTPS, URL = https://www.elections.ca
+Redirection URL history 1 = https://www.nac-cna.ca/
+Redirection URL history 2 = https://nac-cna.ca/
+The website supports HTTPS, URL = https://nac-cna.ca/en/
+The website supports HTTPS, URL = https://www.marineatlantic.ca
+The website supports HTTPS, URL = https://www.opp.ca
+The website supports HTTPS, URL = https://www.gg.ca
+The website supports HTTPS, URL = https://www.edc.ca
+Redirection URL history 1 = http://www.psc-cfp.gc.ca/
+The website supports HTTPS, URL = https://www.canada.ca/en/public-service-commission.html
+The website supports HTTPS, URL = https://www.rncan.gc.ca
+The website supports HTTPS, URL = https://www.warmuseum.ca
+Redirection URL history 1 = https://www.rmcc-cmrc.ca/
+Redirection URL history 2 = https://www.rmc-cmr.ca/
+The website supports HTTPS, URL = https://www.rmc-cmr.ca/en
+The website supports HTTPS, URL = https://www.csc-scc.gc.ca
+The website supports HTTPS, URL = https://www.cse-cst.gc.ca
+Redirection URL history 1 = https://www.sencanada.ca/
+The website supports HTTPS, URL = https://www.sencanada.ca/en

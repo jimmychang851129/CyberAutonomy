@@ -1,0 +1,155 @@
+Redirection URL history 1 = https://www.pole-emploi.fr/
+The website supports HTTPS, URL = https://www.pole-emploi.fr/accueil/
+The website supports HTTPS, URL = https://www.laposte.fr
+The website supports HTTPS, URL = https://www.rfi.fr
+The website supports HTTPS, URL = https://www.impots.gouv.fr
+The website supports HTTPS, URL = https://www.service-public.fr
+The website supports HTTPS, URL = https://www.france.tv
+The website supports HTTPS, URL = https://www.edf.fr
+Redirection URL history 1 = https://www.diplomatie.gouv.fr/
+The website supports HTTPS, URL = https://www.diplomatie.gouv.fr/fr/
+Redirection URL history 1 = https://education.fr/
+The website supports HTTPS, URL = https://www.education.gouv.fr/
+Redirection URL history 1 = http://www.pagesperso-orange.fr/
+Redirection URL history 1 = http://pagesperso-orange.fr/
+The website doesnt support HTTPS : pagesperso-orange.fr
+The website supports HTTPS, URL = https://www.education.gouv.fr
+The website supports HTTPS, URL = https://www.legifrance.gouv.fr
+The website supports HTTPS, URL = https://www.paris.fr
+The website supports HTTPS, URL = https://www.archives-ouvertes.fr
+The website supports HTTPS, URL = https://www.cnrs.fr
+Redirection URL history 1 = https://www.etudiant.gouv.fr/
+Redirection URL history 1 = https://etudiant.gouv.fr/
+Redirection URL history 2 = http://etudiant.gouv.fr/
+Redirection URL history 1 = http://etudiant.gouv.fr/
+The website doesnt support HTTPS : etudiant.gouv.fr
+The website supports HTTPS, URL = https://www.interieur.gouv.fr
+The website supports HTTPS, URL = https://www.inria.fr
+The website supports HTTPS, URL = https://www.onisep.fr
+Redirection URL history 1 = https://www.lassuranceretraite.fr/
+The website supports HTTPS, URL = https://www.lassuranceretraite.fr/portail-info/accueil
+The website supports HTTPS, URL = https://www.infogreffe.fr
+The website supports HTTPS, URL = https://www.ina.fr
+The website supports HTTPS, URL = https://www.amendes.gouv.fr
+The website supports HTTPS, URL = https://www.inist.fr
+Redirection URL history 1 = https://www.insee.fr/
+The website supports HTTPS, URL = https://www.insee.fr/fr/accueil
+The website supports HTTPS, URL = https://www.economie.gouv.fr
+The website supports HTTPS, URL = https://www.statistiques.developpement-durable.gouv.fr
+Redirection URL history 1 = https://www.developpement-durable.gouv.fr/
+The website supports HTTPS, URL = https://www.ecologique-solidaire.gouv.fr/
+The website supports HTTPS, URL = https://www.defense.gouv.fr
+The website supports HTTPS, URL = https://www.forumpro.fr
+Redirection URL history 1 = https://www.inra.fr/
+Redirection URL history 1 = https://inra.fr/
+Redirection URL history 2 = http://inra.fr/
+Redirection URL history 1 = http://inra.fr/
+The website doesnt support HTTPS : inra.fr
+Redirection URL history 1 = https://www.sante.fr/
+The website supports HTTPS, URL = https://sante.fr/
+The website supports HTTPS, URL = https://www.cartesfrance.fr
+Redirection URL history 1 = https://www.ife.ens-lyon.fr/
+Redirection URL history 1 = https://ife.ens-lyon.fr/
+Redirection URL history 1 = http://www.ife.ens-lyon.fr/
+Redirection URL history 2 = http://ife.ens-lyon.fr/
+Redirection URL history 1 = http://ife.ens-lyon.fr/
+The website doesnt support HTTPS : ife.ens-lyon.fr
+Redirection URL history 1 = https://www.ens-lyon.fr/
+The website doesnt support HTTPS : ens-lyon.fr
+The website supports HTTPS, URL = https://www.sciencespo.fr
+Redirection URL history 1 = http://cned.fr/
+The website doesnt support HTTPS : cned.fr
+The website supports HTTPS, URL = https://www.ac-caen.fr
+Redirection URL history 1 = http://assemblee-nationale.fr/
+The website doesnt support HTTPS : assemblee-nationale.fr
+The website supports HTTPS, URL = https://www.fonction-publique.gouv.fr
+The website supports HTTPS, URL = https://www.groupe-communiste.assemblee-nationale.fr
+The website doesnt support HTTPS : rpr.assemblee-nationale.fr
+The website supports HTTPS, URL = https://www.modernisation.gouv.fr
+Redirection URL history 1 = http://justice.gouv.fr/
+The website doesnt support HTTPS : justice.gouv.fr
+Redirection URL history 1 = https://ac-dijon.fr/
+Redirection URL history 1 = http://ac-dijon.fr/
+The website doesnt support HTTPS : ac-dijon.fr
+The website supports HTTPS, URL = https://www.cadastre.gouv.fr
+The website supports HTTPS, URL = https://www.ird.fr
+Redirection URL history 1 = https://www.enseignementsup-recherche.gouv.fr/
+Redirection URL history 1 = https://enseignementsup-recherche.gouv.fr/
+Redirection URL history 1 = http://enseignementsup-recherche.gouv.fr/
+The website doesnt support HTTPS : enseignementsup-recherche.gouv.fr
+The website supports HTTPS, URL = https://www.cirad.fr
+The website supports HTTPS, URL = https://www.douane.gouv.fr
+The website supports HTTPS, URL = https://www.ciep.fr
+Redirection URL history 1 = https://www.reseau-canope.fr/
+Redirection URL history 2 = https://www.reseau-canope.fr/cas-usagers/login?service=https%3A%2F%2Fwww.reseau-canope.fr%2F&gateway=true
+The website supports HTTPS, URL = https://www.reseau-canope.fr/
+Redirection URL history 1 = https://www.inpi.fr/
+The website supports HTTPS, URL = https://www.inpi.fr/fr
+The website supports HTTPS, URL = https://www.afecreation.fr
+The website supports HTTPS, URL = https://www.agriculture.gouv.fr
+The website supports HTTPS, URL = https://www.senat.fr
+The website doesnt support HTTPS : finances.gouv.fr
+The website supports HTTPS, URL = https://www.cnil.fr
+The website supports HTTPS, URL = https://www.gouvernement.fr
+The website doesnt support HTTPS : budget.gouv.fr
+The website supports HTTPS, URL = https://www.ecologique-solidaire.gouv.fr
+The website doesnt support HTTPS : cesbio.ups-tlse.fr
+The website doesnt support HTTPS : ign.fr
+The website supports HTTPS, URL = https://www.inserm.fr
+The website doesnt support HTTPS : chez-alice.fr
+Redirection URL history 1 = http://www.culturecommunication.gouv.fr/
+Redirection URL history 1 = http://culturecommunication.gouv.fr/
+The website doesnt support HTTPS : culturecommunication.gouv.fr
+The website supports HTTPS, URL = https://www.bison-fute.gouv.fr
+Redirection URL history 1 = https://www.has-sante.fr/
+The website supports HTTPS, URL = https://www.has-sante.fr/portail/
+The website supports HTTPS, URL = https://www.lemoniteur.fr
+Redirection URL history 1 = https://www.rhonealpes.fr/
+The website supports HTTPS, URL = https://www.auvergnerhonealpes.fr/
+The website supports HTTPS, URL = https://www.vie-publique.fr
+Redirection URL history 1 = https://www.freedomhouse.org/
+The website supports HTTPS, URL = https://freedomhouse.org/
+The website supports HTTPS, URL = https://www.laregion.fr
+Redirection URL history 1 = http://culture.gouv.fr/
+The website doesnt support HTTPS : culture.gouv.fr
+The website supports HTTPS, URL = https://www.iledefrance.fr
+The website supports HTTPS, URL = https://www.haute-garonne.fr
+The website supports HTTPS, URL = https://www.seine-saint-denis.gouv.fr
+The website supports HTTPS, URL = https://www.toulouse.fr
+Redirection URL history 1 = https://www.bordeaux.fr/
+Redirection URL history 1 = https://bordeaux.fr/
+Redirection URL history 2 = http://bordeaux.fr/accueil/pgAccueil.psml?_nfpb=true&_pageLabel=pgSomGen&classofcontent=sommaireGen&id=1
+Redirection URL history 1 = http://bordeaux.fr/
+The website doesnt support HTTPS : bordeaux.fr
+The website supports HTTPS, URL = https://www.lyon.fr
+The website supports HTTPS, URL = https://www.justice.fr
+Redirection URL history 1 = http://www.ca-paris.justice.fr/
+The website supports HTTPS, URL = https://www.cours-appel.justice.fr/paris
+The website doesnt support HTTPS : ca-grenoble.justice.fr
+The website supports HTTPS, URL = https://www.ca-pau.justice.fr
+The website doesnt support HTTPS : tgi-angouleme.justice.fr
+The website supports HTTPS, URL = https://www.hauts-de-seine.gouv.fr
+The website supports HTTPS, URL = https://www.elysee.fr
+The website supports HTTPS, URL = https://www.radiofrance.fr
+Redirection URL history 1 = http://cea.fr/
+The website doesnt support HTTPS : cea.fr
+Redirection URL history 1 = https://www.nantes.fr/
+Redirection URL history 1 = https://nantes.fr/
+Redirection URL history 2 = https://www.nantes.fr/
+Redirection URL history 1 = http://www.nantes.fr/
+Redirection URL history 1 = http://nantes.fr/
+Redirection URL history 2 = https://www.nantes.fr/
+The website doesnt support HTTPS : nantes.fr
+Redirection URL history 1 = http://www.in2p3.fr/
+The website supports HTTPS, URL = https://in2p3.cnrs.fr/
+The website supports HTTPS, URL = https://www.banque-france.fr
+Redirection URL history 1 = https://www.ehess.fr/
+The website supports HTTPS, URL = https://www.ehess.fr/fr
+The website doesnt support HTTPS : home.nordnet.fr
+The website supports HTTPS, URL = https://www.bpifrance.fr
+The website supports HTTPS, URL = https://www.journal-officiel.gouv.fr
+The website supports HTTPS, URL = https://www.valdoise.fr
+Redirection URL history 1 = https://www.afd.fr/
+The website supports HTTPS, URL = https://www.afd.fr/fr
+The website doesnt support HTTPS : marseille.fr
+The website supports HTTPS, URL = https://www.cmu.fr

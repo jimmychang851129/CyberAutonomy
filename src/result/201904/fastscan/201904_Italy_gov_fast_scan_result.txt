@@ -1,0 +1,177 @@
+The website supports HTTPS, URL = https://www.libero.it
+The website supports HTTPS, URL = https://www.virgilio.it
+Redirection URL history 1 = http://web.tiscali.it/
+The website doesnt support HTTPS : web.tiscali.it
+The website supports HTTPS, URL = https://www.tiscali.it
+Redirection URL history 1 = https://www.inps.it/
+The website supports HTTPS, URL = https://www.inps.it/nuovoportaleinps/default.aspx
+Redirection URL history 1 = https://www.istruzione.it/
+Redirection URL history 2 = http://www.istruzione.it/
+Redirection URL history 1 = https://istruzione.it/
+Redirection URL history 1 = http://www.istruzione.it/
+Redirection URL history 1 = http://istruzione.it/
+The website doesnt support HTTPS : istruzione.it
+The website supports HTTPS, URL = https://www.rai.it
+The website doesnt support HTTPS : mef.gov.it
+The website supports HTTPS, URL = https://www.poliziadistato.it
+Redirection URL history 1 = https://www.esteri.it/
+Redirection URL history 2 = http://www.esteri.it/mae
+Redirection URL history 3 = http://www.esteri.it/mae/
+Redirection URL history 4 = https://www.esteri.it/mae/
+The website supports HTTPS, URL = https://www.esteri.it/mae/it/
+Redirection URL history 1 = https://www.giustizia.it/
+Redirection URL history 2 = https://www.giustizia.it/giustizia
+The website supports HTTPS, URL = https://www.giustizia.it/giustizia/
+The website supports HTTPS, URL = https://www.procura.milano.giustizia.it
+The website supports HTTPS, URL = https://www.beniculturali.it
+The website doesnt support HTTPS : archivi.beniculturali.it
+The website doesnt support HTTPS : librari.beniculturali.it
+The website doesnt support HTTPS : darc.beniculturali.it
+The website doesnt support HTTPS : arti.beniculturali.it
+Redirection URL history 1 = http://www.grafica.arti.beniculturali.it/
+Redirection URL history 1 = http://grafica.arti.beniculturali.it/
+The website doesnt support HTTPS : grafica.arti.beniculturali.it
+The website doesnt support HTTPS : archeologia.beniculturali.it
+The website doesnt support HTTPS : paesaggio.beniculturali.it
+The website doesnt support HTTPS : iccd.beniculturali.it
+The website doesnt support HTTPS : icr.beniculturali.it
+Redirection URL history 1 = https://www.regione.lombardia.it/
+The website doesnt support HTTPS : regione.lombardia.it
+The website doesnt support HTTPS : rete.toscana.it
+The website supports HTTPS, URL = https://www.infocamere.it
+The website supports HTTPS, URL = https://www.interno.it
+The website supports HTTPS, URL = https://www.cnr.it
+The website doesnt support HTTPS : ambitalia-tn.bo.cnr.it
+Redirection URL history 1 = https://www.itu.int/
+Redirection URL history 2 = https://www.itu.int/Pages/VariationRoot.aspx
+Redirection URL history 3 = https://www.itu.int/en
+The website supports HTTPS, URL = https://www.itu.int/en/Pages/default.aspx
+The website doesnt support HTTPS : mission.itu.int
+The website doesnt support HTTPS : missions.itu.int
+Redirection URL history 1 = https://www.comune.roma.it/
+Redirection URL history 2 = http://www.comune.roma.it/web/it/home.page
+The website supports HTTPS, URL = https://www.comune.roma.it/web/it/home.page
+Redirection URL history 1 = https://www.difesa.it/
+Redirection URL history 1 = https://difesa.it/
+Redirection URL history 2 = http://www.difesa.it
+Redirection URL history 1 = http://www.difesa.it/
+Redirection URL history 1 = http://difesa.it/
+Redirection URL history 2 = http://www.difesa.it
+The website doesnt support HTTPS : difesa.it
+The website doesnt support HTTPS : segredif.difesa.it
+The website supports HTTPS, URL = https://www.commiservizi.difesa.it
+The website supports HTTPS, URL = https://www.smd.difesa.it
+The website doesnt support HTTPS : esercito.difesa.it
+Redirection URL history 1 = http://www.marina.difesa.it/
+The website doesnt support HTTPS : marina.difesa.it
+Redirection URL history 1 = https://www.aeronautica.difesa.it/
+Redirection URL history 1 = http://www.aeronautica.difesa.it/
+The website doesnt support HTTPS : aeronautica.difesa.it
+Redirection URL history 1 = https://www.arpa.veneto.it/
+The website doesnt support HTTPS : arpa.veneto.it
+Redirection URL history 1 = https://www.infn.it/
+Redirection URL history 2 = http://home.infn.it/
+Redirection URL history 1 = https://infn.it/
+Redirection URL history 2 = http://home.infn.it/
+Redirection URL history 1 = http://www.infn.it/
+Redirection URL history 2 = http://home.infn.it/
+Redirection URL history 1 = http://infn.it/
+Redirection URL history 2 = http://home.infn.it/
+The website doesnt support HTTPS : infn.it
+The website supports HTTPS, URL = https://www.regione.emilia-romagna.it
+Redirection URL history 1 = https://www.regione.veneto.it/
+The website supports HTTPS, URL = https://www.regione.veneto.it/web/guest;jsessionid=36DFFC673BC9D73A8140490893D9E6B6.liferay01
+The website doesnt support HTTPS : comune.torino.it
+Redirection URL history 1 = https://www.camcom.it/
+Redirection URL history 1 = http://www.camcom.it/
+The website doesnt support HTTPS : camcom.it
+The website doesnt support HTTPS : salute.gov.it
+The website doesnt support HTTPS : inail.it
+Redirection URL history 1 = https://www.camera.it/
+The website supports HTTPS, URL = https://www.camera.it/leg18/1
+The website doesnt support HTTPS : regione.sicilia.it
+The website supports HTTPS, URL = https://www.istat.it
+The website doesnt support HTTPS : crs.lombardia.it
+Redirection URL history 1 = https://www.regione.lazio.it/
+Redirection URL history 2 = http://www.regione.lazio.it/rl_main
+The website supports HTTPS, URL = https://regione.lazio.it
+Redirection URL history 1 = http://www.miur.it/
+The website doesnt support HTTPS : miur.it
+The website supports HTTPS, URL = https://www.regione.sardegna.it
+Redirection URL history 1 = http://www.enea.it/
+The website doesnt support HTTPS : enea.it
+Redirection URL history 1 = https://www.regione.toscana.it/
+Redirection URL history 1 = https://regione.toscana.it/
+Redirection URL history 1 = http://regione.toscana.it/
+The website doesnt support HTTPS : regione.toscana.it
+The website supports HTTPS, URL = https://www.bancaditalia.it
+Redirection URL history 1 = https://www.finanze.it/
+Redirection URL history 2 = http://www.finanze.it/opencms/it
+The website supports HTTPS, URL = https://www.finanze.it/opencms/it
+The website supports HTTPS, URL = https://www.regione.piemonte.it
+Redirection URL history 1 = https://www.regione.fvg.it/
+Redirection URL history 1 = http://www.regione.fvg.it/
+The website doesnt support HTTPS : regione.fvg.it
+The website doesnt support HTTPS : sirio.regione.liguria.it
+The website supports HTTPS, URL = https://www.regione.liguria.it
+The website supports HTTPS, URL = https://www.comune.bologna.it
+The website supports HTTPS, URL = https://www2.comune.bologna.it
+The website doesnt support HTTPS : carabinieri.it
+Redirection URL history 1 = http://www.vigilfuoco.it/
+The website doesnt support HTTPS : vigilfuoco.it
+Redirection URL history 1 = https://www.iccu.sbn.it/
+The website supports HTTPS, URL = https://www.iccu.sbn.it/it/
+Redirection URL history 1 = https://www.agenziaentrate.it/
+Redirection URL history 2 = http://www.agenziaentrate.gov.it/
+Redirection URL history 3 = https://www.agenziaentrate.gov.it/
+Redirection URL history 4 = https://dichiarazioneprecompilata.agenziaentrate.gov.it/
+The website supports HTTPS, URL = https://dichiarazioneprecompilata.agenziaentrate.gov.it/index.htm?v=150419
+The website supports HTTPS, URL = https://www.iss.it
+The website doesnt support HTTPS : regione.campania.it
+Redirection URL history 1 = https://www.senato.it/
+The website supports HTTPS, URL = https://www.senato.it/home
+The website supports HTTPS, URL = https://www.prefettura.it
+The website supports HTTPS, URL = https://www.camcom.gov.it
+The website supports HTTPS, URL = https://www.ordineingegneri.bergamo.it
+Redirection URL history 1 = https://www.sviluppoeconomico.gov.it/
+Redirection URL history 2 = https://www.mise.gov.it/
+The website supports HTTPS, URL = https://www.mise.gov.it/index.php/it/
+The website supports HTTPS, URL = https://www.comune.modena.it
+The website supports HTTPS, URL = https://www.agid.gov.it
+Redirection URL history 1 = http://www.regione.calabria.it/
+Redirection URL history 1 = http://regione.calabria.it/
+Redirection URL history 2 = http://portale.regione.calabria.it
+The website doesnt support HTTPS : regione.calabria.it
+Redirection URL history 1 = https://www.nic.it/
+The website supports HTTPS, URL = https://www.nic.it/it
+Redirection URL history 1 = http://regione.puglia.it/
+The website doesnt support HTTPS : regione.puglia.it
+The website doesnt support HTTPS : mit.gov.it
+The website supports HTTPS, URL = https://www.regione.marche.it
+Redirection URL history 1 = http://governo.it/
+The website doesnt support HTTPS : governo.it
+The website supports HTTPS, URL = https://www.comune.venezia.it
+The website supports HTTPS, URL = https://www.giustizia-amministrativa.it
+The website doesnt support HTTPS : sistemapiemonte.it
+The website supports HTTPS, URL = https://www.uibm.gov.it
+The website supports HTTPS, URL = https://www.autorita.energia.it
+The website doesnt support HTTPS : regione.basilicata.it
+The website doesnt support HTTPS : energia.it
+Redirection URL history 1 = https://www.indicepa.gov.it/
+The website supports HTTPS, URL = https://www.indicepa.gov.it/documentale/index.php
+The website doesnt support HTTPS : protezionecivile.gov.it
+Redirection URL history 1 = http://www.comune.genova.it/
+The website supports HTTPS, URL = https://smart.comune.genova.it/
+The website doesnt support HTTPS : tesoro.it
+The website doesnt support HTTPS : dgt.tesoro.it
+The website supports HTTPS, URL = https://www.garanteprivacy.it
+The website supports HTTPS, URL = https://www.agenziafarmaco.gov.it
+The website supports HTTPS, URL = https://www.agcom.it
+Redirection URL history 1 = http://www.regione.umbria.it/
+Redirection URL history 2 = http://www.regione.umbria.it/c/portal/layout;jsessionid=6D67B60C64253C26EC3755A8D06F91F9
+Redirection URL history 1 = http://regione.umbria.it/
+Redirection URL history 2 = http://www.regione.umbria.it
+Redirection URL history 3 = http://www.regione.umbria.it/c/portal/layout;jsessionid=397E8C2D7EDC464AC8A40F6B2A7BDA9D
+The website doesnt support HTTPS : regione.umbria.it
+Redirection URL history 1 = http://www.gdf.it/
+The website doesnt support HTTPS : gdf.it

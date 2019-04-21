@@ -1,0 +1,50 @@
+site = https://www.gateway.gov.uk
+error = HTTPSConnectionPool(host='www.gateway.gov.uk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104a9b5f8>, 'Connection to www.gateway.gov.uk timed out. (connect timeout=10)'))
+site = https://gateway.gov.uk
+error = HTTPSConnectionPool(host='gateway.gov.uk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7780>, 'Connection to gateway.gov.uk timed out. (connect timeout=10)'))
+site = https://www.webarchive.nationalarchives.gov.uk
+error = HTTPSConnectionPool(host='www.webarchive.nationalarchives.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab74e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.acaf.food.gov.uk
+error = HTTPSConnectionPool(host='www.acaf.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7588>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.acnfp.food.gov.uk
+error = HTTPSConnectionPool(host='www.acnfp.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7128>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.acmsf.food.gov.uk
+error = HTTPSConnectionPool(host='www.acmsf.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7390>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.cot.food.gov.uk
+error = HTTPSConnectionPool(host='www.cot.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab7438>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.gacs.food.gov.uk
+error = HTTPSConnectionPool(host='www.gacs.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab73c8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://gacs.food.gov.uk
+error = HTTPSConnectionPool(host='gacs.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104ab72e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.gacs.food.gov.uk
+error = HTTPConnectionPool(host='www.gacs.food.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab70b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://gacs.food.gov.uk
+error = HTTPConnectionPool(host='gacs.food.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104ab70f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.ssrc.food.gov.uk
+error = HTTPSConnectionPool(host='www.ssrc.food.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2ba90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.leeds.gov.uk
+error = HTTPSConnectionPool(host='www.leeds.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2b048>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://leeds.gov.uk
+error = HTTPSConnectionPool(host='leeds.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2b9e8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.leeds.gov.uk
+error = HTTPConnectionPool(host='www.leeds.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2b3c8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://leeds.gov.uk
+error = HTTPConnectionPool(host='leeds.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2b240>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.astro.ukho.gov.uk
+error = HTTPSConnectionPool(host='www.astro.ukho.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2ba20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://astro.ukho.gov.uk
+error = HTTPSConnectionPool(host='astro.ukho.gov.uk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x104b2b908>, 'Connection to astro.ukho.gov.uk timed out. (connect timeout=10)'))
+site = http://www.astro.ukho.gov.uk
+error = HTTPConnectionPool(host='www.astro.ukho.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b2beb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://www.jncc.defra.gov.uk
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://jncc.defra.gov.uk
+error = ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+site = https://www.highways.gov.uk
+error = HTTPSConnectionPool(host='www.highways.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b390>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = https://highways.gov.uk
+error = HTTPSConnectionPool(host='highways.gov.uk', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104b3b550>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://www.highways.gov.uk
+error = HTTPConnectionPool(host='www.highways.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3bba8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+site = http://highways.gov.uk
+error = HTTPConnectionPool(host='highways.gov.uk', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104b3b940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
