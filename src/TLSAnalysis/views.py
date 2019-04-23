@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse, JsonResponse
 import csv,os,json
 
 filedir = os.path.dirname(os.path.realpath('__file__'))
@@ -31,3 +32,46 @@ def TLS_Request(request, *args, **kwargs):
 	if country < 0 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"TLSAnalysis/tls.html",context)
+
+	context['message'] = "OK"
+	if country == 0:
+		context['filetype'] = '0'
+		cntList = [[0]*12]*8
+		tmppath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/thoroughscan")
+		for i in range(len(conf['CountryList'])):
+			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
+			f = open(filepath, encoding="utf-8")
+			c = csv.reader(f)
+			for line in c:
+				if "Ready" in line[2]:
+					for j in range(4,15):
+						if "FALSE" not in line[j]:
+							cntList[i][j-4] += 1
+					if 'present' in line[17]:
+						cntList[i][11] += 1
+			f.close()
+		print("cntList = ",cntList)
+		context['data'] = cntList
+		print("context = ",context)
+		return JsonResponse(context,safe=False)
+	else:
+		context['filetype'] = '0'
+		context["Country"] = conf["CountryList"][country-1]
+		cntList = [0]*12
+		tmppath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/thoroughscan")
+		filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
+		f = open(filepath, encoding="utf-8")
+		c = csv.reader(f)
+		for line in c:
+			if "Ready" in line[2]:
+				for j in range(4,15):
+					if "FALSE" not in line[j]:
+						cntList[j-4] += 1
+				if 'present' in line[17]:
+					cntList[11] += 1
+		f.close()
+		print("cntList = ",cntList)
+		context['data'] = cntList
+		print("context = ",context)
+		return JsonResponse(context,safe=False)
+

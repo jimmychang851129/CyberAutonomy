@@ -6,3 +6,6 @@ def testHttpsApp(request, *args, **kwargs):
 
 def testHSTSApp(request, *args, **kwargs):
 	return render(request,"testApp/hststest.html")
+
+def testTLSApp(request, *args, **kwargs):
+	return render(request,"testApp/tlstest.html")

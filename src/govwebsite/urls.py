@@ -21,8 +21,8 @@ from CPAnalysis.views import CPHome_page,CPDate
 from HSTSAnalysis.views import HSTSHome_page,HSTS_Request
 from CAAnalysis.views import CAHome_page, CA_Request
 from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request
-from TLSAnalysis.views import TLSHome_page
-from testApp.views import testHttpsApp,testHSTSApp
+from TLSAnalysis.views import TLSHome_page,TLS_Request
+from testApp.views import testHttpsApp,testHSTSApp,testTLSApp
 
 # with name parameter, we can refer to it by name rather than url
 urlpatterns = [
@@ -36,6 +36,8 @@ urlpatterns = [
     path('TLSAnalysis',TLSHome_page,name='TLSAnalysis'),
     path('HTTPS_Request',HTTPS_Request,name='HTTPS_Request'),
     path('HSTS_Request',HSTS_Request,name='HSTS_Request'),
+    path('TLS_Request',TLS_Request,name='TLS_Request'),
     path('testHttps',testHttpsApp,name='testHttps'),
     path('testHSTS',testHSTSApp,name='testHSTS'),
+    path('testTLS',testTLSApp,name='testTLS'),
 ]
