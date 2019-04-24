@@ -1,14 +1,193 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CP Homepage</title>
+	{% load staticfiles %}
+	<script src="{% static 'script/chart.min.js' %}"></script>
+	<script src="{% static 'script/jquery.min.js' %}"></script>
+	<meta charset="utf-8"></meta>
+	<link rel='stylesheet' href="{% static 'style/bootstrap.min.css' %}"></link>
+	<link rel="stylesheet" href="{% static 'style/style.css' %}"></link>
+	<title>G8 Government Websites CP Scanning</title>
 </head>
 <body>
-	<h1>CP homepage</h1>
-	<p>query date output data</p>
-	<form method="POST" action="http://127.0.0.1:8000/CPDate">{% csrf_token %}
-	Date query : <input type="text" name="Datequery" plcaeholder="20180711">
-	<input type="submit" value="submit">
-	</form>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="menuborder"><a href="home"><span class="menubar">Home</span></a></li>
+      <li class="menuborder"><a href="HTTPSAnalysis"><span class="menubar">HTTPS</span></a></li>
+      <li class="menuborder"><a href="HSTSAnalysis"><span class="menubar">HSTS</span></a></li>
+      <li class="menuborder"><a href="TLSAnalysis"><span class="menubar">TLS vulnerability</span></a></li>
+      <li class="menuborder"><a href="CAAnalysis"><span class="menubar">Root CA</span></a></li>
+      <li class="menuborder active"><a href="CPAnalysis"><span class="menubar">Content Provider</span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12" style="background: grey;">
+			<form id="cp_search" class="select-panel form-group">
+				{% csrf_token %}
+				<label>Please Choose for Scanning Country:</label>
+				<!-- Add season with ajax -->
+				<select class="form-control" name="filetype">
+					<option value="0">Overall Comparison</option>
+					<option value="1">USA</option>
+					<option value="2">Canada</option>
+					<option value="3">France</option>
+					<option value="4">Germany</option>
+					<option value="5">Italy</option>
+					<option value="6">Japan</option>
+					<option value="7">UK</option>
+					<option value="8">Taiwan</option>
+				</select>
+				<label>Scanning Season:</label>
+				<select class="form-control" name="season">
+					{% for seasons in time %}
+					<option>{{seasons}}</option>
+					{% endfor %}
+				</select>
+				<button id="cp_submit" class="search-button" type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div id="chartcontainer" class="row" style="background-color: black;">
+	</div>
+
+	<div class="row">
+		<h1>footer</h1>
+	</div>
+
+</div>
+
 </body>
 </html>
+<script>
+// auto scroll
+function scrollgraph(argument) {
+	$('html, body').animate({
+    scrollTop: $("#chartcontainer").offset().top
+  }, 600);
+}
+var sendform = $("#cp_search");
+// clear previous records
+$("#cp_submit").click(function(e) {
+	$("#chart").remove();
+$("#chartcontainer").append('<canvas id="chart" class="chartboard"></canvas>');
+
+// AJAX submit form
+e.preventDefault();
+$.ajax({
+  type: 'POST',
+  url: 'CP_Request',
+  data: sendform.serialize(),
+  dataType: "html",
+  success: function(data)
+  {
+			var object = JSON.parse(data);
+
+			try{
+				var filetype = parseInt(object["filetype"]);
+				console.log(filetype);
+				if(filetype >=1 && filetype <= 8){
+					//TODO: if [one country] - pie chart
+					var myPieChart = new Chart('chart', {
+					    type: 'pie',
+					    data: {
+					    	labels: ['External Resource usage','no usage'],
+					    	datasets: [{
+					    		data: [parseInt(object["data"]), 100-parseInt(object["data"])],
+					    		backgroundColor: ["#6D0099","#999999"]
+					    	}],
+					    },
+				    	options: {
+					        title: {
+					            display: true,
+					            text: object["Country"] + ' Government top100 Content Provider Autonomy',
+					            fontColor: '#FFF',
+						          fontSize: 24
+					        },
+					        legend: {
+					        	labels: {
+					        		fontColor: '#d4ffc6',
+					        		fontSize: 18
+					        	}
+					        }
+					    }
+					});
+				} else if(filetype === 0){
+					//TODO: if [all comparison] - bar chart
+					var myPieChart = new Chart('chart', {
+				    type: 'bar',
+				    data: {
+				    	labels: ['USA','Canada','France','Germany','Italy','Japan','UK','Taiwan'],
+				    	datasets: [{
+				    		data: object["data"],
+				    		backgroundColor: ["rgb(176, 122, 161, 1)","rgba(78, 121, 167, 1)","rgba(242, 142, 43, 1)","rgba(225, 87, 89, 1)","rgba(118, 183, 178, 1)","rgba(89, 161, 79, 1)","rgba(237, 201, 72, 1)","rgba(255, 255, 255, 1)"],
+				    	}],
+				    },
+			    	options: {
+			        title: {
+			            display: true,
+			            text: 'G8 Government top100 Content Provider Autonomy',
+			            fontColor: '#FFF',
+			            fontSize: 24
+			        },
+			        scales: {
+			        	xAxes: [{
+			            ticks: {
+		                fontColor: '#d4ffc6',
+		                fontSize: 16,
+		                fontFamily: 'sans-serif'
+		              },
+		              barPercentage: 0.6
+				        }],
+				        yAxes: [{
+			            ticks: {
+		                beginAtZero: true,
+		                steps: 10,
+		                stepValue: 6,
+		                fontColor: '#EAD5E4'
+		              }
+				        }]
+					    },
+					    legend: {
+					      display: false
+					    }
+				    }
+					});
+				}
+				showdetail(myPieChart);
+				scrollgraph();
+			}catch{
+				console.log("bad response!");
+				var $cht = $("#chart");
+				var ctx = $cht[0].getContext('2d');
+				ctx.font = "30px sans-serif";
+				ctx.fillStyle = "#ffdb3d";
+				ctx.textAlign = "center";
+				ctx.fillText(object["message"], $cht[0].width/2, $cht[0].height/2);
+			}
+
+  },
+  complete: function(xhr, status) {
+    console.log("HTTPS search requested!");
+  }
+});
+
+})
+
+
+// get chart label name for post
+function showdetail(chartptx) {
+	$("#chart").click( function(evt){
+    var activePoints = chartptx.getElementsAtEvent(evt);
+    var clickedElementindex = activePoints[0]["_index"];
+    var label = chartptx.data.labels[clickedElementindex];
+    var url = "http://example.com/?label=" + label;
+    alert(url);
+});
+}
+	
+</script>

@@ -15,7 +15,7 @@
     <ul class="nav navbar-nav">
       <li class="menuborder"><a href="home"><span class="menubar">Home</span></a></li>
       <li class="menuborder"><a href="HTTPSAnalysis"><span class="menubar">HTTPS</span></a></li>
-      <li class="menuborder active"><a href="#"><span class="menubar">HSTS</span></a></li>
+      <li class="menuborder active"><a href="HSTSAnalysis"><span class="menubar">HSTS</span></a></li>
       <li class="menuborder"><a href="TLSAnalysis"><span class="menubar">TLS vulnerability</span></a></li>
       <li class="menuborder"><a href="CAAnalysis"><span class="menubar">Root CA</span></a></li>
       <li class="menuborder"><a href="CPAnalysis"><span class="menubar">Content Provider</span></a></li>
@@ -99,7 +99,7 @@
 						    	labels: ['HSTS adoption',"no adoption"],
 						    	datasets: [{
 						    		data: [parseInt(object["data"]), 100-parseInt(object["data"])],
-						    		backgroundColor: ["#ff6666","#555555"]
+						    		backgroundColor: ["#FFA165","#AAAAAA"]
 						    	}],
 						    },
 					    	options: {
@@ -107,10 +107,13 @@
 						            display: true,
 						            text: object["Country"] + ' Government top100 HSTS adoption rate',
 						            fontColor: '#FFF',
-							          fontSize: 22
+							          fontSize: 24
 						        },
 						        legend: {
-						        	labels: {fontColor: '#d4ffc6'}
+						        	labels: {
+						        		fontColor: '#d4ffc6',
+						        		fontSize: 18
+						        	}
 						        }
 						    }
 						});
@@ -119,10 +122,10 @@
 						var myPieChart = new Chart('chart', {
 					    type: 'bar',
 					    data: {
-					    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
+					    	labels: ['USA','Canada','France','Germany','Italy','Japan','UK','Taiwan'],
 					    	datasets: [{
 					    		data: object["data"],
-					    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
+					    		backgroundColor: ["rgb(176, 122, 161, 1)","rgba(78, 121, 167, 1)","rgba(242, 142, 43, 1)","rgba(225, 87, 89, 1)","rgba(118, 183, 178, 1)","rgba(89, 161, 79, 1)","rgba(237, 201, 72, 1)","rgba(255, 255, 255, 1)"],
 					    	}],
 					    },
 				    	options: {
@@ -130,13 +133,16 @@
 				            display: true,
 				            text: 'G8 Government top100 HSTS adoption rate',
 				            fontColor: '#FFF',
-				            fontSize: 18
+				            fontSize: 24
 				        },
 				        scales: {
 				        	xAxes: [{
 				            ticks: {
-			                fontColor: '#d4ffc6'
-			              }
+			                fontColor: '#d4ffc6',
+			                fontSize: 16,
+			                fontFamily: 'sans-serif'
+			              },
+			              barPercentage: 0.5
 					        }],
 					        yAxes: [{
 				            ticks: {
@@ -157,6 +163,12 @@
 					scrollgraph();
 				}catch{
 					console.log("bad response!");
+					var $cht = $("#chart");
+					var ctx = $cht[0].getContext('2d');
+					ctx.font = "30px sans-serif";
+					ctx.fillStyle = "#ffdb3d";
+					ctx.textAlign = "center";
+					ctx.fillText(object["message"], $cht[0].width/2, $cht[0].height/2);
 				}
 
       },

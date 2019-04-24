@@ -26,26 +26,28 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12" style="background: grey;">
-			<form id="https_search" action="" method="post" class="select-panel form-group">
+			<form id="tls_search" class="select-panel form-group">
+				{% csrf_token %}
 				<label>Please Choose for Scanning Country:</label>
 				<!-- Add season with ajax -->
-				<select class="form-control" name="https_country">
-					<option>Overall Comparison</option>
-					<option>USA</option>
-					<option>Canada</option>
-					<option>France</option>
-					<option>Germany</option>
-					<option>Italy</option>
-					<option>Japan</option>
-					<option>UK</option>
-					<option>Taiwan</option>
+				<select class="form-control" name="filetype">
+					<option value="0">Overall Comparison</option>
+					<option value="1">USA</option>
+					<option value="2">Canada</option>
+					<option value="3">France</option>
+					<option value="4">Germany</option>
+					<option value="5">Italy</option>
+					<option value="6">Japan</option>
+					<option value="7">UK</option>
+					<option value="8">Taiwan</option>
 				</select>
 				<label>Scanning Season:</label>
-				<select class="form-control" name="https_season">
-					<option>August 2017</option>
-					<option>October 2018</option>
+				<select class="form-control" name="season">
+					{% for season in time %}
+					<option>{{season}}</option>
+					{% endfor %}
 				</select>
-				<button id="https_submit" class="search-button" type="submit">Search</button>
+				<button id="tls_submit" class="search-button" type="submit">Search</button>
 			</form>
 		</div>
 	</div>
@@ -69,147 +71,180 @@
 	    scrollTop: $("#chartcontainer").offset().top
 	  }, 600);
   }
-	var sendform = $("#https_search");
+	var sendform = $("#tls_search");
   // clear previous records
-  sendform.find("#https_submit").on("click", function() {
+  $("#tls_submit").click(function(e) {
   	$("#chart").remove();
     $("#chartcontainer").append('<canvas id="chart" class="chartboard"></canvas>');
-
-    if(sendform.find('select[name="https_country"]').val() === 'Overall Comparison'){
-    // TEST CHART!
-			var myPieChart = new Chart('chart', {
-		    type: 'line',
-		    data: {
-		    	labels: ['0','1','2','3','4','5','6','7','8','9','10','11'],
-		    	datasets: [{
-		    		label: 'USA',
-		    		data: [0,0,1,3,10,15,15,20,25,30,40,42],
-						borderColor: ["rgb(60, 157, 181, 0.8)"],
-						fill: false,
-		    	},{
-		    		label: 'Canada',
-		    		data: [0,0,3,10,15,18,20,25,30,40,50,55],
-						borderColor: ["rgba(177, 235, 19, 0.8)"],
-						fill: false,
-		    	},{
-		    		label: 'France',
-		    		data: [0,1,3,6,10,15,20,25,30,40,66,70],
-						borderColor: ["rgba(102, 255, 187, 0.5)"],
-						fill: false,
-		    	},
-		    	]
-		    },
-	    	options: {
-	        title: {
-	            display: true,
-	            text: 'G8 Government top100 Vulnerabilities Resilience',
-	            fontColor: '#FFF',
-	            fontSize: 18
-	        },
-	        elements: {
-	        	line: {
-	        		tension: 0
-	        	}
-	        }
-		    }
-			});
-			showdetail(myPieChart);
-		}else{
-			var myPieChart = new Chart('chart', {
-		    type: 'bar',
-		    data: {
-		    	labels: ['Beast','Heartbleed','Poodle','Freak','Logjam','Drown','Sweet32','Cross Protocol','RC4','Renegotiation','CRIME'],
-		    	datasets: [{
-		    		data: [40,60,4,5,7,7,8,1,10,34,1],
-		    		backgroundColor: ["#3B9CB3","#024A5B","#66ffb1","#03BB75","#7b85c1","#cfa7f9","#986cd1","#ab6bd6","#bc4e42","#b7434b","#bc8b42"]
-		    	}],
-		    },
-	    	options: {
-	        title: {
-	            display: true,
-	            text: 'USA Government top100 SSL stripping Vulnerabilities',
-	            fontColor: '#FFF',
-		          fontSize: 18
-	        },
-	        legend: {
-	        	display: false
-	        }
-		    }
-			});
-			showdetail(myPieChart);
-		}
-		scrollgraph();
-  })
-
-
-  // AJAX submit form
-  sendform.submit(function(e) {
+    e.preventDefault();
     $.ajax({
-      type: sendform.attr('method'),
-      url: sendform.attr('action'),
+      type: 'POST',
+      url: 'TLS_Request',
       data: sendform.serialize(),
+      dataType: "html",      
       success: function(data)
       {
-				var object = JSON.parse(data);
-				//TODO: if [one country] - pie chart
-				var myPieChart = new Chart('chart', {
-				    type: 'pie',
-				    data: {
-				    	labels: ['HTTPS adoption',"no adoption"],
-				    	datasets: [{
-				    		data: [40,60],
-				    		backgroundColor: ["#555555", "#ff6666"]
-				    	}],
-				    },
-			    	options: {
+      	var object = JSON.parse(data);
+				try{
+					var filetype = parseInt(object["filetype"]);
+					console.log(filetype);
+					if(filetype === 0){
+						var myPieChart = new Chart('chart', {
+					    type: 'line',
+					    data: {
+					    	labels: ['0','1','2','3','4','5','6','7','8','9','10','11'],
+					    	datasets: [{
+					    		label: 'USA',
+					    		data: object["data"][0],
+					    		backgroundColor: ["rgb(176, 122, 161, 1)"],
+									borderColor: ["rgb(176, 122, 161, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'Canada',
+					    		data: object["data"][1],
+					    		backgroundColor: ["rgba(78, 121, 167, 1)"],
+									borderColor: ["rgba(78, 121, 167, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'France',
+					    		data: object["data"][2],
+					    		backgroundColor: ["rgba(242, 142, 43, 1)"],
+									borderColor: ["rgba(242, 142, 43, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'Germany',
+					    		data: object["data"][3],
+					    		backgroundColor: ["rgba(225, 87, 89, 1)"],
+									borderColor: ["rgba(225, 87, 89, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'Italy',
+					    		data: object["data"][4],
+					    		backgroundColor: ["rgba(118, 183, 178, 1)"],
+									borderColor: ["rgba(118, 183, 178, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'Japan',
+					    		data: object["data"][5],
+					    		backgroundColor: ["rgba(89, 161, 79, 1)"],
+									borderColor: ["rgba(89, 161, 79, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'UK',
+					    		data: object["data"][6],
+					    		backgroundColor: ["rgba(237, 201, 72, 1)"],
+									borderColor: ["rgba(237, 201, 72, 0.8)"],
+									fill: false,
+					    	},{
+					    		label: 'Taiwan',
+					    		data: object["data"][7],
+					    		backgroundColor: ["rgba(255, 255, 255, 1)"],
+									borderColor: ["rgba(255, 255, 255, 0.8)"],
+									fill: false,
+					    	},
+					    	]
+					    },
+				    	options: {
 				        title: {
 				            display: true,
-				            text: 'USA Government top100 HTTPS adoption rate',
+				            text: 'G8 Government top100 Vulnerabilities Resilience',
 				            fontColor: '#FFF',
-					          fontSize: 22
-				        }
-				    }
-				});
-
-				//TODO: if [all comparison] - bar chart
-				var myPieChart = new Chart('chart', {
-			    type: 'bar',
-			    data: {
-			    	labels: ['USA','Canada','Italy','Japan','Germany','France','UK','Taiwan'],
-			    	datasets: [{
-			    		data: [40,10,10,10,10,5,5,10],
-			    		backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#f4d35e","#f78764","#083d77"]
-			    	}],
-			    },
-		    	options: {
-		        title: {
-		            display: true,
-		            text: 'G8 Government top100 HTTPS adoption rate',
-		            fontColor: '#FFF',
-		            fontSize: 18
-		        },
-		        scales: {
-			        yAxes: [{
-		            ticks: {
-	                beginAtZero: true,
-	                steps: 10,
-	                stepValue: 6
-	              }
-			        }]
-				    },
-				    legend: {
-				      display: false
-				    }
-			    }
-				});
-
-      },
-      complete: function(xhr, status) {
+				            fontSize: 24
+				        },
+				        elements: {
+				        	line: {
+				        		tension: 0,
+				        		borderWidth: 5
+				        	}
+				        },
+				        legend: {
+				        	labels: {
+				        		usePointStyle: true,
+				        		fontColor: '#CCC',
+				        		fontSize: 18
+				        	}
+				        },
+				        scales: {
+				        	xAxes: [{
+				            ticks: {
+			                fontColor: '#d4ffc6',
+				              fontSize: 16
+			              },
+			              scaleLabel: {
+			              	labelString: "Cumulative  Distribution  of  Resilience  Level",
+			              	fontColor: '#BBB',
+			              	display: true
+			              }
+					        }],
+					        yAxes: [{
+				            ticks: {
+			                beginAtZero: true,
+			                steps: 10,
+			                stepValue: 6,
+			                fontColor: '#EAD5E4'
+			              }
+					        }]
+						    }
+					    }
+						});
+					}else if(filetype >=1 && filetype <= 8){
+						var myPieChart = new Chart('chart', {
+					    type: 'bar',
+					    data: {
+					    	labels: ['Beast','Heartbleed','Poodle','Freak','Logjam','Drown','Sweet32','Cross Protocol','RC4','Renegotiation','CRIME'],
+					    	datasets: [{
+					    		data: object["data"],
+					    		backgroundColor: ["#3B9CB3","#024A5B","#66ffb1","#03BB75","#7b85c1","#cfa7f9","#986cd1","#ab6bd6","#bc4e42","#b7434b","#bc8b42"]
+					    	}],
+					    },
+				    	options: {
+					        title: {
+					            display: true,
+					            text: object["Country"] + ' Government top100 TLS Vulnerabilities',
+					            fontColor: '#FFF',
+						          fontSize: 24
+					        },
+					        legend: {
+					        	display: false
+					        },
+					        scales: {
+					        	xAxes: [{
+					            ticks: {
+				                fontColor: '#d4ffc6',
+				                fontSize: 14,
+				                fontFamily: 'sans-serif'
+				              }
+						        }],
+						        yAxes: [{
+					            ticks: {
+				                beginAtZero: true,
+				                steps: 10,
+				                stepValue: 6,
+				                fontColor: '#EAD5E4'
+				              }
+						        }]
+							    }
+					    }
+						});
+					}
+				}catch{
+					console.log("bad response!");
+					var $cht = $("#chart");
+					var ctx = $cht[0].getContext('2d');
+					ctx.font = "30px sans-serif";
+					ctx.fillStyle = "#ffdb3d";
+					ctx.textAlign = "center";
+					ctx.fillText(object["message"], $cht[0].width/2, $cht[0].height/2);
+				}
+				showdetail(myPieChart);
+				scrollgraph();
+			},
+			complete: function(xhr, status) {
         console.log("HTTPS search requested!");
       }
     });
-    e.preventDefault();
   });
+
 
   // get chart label name for post
   function showdetail(chartptx) {

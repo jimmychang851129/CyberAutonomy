@@ -6,7 +6,7 @@
 <body>
 	<h1>TLS homepage</h1>
 	<p>query date output data</p>
-	<form method="POST" action="http://127.0.0.1:8000/TLS_Request">{% csrf_token %}
+	<form method="POST" action="TLS_Request">{% csrf_token %}
 	Date query : <input type="text" name="season" plcaeholder="20180711">
 	Country query : <select class="form-control" name="filetype">
 					<option>0</option>
