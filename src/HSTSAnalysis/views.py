@@ -2,9 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import csv,os,json
 
-filedir = os.path.dirname(os.path.realpath('__file__'))
-confpath = os.path.join(filedir, "src/config/config.json")
-# confpath = "./config/config.json" # same directory as manage.py
+filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+confpath = os.path.join(filedir, "config/config.json")
 
 # Create your views here.
 def HSTSHome_page(request, *args, **kwargs):
@@ -39,7 +38,7 @@ def HSTS_Request(request, *args, **kwargs):
 	if country == 0:		# all countries
 		context['filetype'] = '0'
 		cntList = [0,0,0,0,0,0,0,0]
-		tmppath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/thoroughscan")
+		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		for i in range(len(conf['CountryList'])):
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
 			print("filepath = ",filepath)
@@ -56,7 +55,7 @@ def HSTS_Request(request, *args, **kwargs):
 	else:				# one country
 		context["Country"] = conf["CountryList"][country-1]
 		context['filetype'] = '1'
-		filepath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/thoroughscan")
+		filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		filepath = os.path.join(filepath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 		print("filepath = ",filepath)
 		f = open(filepath, encoding="utf-8")

@@ -2,9 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import csv,os,json
 
-filedir = os.path.dirname(os.path.realpath('__file__'))
-confpath = os.path.join(filedir, "src/config/config.json")
-# confpath = "./config/config.json" # same directory as manage.py
+filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+confpath = os.path.join(filedir, "config/config.json")
 
 # Create your views here.
 def CAHome_page(request, *args, **kwargs):

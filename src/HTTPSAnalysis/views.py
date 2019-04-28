@@ -2,9 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import csv,os,json
 
-filedir = os.path.dirname(os.path.realpath('__file__'))
-confpath = os.path.join(filedir, "src/config/config.json")
-# confpath = "./config/config.json" # same directory as manage.py
+filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+confpath = os.path.join(filedir, "config/config.json")
 
 # Create your views here.
 def HTTPSHome_page(request, *args, **kwargs):
@@ -39,7 +38,7 @@ def HTTPS_Request(request, *args, **kwargs):
 	if country == 0:
 		context['filetype'] = '0'
 		cntList = [0,0,0,0,0,0,0,0]
-		tmppath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/fastscan")
+		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/fastscan")
 		for i in range(len(conf['CountryList'])):
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"_https_support_website.txt")
 			f = open(filepath)
@@ -52,7 +51,7 @@ def HTTPS_Request(request, *args, **kwargs):
 	else:
 		context["Country"] = conf["CountryList"][country-1]
 		context['filetype'] = '1'
-		filepath = os.path.join(filedir, "src/"+conf['Savedir']+str(dataDate)+"/fastscan")
+		filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/fastscan")
 		filepath = os.path.join(filepath, dataDate+"_"+conf['CountryList'][country-1]+"_https_support_website.txt")
 		print("filepath = ",filepath)
 		f = open(filepath)
