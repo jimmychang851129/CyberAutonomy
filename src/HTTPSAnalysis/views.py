@@ -41,10 +41,9 @@ def HTTPS_Request(request, *args, **kwargs):
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/fastscan")
 		for i in range(len(conf['CountryList'])):
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"_https_support_website.txt")
-			f = open(filepath)
-			for line in f:
-				cntList[i] += 1
-			f.close()
+			with open(filepath) as f:
+				for line in f:
+					cntList[i] += 1
 		context['data'] = cntList
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
@@ -53,13 +52,11 @@ def HTTPS_Request(request, *args, **kwargs):
 		context['filetype'] = '1'
 		filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/fastscan")
 		filepath = os.path.join(filepath, dataDate+"_"+conf['CountryList'][country-1]+"_https_support_website.txt")
-		print("filepath = ",filepath)
-		f = open(filepath)
-		cnt = 0
-		for line in f:
-			cnt += 1
-		f.close()
-		context['data'] = cnt
+		with open(filepath) as f:
+			cnt = 0
+			for line in f:
+				cnt += 1
+			context['data'] = cnt
 		print("context = ",context)
 
 		return JsonResponse(context,safe=False)

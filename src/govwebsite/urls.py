@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 from homepage.views import home_page # from app import views.py
-from CPAnalysis.views import CPHome_page,CPDate
+from CPAnalysis.views import CPHome_page,CP_Request
 from HSTSAnalysis.views import HSTSHome_page,HSTS_Request
 from CAAnalysis.views import CAHome_page, CA_Request
 from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request
@@ -29,7 +29,6 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     path('home',home_page,name='home'),	# name parameter is used as a variable, other program called it by this name
     path('CPAnalysis',CPHome_page,name='CP'),
-    path('CPDate',CPDate,name='CPDate'),
     path('HSTSAnalysis',HSTSHome_page,name='HSTSAnalysis'),
     path('CAAnalysis',CAHome_page,name='CAAnalysis'),
     path('HTTPSAnalysis',HTTPSHome_page,name='HTTPSAnalysis'),
@@ -37,6 +36,8 @@ urlpatterns = [
     path('HTTPS_Request',HTTPS_Request,name='HTTPS_Request'),
     path('HSTS_Request',HSTS_Request,name='HSTS_Request'),
     path('TLS_Request',TLS_Request,name='TLS_Request'),
+    path('CA_Request',CA_Request,name='CA_Request'),
+    path('CP_Request',CP_Request,name='CP_Request'),
     path('testHttps',testHttpsApp,name='testHttps'),
     path('testHSTS',testHSTSApp,name='testHSTS'),
     path('testTLS',testTLSApp,name='testTLS'),

@@ -42,12 +42,11 @@ def TLS_Request(request, *args, **kwargs):
 		for i in range(len(conf['CountryList'])):
 			cntList = [0]*12
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
-			f = open(filepath, encoding="utf-8")
-			c = csv.reader(f)
-			for line in c:
-				if "Ready" in line[2]:
-					cntList[int(line[-1])] += 1
-			f.close()
+			with open(filepath, encoding="utf-8") as f:
+				c = csv.reader(f)
+				for line in c:
+					if "Ready" in line[2]:
+						cntList[int(line[-1])] += 1
 			for k in range(1,len(cntList)):
 				cntList[k] += cntList[k-1]
 			TotalData.append(cntList)
@@ -60,17 +59,15 @@ def TLS_Request(request, *args, **kwargs):
 		cntList = [0]*12
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
-		f = open(filepath, encoding="utf-8")
-		c = csv.reader(f)
-		for line in c:
-			if "Ready" in line[2]:
-				for j in range(4,15):
-					if "False" not in line[j]:
-						cntList[j-4] += 1
-				if 'present' not in line[17]:
-					cntList[11] += 1
-		f.close()
-		print("cntList = ",cntList)
+		with open(filepath, encoding="utf-8") as f:
+			c = csv.reader(f)
+			for line in c:
+				if "Ready" in line[2]:
+					for j in range(4,15):
+						if "False" not in line[j]:
+							cntList[j-4] += 1
+					if 'present' not in line[17]:
+						cntList[11] += 1
 		context['data'] = cntList
 		print("context = ",context)
 		return JsonResponse(context,safe=False)

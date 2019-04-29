@@ -1,9 +1,16 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 import csv,os,json
+from urllib.parse import urlparse
 
 filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 confpath = os.path.join(filedir, "config/config.json")
+CountryList = ["United States","Canada","France","Germany","Italy","Japan","United Kingdom","Taiwan"]
+
+def parseurl(longurl):
+	uri = urlparse(longurl)
+	result = '{uri.scheme}://{uri.netloc}/'.format(uri=uri)
+	return result
 
 # Create your views here.
 def CPHome_page(request, *args, **kwargs):
@@ -33,21 +40,46 @@ def CP_Request(request, *args, **kwargs):
 	if country < 0 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"CPAnalysis/CPHomepage.html",context)
+	context['message'] = 'OK'
+	######################
+	# read dependentsite #
+	######################
+	dependent = set()
+	dependentpath = os.path.join(filedir, conf['Savedir']+"dependentList.csv")
+	with open(dependentpath) as f:
+		for row in f:
+			dependent.add(row.split('\t')[0])
+	#########################################
+	# Overall compare, remove dependentsite #
+	#########################################
+	if country == 0:
+		context['filetype'] = '0'
+		cntList = [0,0,0,0,0,0,0,0]
+		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/CP")
+		for i in range(len(conf['CountryList'])):
+			filepath = os.path.join(tmppath, conf['CountryList'][i]+".csv")
+			with open(filepath,encoding="utf-8") as f:
+				c = csv.reader(f)
+				CPList = set()
+				for line in c:
+					tmpsite = parseurl(''.join(line[2:-1]))
+					if tmpsite not in dependent and line[0] not in CPList and line[-1].strip() != CountryList[i]:
+						CPList.add(line[0])
+				cntList[i] = 100 - len(CPList)
+		context['data'] = cntList
+		return JsonResponse(context,safe=False)
 
-def CPDate(request,*args,**kwargs):
-	data = request.POST
-	dataDate = int(data['Datequery'])
-	print("request = ",data['Datequery'])
-	path = os.path.join(os.path.abspath(__file__),"CPCrawling/result")
-	print("path = ",os.path.abspath(__file__))
-	f = open(confpath,"r")
-	conf = json.loads(f.read())
-	filepath = conf['Savedir']+str(dataDate)+"/"
-	print("file path = ",filepath)
-	if os.path.isdir(filepath) == True:
-		f = open(filepath+"Canada.csv","r")	# modify
-		test = f.read()
-		return HttpResponse(test)
 	else:
-		print("File not found")
-		return HttpResponse("Date error")
+		context["Country"] = conf["CountryList"][country-1]
+		context['filetype'] = '1'
+		filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/CP")
+		filepath = os.path.join(filepath, conf['CountryList'][country-1]+".csv")
+		with open(filepath,encoding="utf-8") as f:
+			c = csv.reader(f)
+			CPList = set()
+			for line in c:
+				tmpsite = parseurl(''.join(line[2:-1]))	# parse resource url to domain
+				if tmpsite not in dependent and line[0] not in CPList and line[-1].strip() != CountryList[country-1]:
+					CPList.add(line[0])
+			context['data'] = len(CPList)
+		return JsonResponse(context,safe=False)

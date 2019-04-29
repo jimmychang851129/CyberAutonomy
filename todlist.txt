@@ -1,0 +1,16 @@
+
+0. TLS overall accumulate add defense column in thorough scan csv
+
+
+1. 201811多empty file error response
+
+
+2. https remove invalid certificate
+
+
+3. https & hsts same function same output
+
+4. try find not adpoted url
+
+CA further detail
+

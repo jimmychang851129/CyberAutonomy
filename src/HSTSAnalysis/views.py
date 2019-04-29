@@ -41,14 +41,11 @@ def HSTS_Request(request, *args, **kwargs):
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		for i in range(len(conf['CountryList'])):
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
-			print("filepath = ",filepath)
-			f = open(filepath, encoding="utf-8")
-			c = csv.reader(f)
-			for line in c:
-				if "Ready" in line[2] and 'present' in line[17]:
-					cntList[i] += 1
-				
-			f.close()
+			with open(filepath, encoding="utf-8") as f:
+				c = csv.reader(f)
+				for line in c:
+					if "Ready" in line[2] and 'present' in line[17]:
+						cntList[i] += 1
 		context['data'] = cntList
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
@@ -58,14 +55,12 @@ def HSTS_Request(request, *args, **kwargs):
 		filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		filepath = os.path.join(filepath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 		print("filepath = ",filepath)
-		f = open(filepath, encoding="utf-8")
-		c = csv.reader(f)
-		cnt = 0
-		for line in c:
-			if "Ready" in line[2] and'present' in line[17]:
-				cnt += 1
-			
-		f.close()
-		context['data'] = cnt
+		with open(filepath, encoding="utf-8") as f:
+			c = csv.reader(f)
+			cnt = 0
+			for line in c:
+				if "Ready" in line[2] and 'present' in line[17]:
+					cnt += 1
+			context['data'] = cnt
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
