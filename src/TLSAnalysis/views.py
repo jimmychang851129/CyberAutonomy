@@ -37,22 +37,21 @@ def TLS_Request(request, *args, **kwargs):
 	context['message'] = "OK"
 	if country == 0:
 		context['filetype'] = '0'
-		cntList = [[0]*12]*8
+		TotalData = []
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		for i in range(len(conf['CountryList'])):
+			cntList = [0]*12
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
 			f = open(filepath, encoding="utf-8")
 			c = csv.reader(f)
 			for line in c:
 				if "Ready" in line[2]:
-					for j in range(4,15):
-						if "False" not in line[j]:
-							cntList[i][j-4] += 1
-					if 'present' in line[17]:
-						cntList[i][11] += 1
+					cntList[int(line[-1])] += 1
 			f.close()
-		print("cntList = ",cntList)
-		context['data'] = cntList
+			for k in range(1,len(cntList)):
+				cntList[k] += cntList[k-1]
+			TotalData.append(cntList)
+		context['data'] = TotalData
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
 	else:
@@ -68,7 +67,7 @@ def TLS_Request(request, *args, **kwargs):
 				for j in range(4,15):
 					if "False" not in line[j]:
 						cntList[j-4] += 1
-				if 'present' in line[17]:
+				if 'present' not in line[17]:
 					cntList[11] += 1
 		f.close()
 		print("cntList = ",cntList)

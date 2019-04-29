@@ -23,7 +23,9 @@ def CA_Request(request, *args, **kwargs):
 	conf = json.loads(f.read())
 	context = {
 		"data" : [],
-		"messge": "no"
+		"message": "no",
+		"filetype": "0",
+		"Country": "no"
 	}
 	if str(dataDate) not in conf['DateList']:
 		context['message'] = 'season invalid'
