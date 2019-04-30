@@ -74,4 +74,55 @@ def CA_Request(request, *args, **kwargs):
 			context['data'] = cnt
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
-				
+			
+################
+# not yet test #
+################
+def CADetail(request, *args, **kwargs):
+	data = request.POST
+	season = data['season']
+	country = int(data['filetype'])
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	context = {
+		"data" : [],
+		"message": "no",
+		"date": "0",
+		"Country": "no"
+	}
+	################
+	# error handle #
+	################
+	if str(season) not in conf['DateList']:
+		context['message'] = 'season invalid'
+		return render(request,"CAAnalysis/ca.html",context)
+	if country < 0 or country > 8:
+		context['message'] = 'countrycode invalid'
+		return render(request,"CAAnalysis/ca.html",context)
+	context['message'] = 'OK'
+	context['date'] = season
+	if country == 0:
+		f
+	else:
+		context['Country'] = conf['CountryList'][country-1]
+		tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
+		filepath = os.path.join(tmppath, season+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
+		TotalCnt = []
+		with open(filepath) as f:
+			c = csv.reader(f)
+			for line in c:
+				if "Ready" in line[2]:
+					tmp =line[23].split("C=")[-1]
+					if "DST" in tmp or 'Entrust' in tmp:
+						tmp = 'US'
+					if "GlobalSign" in tmp:
+						tmp = 'Belgium'
+					Owner = line[23].split('O=')[1].split('=')[0].split(',')
+					if len(Owner) > 1:
+						Owner = ''.join(Owner[:-1])
+					else:
+						Owner = Owner[0]
+					TotalCnt.append([line[0],Owner,tmp])
+		context['data'] = TotalCnt
+		return JsonResponse(context,safe=False)
+

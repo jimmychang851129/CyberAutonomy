@@ -9,3 +9,6 @@ def testHSTSApp(request, *args, **kwargs):
 
 def testTLSApp(request, *args, **kwargs):
 	return render(request,"testApp/tlstest.html")
+
+def testCAApp(request, *args, **kwargs):
+	return render(request,"testApp/catest.html")
