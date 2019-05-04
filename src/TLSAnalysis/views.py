@@ -9,6 +9,7 @@ confpath = os.path.join(filedir, "config/config.json")
 def TLSHome_page(request, *args, **kwargs):
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
+	f.close()
 	context ={
 		"time" : conf['DateList'],
 	}
@@ -21,6 +22,7 @@ def TLS_Request(request, *args, **kwargs):
 
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
+	f.close()
 	context = {
 		"data" : [],
 		"message": "no",
@@ -71,4 +73,64 @@ def TLS_Request(request, *args, **kwargs):
 		context['data'] = cntList
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
+
+
+def OverallTLSDetail(request, *args, **kwargs):
+	data = request.POST
+	season = data['season']
+	country = int(data['filetype'])
+
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	f.close()
+	context = {
+		"data" : [],
+		"message": "no",
+		"date": "0",
+		"Country": "no"
+	}
+	if str(season) not in conf['DateList']:
+		context['message'] = 'season invalid'
+		return render(request,"TLSAnalysis/tls.html",context)
+	if country < 0 or country > 8:
+		context['message'] = 'countrycode invalid'
+		return render(request,"TLSAnalysis/tls.html",context)
+
+	context['message'] = "OK"
+	context['date'] = season
+	context['Country'] = conf['CountryList'][country-1]
+	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
+	filepath = os.path.join(tmppath, season+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
+	Total = []
+	with open(filepath) as f:
+		c = csv.reader(f)
+		for line in c:
+			if "Ready" in line[2]:
+				Total.append([line[0],line[-1]]+line[4:15])
+			elif line[0] != "host_name":
+				Total.append([line[0],0]+[0]*11)
+	context['data'] = Total
+	# print("context = ",context)
+	return JsonResponse(context,safe=False)
+
+def SpecificTLSDetail(request, *args, **kwargs):
+	data = request.POST
+	season = data['season']
+	country = int(data['country'])
+
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	f.close()
+	context = {
+		"data" : [],
+		"message": "no",
+		"date": "0",
+		"Country": "no"
+	}
+	if str(season) not in conf['DateList']:
+		context['message'] = 'season invalid'
+		return render(request,"TLSAnalysis/tls.html",context)
+	if country < 0 or country > 8:
+		context['message'] = 'countrycode invalid'
+		return render(request,"TLSAnalysis/tls.html",context)
 

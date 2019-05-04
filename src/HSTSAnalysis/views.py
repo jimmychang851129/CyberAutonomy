@@ -9,6 +9,7 @@ confpath = os.path.join(filedir, "config/config.json")
 def HSTSHome_page(request, *args, **kwargs):
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
+	f.close()
 	context ={
 		"time" : conf['DateList'],
 	}
@@ -21,6 +22,7 @@ def HSTS_Request(request, *args, **kwargs):
 
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
+	f.close()
 	context = {
 		"data" : [],
 		"message": "no",

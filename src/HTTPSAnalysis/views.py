@@ -10,6 +10,7 @@ confpath = os.path.join(filedir, "config/config.json")
 def HTTPSHome_page(request, *args, **kwargs):
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
+	f.close()
 	context ={
 		"time" : conf['DateList'],
 	}
@@ -22,6 +23,7 @@ def HTTPS_Request(request, *args, **kwargs):
 
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
+	f.close()
 	context = {
 		"data" : 0,
 		"message": "no",
