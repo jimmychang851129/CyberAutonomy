@@ -74,108 +74,107 @@ var sendform = $("#cp_search");
 // clear previous records
 $("#cp_submit").click(function(e) {
 	$("#chart").remove();
-$("#chartcontainer").append('<canvas id="chart" class="chartboard"></canvas>');
+	$("#chartcontainer").append('<canvas id="chart" class="chartboard"></canvas>');
 
-// AJAX submit form
-e.preventDefault();
-$.ajax({
-  type: 'POST',
-  url: 'CP_Request',
-  data: sendform.serialize(),
-  dataType: "html",
-  success: function(data)
-  {
-			var object = JSON.parse(data);
+	// AJAX submit form
+	e.preventDefault();
+	$.ajax({
+	  type: 'POST',
+	  url: 'CP_Request',
+	  data: sendform.serialize(),
+	  dataType: "html",
+	  success: function(data)
+	  {
+				var object = JSON.parse(data);
 
-			try{
-				var filetype = parseInt(object["filetype"]);
-				console.log(filetype);
-				if(filetype >=1 && filetype <= 8){
-					//TODO: if [one country] - pie chart
-					var myPieChart = new Chart('chart', {
-					    type: 'pie',
+				try{
+					var filetype = parseInt(object["filetype"]);
+					console.log(filetype);
+					if(filetype >=1 && filetype <= 8){
+						//TODO: if [one country] - pie chart
+						var myPieChart = new Chart('chart', {
+						    type: 'pie',
+						    data: {
+						    	labels: ['External Resource usage','no usage'],
+						    	datasets: [{
+						    		data: [parseInt(object["data"]), 100-parseInt(object["data"])],
+						    		backgroundColor: ["#6D0099","#999999"]
+						    	}],
+						    },
+					    	options: {
+						        title: {
+						            display: true,
+						            text: object["Country"] + ' Government top100 Content Provider External Usage',
+						            fontColor: '#FFF',
+							          fontSize: 24
+						        },
+						        legend: {
+						        	labels: {
+						        		fontColor: '#d4ffc6',
+						        		fontSize: 18
+						        	}
+						        }
+						    }
+						});
+					} else if(filetype === 0){
+						//TODO: if [all comparison] - bar chart
+						var myPieChart = new Chart('chart', {
+					    type: 'bar',
 					    data: {
-					    	labels: ['External Resource usage','no usage'],
+					    	labels: ['USA','Canada','France','Germany','Italy','Japan','UK','Taiwan'],
 					    	datasets: [{
-					    		data: [parseInt(object["data"]), 100-parseInt(object["data"])],
-					    		backgroundColor: ["#6D0099","#999999"]
+					    		data: object["data"],
+					    		backgroundColor: ["rgb(176, 122, 161, 1)","rgba(78, 121, 167, 1)","rgba(242, 142, 43, 1)","rgba(225, 87, 89, 1)","rgba(118, 183, 178, 1)","rgba(89, 161, 79, 1)","rgba(237, 201, 72, 1)","rgba(255, 255, 255, 1)"],
 					    	}],
 					    },
 				    	options: {
-					        title: {
-					            display: true,
-					            text: object["Country"] + ' Government top100 Content Provider Autonomy',
-					            fontColor: '#FFF',
-						          fontSize: 24
-					        },
-					        legend: {
-					        	labels: {
-					        		fontColor: '#d4ffc6',
-					        		fontSize: 18
-					        	}
-					        }
+				        title: {
+				            display: true,
+				            text: 'G8 Government top100 Content Provider External Usage',
+				            fontColor: '#FFF',
+				            fontSize: 24
+				        },
+				        scales: {
+				        	xAxes: [{
+				            ticks: {
+			                fontColor: '#d4ffc6',
+			                fontSize: 16,
+			                fontFamily: 'sans-serif'
+			              },
+			              barPercentage: 0.6
+					        }],
+					        yAxes: [{
+				            ticks: {
+			                beginAtZero: true,
+			                steps: 10,
+			                stepValue: 6,
+			                fontColor: '#EAD5E4'
+			              }
+					        }]
+						    },
+						    legend: {
+						      display: false
+						    }
 					    }
-					});
-				} else if(filetype === 0){
-					//TODO: if [all comparison] - bar chart
-					var myPieChart = new Chart('chart', {
-				    type: 'bar',
-				    data: {
-				    	labels: ['USA','Canada','France','Germany','Italy','Japan','UK','Taiwan'],
-				    	datasets: [{
-				    		data: object["data"],
-				    		backgroundColor: ["rgb(176, 122, 161, 1)","rgba(78, 121, 167, 1)","rgba(242, 142, 43, 1)","rgba(225, 87, 89, 1)","rgba(118, 183, 178, 1)","rgba(89, 161, 79, 1)","rgba(237, 201, 72, 1)","rgba(255, 255, 255, 1)"],
-				    	}],
-				    },
-			    	options: {
-			        title: {
-			            display: true,
-			            text: 'G8 Government top100 Content Provider Autonomy',
-			            fontColor: '#FFF',
-			            fontSize: 24
-			        },
-			        scales: {
-			        	xAxes: [{
-			            ticks: {
-		                fontColor: '#d4ffc6',
-		                fontSize: 16,
-		                fontFamily: 'sans-serif'
-		              },
-		              barPercentage: 0.6
-				        }],
-				        yAxes: [{
-			            ticks: {
-		                beginAtZero: true,
-		                steps: 10,
-		                stepValue: 6,
-		                fontColor: '#EAD5E4'
-		              }
-				        }]
-					    },
-					    legend: {
-					      display: false
-					    }
-				    }
-					});
+						});
+					}
+					showdetail(myPieChart);
+					scrollgraph();
+				}catch{
+					console.log("bad response!");
+					var $cht = $("#chart");
+					var ctx = $cht[0].getContext('2d');
+					ctx.font = "30px sans-serif";
+					ctx.fillStyle = "#ffdb3d";
+					ctx.textAlign = "center";
+					ctx.fillText(object["message"], $cht[0].width/2, $cht[0].height/2);
 				}
-				showdetail(myPieChart);
-				scrollgraph();
-			}catch{
-				console.log("bad response!");
-				var $cht = $("#chart");
-				var ctx = $cht[0].getContext('2d');
-				ctx.font = "30px sans-serif";
-				ctx.fillStyle = "#ffdb3d";
-				ctx.textAlign = "center";
-				ctx.fillText(object["message"], $cht[0].width/2, $cht[0].height/2);
-			}
 
-  },
-  complete: function(xhr, status) {
-    console.log("HTTPS search requested!");
-  }
-});
-
+	  },
+	  complete: function(xhr, status) {
+	    console.log("HTTPS search requested!");
+	  }
+	});
 })
 
 

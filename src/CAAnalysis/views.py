@@ -42,7 +42,7 @@ def CA_Request(request, *args, **kwargs):
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		for i in range(len(conf['CountryList'])):
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
-			with open(filepath) as f:
+			with open(filepath,encoding="utf-8") as f:
 				c = csv.reader(f)
 				for line in c:
 					if "Ready" in line[2]:
@@ -108,7 +108,7 @@ def CADetail(request, *args, **kwargs):
 	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
 	filepath = os.path.join(tmppath, season+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 	TotalCnt = []
-	with open(filepath) as f:
+	with open(filepath, encoding="utf-8") as f:
 		c = csv.reader(f)
 		for line in c:
 			if "Ready" in line[2]:
