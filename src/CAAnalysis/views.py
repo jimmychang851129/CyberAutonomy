@@ -63,7 +63,7 @@ def CA_Request(request, *args, **kwargs):
 		filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 		with open(filepath, encoding="utf-8") as f:
 			c = csv.reader(f)
-			cnt = 0
+			cnt,cnt_no = 0,0
 			for line in c:
 				if "Ready" in line[2]:
 					tmp =line[23].split("C=")[-1]
@@ -73,7 +73,9 @@ def CA_Request(request, *args, **kwargs):
 						tmp = 'Belgium'
 					if tmp == CAList[country-1]:
 						cnt += 1
-			context['data'] = cnt
+					else:
+						cnt_no += 1
+			context['data'] = [cnt,cnt_no]
 		print("context = ",context)
 		return JsonResponse(context,safe=False)
 			
@@ -99,7 +101,7 @@ def CADetail(request, *args, **kwargs):
 	if str(season) not in conf['DateList']:
 		context['message'] = 'season invalid'
 		return render(request,"CAAnalysis/ca.html",context)
-	if country < 0 or country > 8:
+	if country < 1 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"CAAnalysis/ca.html",context)
 	context['message'] = 'OK'

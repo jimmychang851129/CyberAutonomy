@@ -92,7 +92,7 @@ def OverallTLSDetail(request, *args, **kwargs):
 	if str(season) not in conf['DateList']:
 		context['message'] = 'season invalid'
 		return render(request,"TLSAnalysis/tls.html",context)
-	if country < 0 or country > 8:
+	if country < 1 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"TLSAnalysis/tls.html",context)
 
@@ -131,7 +131,7 @@ def SpecificTLSDetail(request, *args, **kwargs):
 	if str(season) not in conf['DateList']:
 		context['message'] = 'season invalid'
 		return render(request,"TLSAnalysis/tls.html",context)	# return message
-	if country < 0 or country > 8:
+	if country < 1 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"TLSAnalysis/tls.html",context)
 	context['message'] = 'OK'
