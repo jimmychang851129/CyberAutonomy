@@ -1,17 +1,7 @@
-
-0. TLS overall accumulate add defense column in thorough scan csv
-
-
 1. 201811多empty file error response
 
+2. handle ssllab scan abort list
 
-2. https remove invalid certificate
+3. thorough scan add a new column recording # of resistance
 
-
-3. https & hsts same function same output
-
-4. try find not adpoted url(maybe run fast scan)
-
-5. https further detail
-
-CA further detail
+4. fast scan, through scan mapping to domain(Dataset)

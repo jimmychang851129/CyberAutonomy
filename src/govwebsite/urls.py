@@ -20,7 +20,7 @@ from homepage.views import home_page # from app import views.py
 from CPAnalysis.views import CPHome_page, CP_Request, CPDetail
 from HSTSAnalysis.views import HSTSHome_page,HSTS_Request
 from CAAnalysis.views import CAHome_page, CA_Request,CADetail
-from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request
+from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request,HTTPSHSTSDetail
 from TLSAnalysis.views import TLSHome_page, TLS_Request, OverallTLSDetail, SpecificTLSDetail
 from testApp.views import testHttpsApp,testHSTSApp,testTLSApp,testCAApp,testCPApp
 
@@ -42,7 +42,7 @@ urlpatterns = [
     path('CADetail',CADetail,name='CADetail'),
     path('OverallTLSDetail',OverallTLSDetail,name='OverallTLSDetail'),
     path('SpecificTLSDetail',SpecificTLSDetail,name='SpecificTLSDetail'),
-    # path('HTTPSHSTSDetail',HTTPSHSTSDetail,name='HTTPSHSTSDetail'),
+    path('HTTPSHSTSDetail',HTTPSHSTSDetail,name='HTTPSHSTSDetail'),
     path('testHttps',testHttpsApp,name='testHttps'),
     path('testHSTS',testHSTSApp,name='testHSTS'),
     path('testTLS',testTLSApp,name='testTLS'),
