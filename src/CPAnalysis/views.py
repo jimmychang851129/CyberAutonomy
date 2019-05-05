@@ -85,3 +85,38 @@ def CP_Request(request, *args, **kwargs):
 					CPList.add(line[0])
 			context['data'] = len(CPList)
 		return JsonResponse(context,safe=False)
+
+def CPDetail(request, *args, **kwargs):
+	data = request.POST
+	dataDate = data['season']
+	country = int(data['filetype'])
+
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	f.close()
+	context = {
+		"data" : [],
+		"message": "no",
+		"filetype": "0",
+		"Country": "no"
+	}
+	if str(dataDate) not in conf['DateList']:
+		context['message'] = 'season invalid'
+		return render(request,"CPAnalysis/CPHomepage.html",context)
+	if country < 0 or country > 8:
+		context['message'] = 'countrycode invalid'
+		return render(request,"CPAnalysis/CPHomepage.html",context)
+	context['message'] = 'OK'
+	######################
+	# read dependentsite #
+	######################
+	dependent = set()
+	dependentpath = os.path.join(filedir, conf['Savedir']+"dependentList.csv")
+	with open(dependentpath) as f:
+		for row in f:
+			dependent.add(row.split('\t')[0])
+	###############################################
+	# Get external resource, remove dependentsite #
+	###############################################
+	
+

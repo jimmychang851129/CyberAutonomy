@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import csv,os,json
-
+from util.util import ReadFile
 filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 confpath = os.path.join(filedir, "config/config.json")
 
@@ -117,6 +117,7 @@ def SpecificTLSDetail(request, *args, **kwargs):
 	data = request.POST
 	season = data['season']
 	country = int(data['country'])
+	attack = int(data['attack'])
 
 	f = open(confpath,"r")
 	conf = json.loads(f.read())
@@ -129,8 +130,21 @@ def SpecificTLSDetail(request, *args, **kwargs):
 	}
 	if str(season) not in conf['DateList']:
 		context['message'] = 'season invalid'
-		return render(request,"TLSAnalysis/tls.html",context)
+		return render(request,"TLSAnalysis/tls.html",context)	# return message
 	if country < 0 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"TLSAnalysis/tls.html",context)
+	context['message'] = 'OK'
+	context['Country'] = conf['CountryList'][country-1]
+	context['date'] = season
+	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
+	filepath = os.path.join(tmppath, season+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
+	UrlCollection = []
+	with open(filepath) as f:
+		c = csv.reader(f)
+		for line in c:
+			if "True" in line[4+attack]:
+				UrlCollection.append(line[0])
+	context["data"] = UrlCollection
+	return JsonResponse(context,safe=False)
 

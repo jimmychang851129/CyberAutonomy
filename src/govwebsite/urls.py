@@ -17,11 +17,11 @@ from django.contrib import admin
 from django.urls import path
 
 from homepage.views import home_page # from app import views.py
-from CPAnalysis.views import CPHome_page,CP_Request
+from CPAnalysis.views import CPHome_page, CP_Request, CPDetail
 from HSTSAnalysis.views import HSTSHome_page,HSTS_Request
 from CAAnalysis.views import CAHome_page, CA_Request,CADetail
 from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request
-from TLSAnalysis.views import TLSHome_page, TLS_Request, OverallTLSDetail
+from TLSAnalysis.views import TLSHome_page, TLS_Request, OverallTLSDetail, SpecificTLSDetail
 from testApp.views import testHttpsApp,testHSTSApp,testTLSApp,testCAApp
 
 # with name parameter, we can refer to it by name rather than url
@@ -38,8 +38,10 @@ urlpatterns = [
     path('TLS_Request',TLS_Request,name='TLS_Request'),
     path('CA_Request',CA_Request,name='CA_Request'),
     path('CP_Request',CP_Request,name='CP_Request'),
+    path('CPDetail',CPDetail,name='CPDetail'),
     path('CADetail',CADetail,name='CADetail'),
     path('OverallTLSDetail',OverallTLSDetail,name='OverallTLSDetail'),
+    path('SpecificTLSDetail',SpecificTLSDetail,name='SpecificTLSDetail'),
     # path('HTTPSHSTSDetail',HTTPSHSTSDetail,name='HTTPSHSTSDetail'),
     path('testHttps',testHttpsApp,name='testHttps'),
     path('testHSTS',testHSTSApp,name='testHSTS'),
