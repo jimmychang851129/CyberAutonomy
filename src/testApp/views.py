@@ -12,3 +12,6 @@ def testTLSApp(request, *args, **kwargs):
 
 def testCAApp(request, *args, **kwargs):
 	return render(request,"testApp/catest.html")
+
+def testCPApp(request, *args, **kwargs):
+	return render(request,"testApp/cptest.html")
