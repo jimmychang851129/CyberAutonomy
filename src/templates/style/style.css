@@ -99,3 +99,16 @@
     height: 25vh;
     margin: auto;
 }
+.table-border {
+  border: 1px solid #AAA;
+}
+.table tr th, .table tr td {
+  text-align: center;
+}
+.table tbody {
+  background-color: #555;
+  color: white;
+}
+.table tbody:hover {
+  background-color: #000;
+}
