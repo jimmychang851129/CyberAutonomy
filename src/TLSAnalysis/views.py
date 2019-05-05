@@ -87,7 +87,7 @@ def OverallTLSDetail(request, *args, **kwargs):
 		"data" : [],
 		"message": "no",
 		"date": "0",
-		"Country": "no"
+		"Country": "no",
 	}
 	if str(season) not in conf['DateList']:
 		context['message'] = 'season invalid'
@@ -110,8 +110,9 @@ def OverallTLSDetail(request, *args, **kwargs):
 			elif line[0] != "host_name":
 				Total.append([line[0],0]+[0]*11)
 	context['data'] = Total
-	# print("context = ",context)
-	return JsonResponse(context,safe=False)
+	print("context = ",context)
+	# return JsonResponse(context,safe=False)
+	return render(request,"TLSAnalysis/tlsDetail.html",context)
 
 def SpecificTLSDetail(request, *args, **kwargs):
 	data = request.POST

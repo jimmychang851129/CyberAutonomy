@@ -147,7 +147,7 @@
 				    	options: {
 				        title: {
 				            display: true,
-				            text: 'G8 Government top100 Vulnerabilities Resilience',
+				            text: $("select[name=season]").val() + ' G8 Government top100 Vulnerabilities Resilience',
 				            fontColor: '#FFF',
 				            fontSize: 24
 				        },
@@ -187,6 +187,7 @@
 						    }
 					    }
 						});
+						showdetailAll(myPieChart);
 					}else if(filetype >=1 && filetype <= 8){
 						var myPieChart = new Chart('chart', {
 					    type: 'bar',
@@ -226,6 +227,7 @@
 							    }
 					    }
 						});
+						showdetailSpecific(myPieChart);
 					}
 				}catch{
 					console.log("bad response!");
@@ -236,7 +238,7 @@
 					ctx.textAlign = "center";
 					ctx.fillText(object["message"], $cht[0].width/2, $cht[0].height/2);
 				}
-				showdetail(myPieChart);
+				
 				scrollgraph();
 			},
 			complete: function(xhr, status) {
@@ -245,15 +247,24 @@
     });
   });
 
-
+	countrycode = {'USA':'1', 'Canada':'2','France':'3','Germany':'4','Italy':'5','Japan':'6','UK':'7','Taiwan':'8'}
   // get chart label name for post
-  function showdetail(chartptx) {
+  function showdetailAll(chartptx) {
 		$("#chart").click( function(evt){
-        var activePoints = chartptx.getElementsAtEvent(evt);
-        var clickedElementindex = activePoints[0]["_index"];
-        var label = chartptx.data.labels[clickedElementindex];
-        var url = "http://example.com/?label=" + label;
-        alert(url);
+        var activePoints = chartptx.getElementsAtEventForMode(evt, 'point', chartptx.options);
+        var clickedElementindex = activePoints[0];
+        var country = chartptx.data.datasets[clickedElementindex._datasetIndex].label;
+        country = countrycode[country];
+        var date = chartptx.options.title.text;
+        date = date.split(" ")[0];
+
+				var formData = new FormData();
+				formData.append('filetype', country);
+				formData.append('season', date);
+				formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+				$.ajax({ 
+					url: 'OverallTLSDetail', 
+					type: 'POST', data: formData, cache: false, contentType: false, processData: false });
     });
   }
 	
