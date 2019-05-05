@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- {% load staticfiles %}
+	{% load staticfiles %}
 	<script src="{% static 'script/jquery.min.js' %}"></script>
 	<link rel='stylesheet' href="{% static 'style/bootstrap.min.css' %}"></link>
-	<link rel="stylesheet" href="{% static 'style/style.css' %}"></link> -->
-	<script src="../script/jquery.min.js"></script>
+	<link rel="stylesheet" href="{% static 'style/style.css' %}"></link>
+	<!-- <script src="../script/jquery.min.js"></script>
 	<link rel='stylesheet' href="../style/bootstrap.min.css"></link>
-	<link rel="stylesheet" href="../style/style.css"></link>
+	<link rel="stylesheet" href="../style/style.css"></link> -->
 	<meta charset="utf-8"></meta>
 	<title>G8 Government Websites TLS vulnerability details</title>
 </head>
@@ -47,23 +47,7 @@
 				</tr>
 			</thead>
 			<tbody>
-			{% for attack in data %}
-				<tr>
-					<td>{{attack[0]}}</td>
-					<td>{{attack[1]}}</td>
-					<td>{{attack[2]}}</td>
-					<td>{{attack[3]}}</td>
-					<td>{{attack[4]}}</td>
-					<td>{{attack[5]}}</td>
-					<td>{{attack[6]}}</td>
-					<td>{{attack[7]}}</td>
-					<td>{{attack[8]}}</td>
-					<td>{{attack[9]}}</td>
-					<td>{{attack[10]}}</td>
-					<td>{{attack[11]}}</td>
-					<td>{{attack[12]}}</td>
-				</tr>
-			{% endfor %}
+			
 			</tbody>
 		</table>
 	</div>
