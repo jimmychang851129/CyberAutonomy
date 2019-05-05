@@ -102,7 +102,7 @@ def OverallTLSDetail(request, *args, **kwargs):
 	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
 	filepath = os.path.join(tmppath, season+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 	Total = []
-	with open(filepath) as f:
+	with open(filepath, encoding="utf-8") as f:
 		c = csv.reader(f)
 		for line in c:
 			if "Ready" in line[2]:
@@ -140,7 +140,7 @@ def SpecificTLSDetail(request, *args, **kwargs):
 	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
 	filepath = os.path.join(tmppath, season+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 	UrlCollection = []
-	with open(filepath) as f:
+	with open(filepath, encoding="utf-8") as f:
 		c = csv.reader(f)
 		for line in c:
 			if "True" in line[4+attack]:
