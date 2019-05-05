@@ -22,7 +22,7 @@ from HSTSAnalysis.views import HSTSHome_page,HSTS_Request
 from CAAnalysis.views import CAHome_page, CA_Request,CADetail
 from HTTPSAnalysis.views import HTTPSHome_page, HTTPS_Request
 from TLSAnalysis.views import TLSHome_page, TLS_Request, OverallTLSDetail, SpecificTLSDetail
-from testApp.views import testHttpsApp,testHSTSApp,testTLSApp,testCAApp
+from testApp.views import testHttpsApp,testHSTSApp,testTLSApp,testCAApp,testCPApp
 
 # with name parameter, we can refer to it by name rather than url
 urlpatterns = [
@@ -47,5 +47,6 @@ urlpatterns = [
     path('testHSTS',testHSTSApp,name='testHSTS'),
     path('testTLS',testTLSApp,name='testTLS'),
     path('testCAApp',testCAApp,name='testCAApp'),
+    path('testCPApp',testCPApp,name='testCPApp'),
 
 ]

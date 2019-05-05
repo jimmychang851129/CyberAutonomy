@@ -71,36 +71,36 @@ def HTTPS_Request(request, *args, **kwargs):
 ##################
 # further detail #
 ##################
-# def HTTPSHSTSDetail(request, *args, **kwargs):
-# 	data = request.POST
-# 	country = data['country']
-# 	season = data['season']
+def HTTPSHSTSDetail(request, *args, **kwargs):
+	data = request.POST
+	country = data['filetype']
+	season = data['season']
 
-# 	f = open(confpath,"r")
-# 	conf = json.loads(f.read())
-# 	context = {
-# 		"data" : 0,
-# 		"message": "no",
-# 		"date": "0",
-# 		"Country" : "no"
-# 	}
-# 	if str(dataDate) not in conf['DateList']:
-# 		context['message'] = 'season invalid : ' + str(dataDate)
-# 		return JsonResponse(context,safe=False)
-# 	if country < 0 or country > 8:
-# 		context['message'] = 'countrycode invalid : ' + str(country)
-# 		return JsonResponse(context,safe=False)
-# 	########################
-# 	# load data and return #
-# 	########################
-# 	filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
-# 	filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
-# 	TotalList = []
-# 	with open(filepath, encoding="utf-8") as f:
-# 		for line in f:
-# 			line = line.split(',')
-# 			if "hostname" not in line[0]:
-# 				line[0],
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	context = {
+		"data" : 0,
+		"message": "no",
+		"date": "0",
+		"Country" : "no"
+	}
+	if str(dataDate) not in conf['DateList']:
+		context['message'] = 'season invalid : ' + str(dataDate)
+		return JsonResponse(context,safe=False)
+	if country < 0 or country > 8:
+		context['message'] = 'countrycode invalid : ' + str(country)
+		return JsonResponse(context,safe=False)
+	########################
+	# load data and return #
+	########################
+	filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
+	filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
+	TotalList = []
+	with open(filepath, encoding="utf-8") as f:
+		for line in f:
+			line = line.split(',')
+			if "hostname" not in line[0]:
+				line[0],
 
 ######################
 # find non https url #

@@ -118,5 +118,28 @@ def CPDetail(request, *args, **kwargs):
 	###############################################
 	# Get external resource, remove dependentsite #
 	###############################################
+	filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/CP")
+	filepath = os.path.join(filepath, conf['CountryList'][country-1]+".csv")
+	CurSite = ""
+	Total = []
 	
-
+	with open(filepath,'r', encoding='utf-8') as f:
+		c = csv.reader(f)
+		cnt_list = [0,0,0]
+		for line in c:
+			tmpsite = parseurl(''.join(line[2:-1]))	# parse resource url to domain
+			if tmpsite.strip() not in dependent:
+				if line[0].strip() != CurSite:
+					if CurSite != "":
+						Total.append([CurSite]+cnt_list)
+					cnt_list = [0,0,0]
+					CurSite = line[0].strip()
+				if "image" in line[1]:
+					cnt_list[0] += 1
+				if "javascript" in line[1]:
+					cnt_list[1] += 1
+				if "json" in line[1]:
+					cnt_list[2] += 1
+		Total.append([CurSite]+cnt_list)
+	context['data'] = Total
+	return JsonResponse(context,safe=False)
