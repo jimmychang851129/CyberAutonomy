@@ -48,7 +48,7 @@ def CP_Request(request, *args, **kwargs):
 	######################
 	dependent = set()
 	dependentpath = os.path.join(filedir, conf['Savedir']+"dependentList.csv")
-	with open(dependentpath) as f:
+	with open(dependentpath, encoding='utf-8') as f:
 		for row in f:
 			dependent.add(row.split('\t')[0])
 	#########################################
@@ -103,7 +103,7 @@ def CPDetail(request, *args, **kwargs):
 	if str(dataDate) not in conf['DateList']:
 		context['message'] = 'season invalid'
 		return render(request,"CPAnalysis/CPHomepage.html",context)
-	if country < 0 or country > 8:
+	if country < 1 or country > 8:
 		context['message'] = 'countrycode invalid'
 		return render(request,"CPAnalysis/CPHomepage.html",context)
 	context['message'] = 'OK'
@@ -112,7 +112,7 @@ def CPDetail(request, *args, **kwargs):
 	######################
 	dependent = set()
 	dependentpath = os.path.join(filedir, conf['Savedir']+"dependentList.csv")
-	with open(dependentpath) as f:
+	with open(dependentpath, encoding='utf-8') as f:
 		for row in f:
 			dependent.add(row.split('\t')[0])
 	###############################################
