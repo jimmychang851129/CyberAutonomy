@@ -252,12 +252,20 @@
   function showdetailAll(chartptx) {
 		$("#chart").click( function(evt){
         var activePoints = chartptx.getElementsAtEventForMode(evt, 'point', chartptx.options);
+        console.log(activePoints)
         var clickedElementindex = activePoints[0];
+        console.log(clickedElementindex)
         var country = chartptx.data.datasets[clickedElementindex._datasetIndex].label;
         country = countrycode[country];
         var date = chartptx.options.title.text;
         date = date.split(" ")[0];
 
+				// var CSRF = $('input[name=csrfmiddlewaretoken]').val();
+				// $.post("OverallTLSDetail",{
+				// 	csrfmiddlewaretoken: CSRF,
+				// 	filetype: country,
+				//   season: date,
+				// });
 				var formData = new FormData();
 				formData.append('filetype', country);
 				formData.append('season', date);
