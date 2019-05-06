@@ -20,7 +20,7 @@ def CPHome_page(request, *args, **kwargs):
 	context ={
 		"time" : conf['DateList'],
 	}
-	return render(request,"CPAnalysis/CPHomepage.html",context)
+	return render(request,"CPAnalysis/cp.html",context)
 
 def CP_Request(request, *args, **kwargs):
 	data = request.POST
@@ -38,10 +38,10 @@ def CP_Request(request, *args, **kwargs):
 	}
 	if str(dataDate) not in conf['DateList']:
 		context['message'] = 'season invalid'
-		return render(request,"CPAnalysis/CPHomepage.html",context)
+		return render(request,"CPAnalysis/cp.html",context)
 	if country < 0 or country > 8:
 		context['message'] = 'countrycode invalid'
-		return render(request,"CPAnalysis/CPHomepage.html",context)
+		return render(request,"CPAnalysis/cp.html",context)
 	context['message'] = 'OK'
 	######################
 	# read dependentsite #
@@ -97,16 +97,18 @@ def CPDetail(request, *args, **kwargs):
 	context = {
 		"data" : [],
 		"message": "no",
-		"filetype": "0",
+		"date": "0",
 		"Country": "no"
 	}
 	if str(dataDate) not in conf['DateList']:
 		context['message'] = 'season invalid'
-		return render(request,"CPAnalysis/CPHomepage.html",context)
+		return render(request,"CPAnalysis/cp.html",context)
 	if country < 1 or country > 8:
 		context['message'] = 'countrycode invalid'
-		return render(request,"CPAnalysis/CPHomepage.html",context)
+		return render(request,"CPAnalysis/cp.html",context)
 	context['message'] = 'OK'
+	context['date'] = dataDate
+	context['Country'] = conf['CountryList'][country-1]
 	######################
 	# read dependentsite #
 	######################
@@ -142,4 +144,4 @@ def CPDetail(request, *args, **kwargs):
 					cnt_list[2] += 1
 		Total.append([CurSite]+cnt_list)
 	context['data'] = Total
-	return JsonResponse(context,safe=False)
+	return render(request,"CPAnalysis/cpDetail.html",context)

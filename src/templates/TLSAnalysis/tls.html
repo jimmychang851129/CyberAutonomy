@@ -260,19 +260,24 @@
         var date = chartptx.options.title.text;
         date = date.split(" ")[0];
 
-				// var CSRF = $('input[name=csrfmiddlewaretoken]').val();
-				// $.post("OverallTLSDetail",{
-				// 	csrfmiddlewaretoken: CSRF,
-				// 	filetype: country,
-				//   season: date,
-				// });
-				var formData = new FormData();
-				formData.append('filetype', country);
-				formData.append('season', date);
-				formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
-				$.ajax({ 
-					url: 'OverallTLSDetail', 
-					type: 'POST', data: formData, cache: false, contentType: false, processData: false });
+				var form = document.createElement("form");
+				form.method = "POST";
+				form.action = "OverallTLSDetail";
+				var CSRF = $('input[name=csrfmiddlewaretoken]').val();
+				var csrf_t = document.createElement("input"); 
+				csrf_t.value = CSRF;
+				csrf_t.name = "csrfmiddlewaretoken";
+				var element1 = document.createElement("input");  
+				element1.value = country;
+				element1.name = "filetype";
+				var element2 = document.createElement("input"); 
+				element2.value = date;
+				element2.name = "season";
+				form.appendChild(csrf_t);
+				form.appendChild(element1);
+				form.appendChild(element2);
+				document.body.appendChild(form);
+				form.submit();
     });
   }
 	

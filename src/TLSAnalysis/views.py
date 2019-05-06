@@ -108,7 +108,7 @@ def OverallTLSDetail(request, *args, **kwargs):
 			if "Ready" in line[2]:
 				Total.append([line[0],line[-1]]+line[4:15])
 			elif line[0] != "host_name":
-				Total.append([line[0],0]+[0]*11)
+				Total.append([line[0],0]+["True"]*11)
 	context['data'] = Total
 	print("context = ",context)
 	# return JsonResponse(context,safe=False)

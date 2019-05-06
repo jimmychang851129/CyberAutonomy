@@ -136,7 +136,7 @@ def HTTPSHSTSDetail(request, *args, **kwargs):
 	# print("Total len = ",len(Total))
 	context['data'] = Total
 	print(len(Total))
-	return JsonResponse(context,safe=False)
+	return render(request,"HTTPSAnalysis/httpsDetail.html",context)
 
 ######################
 # find non https url #

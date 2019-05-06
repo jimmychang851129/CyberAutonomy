@@ -109,6 +109,6 @@
   background-color: #555;
   color: white;
 }
-.table tbody:hover {
+.table tr:hover {
   background-color: #000;
 }

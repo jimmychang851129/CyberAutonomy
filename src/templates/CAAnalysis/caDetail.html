@@ -9,7 +9,7 @@
 	<link rel='stylesheet' href="../style/bootstrap.min.css"></link>
 	<link rel="stylesheet" href="../style/style.css"></link> -->
 	<meta charset="utf-8"></meta>
-	<title>G8 Government Websites TLS vulnerability details</title>
+	<title>G8 Government Websites Root CA autonomy</title>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -18,32 +18,22 @@
       <li class="menuborder"><a href="home"><span class="menubar">Home</span></a></li>
       <li class="menuborder"><a href="HTTPSAnalysis"><span class="menubar">HTTPS</span></a></li>
       <li class="menuborder"><a href="HSTSAnalysis"><span class="menubar">HSTS</span></a></li>
-      <li class="menuborder active"><a href="TLSAnalysis"><span class="menubar">TLS vulnerability</span></a></li>
-      <li class="menuborder"><a href="CAAnalysis"><span class="menubar">Root CA</span></a></li>
+      <li class="menuborder"><a href="TLSAnalysis"><span class="menubar">TLS vulnerability</span></a></li>
+      <li class="menuborder active"><a href="CAAnalysis"><span class="menubar">Root CA</span></a></li>
       <li class="menuborder"><a href="CPAnalysis"><span class="menubar">Content Provider</span></a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container-fluid">
-	<h3><span style="font-weight: 800;">{{date}} {{Country}}</span> Overall TLS vulnerabilities resilience</h3>
+	<h3><span style="font-weight: 800;">{{date}} {{Country}}</span> Root CA autonomy</h3>
 	<div class="table-responsive table-border">
 		<table class="table">
 			<thead>
 				<tr class="active">
 					<th>URL</th>
-					<th>No. of attack resilience</th>
-					<th>Beast</th>
-					<th>Heartbleed</th>
-					<th>Poodle</th>
-					<th>Freak</th>
-					<th>Logjam</th>
-					<th>Drown</th>
-					<th>Sweet32</th>
-					<th>Cross Protocol</th>
-					<th>RC4</th>
-					<th>Renegotiation</th>
-					<th>CRIME</th>
+					<th>CA owner</th>
+					<th>CA country</th>
 				</tr>
 			</thead>
 			<tbody>

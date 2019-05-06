@@ -118,7 +118,7 @@ def CADetail(request, *args, **kwargs):
 				if "DST" in tmp or 'Entrust' in tmp:
 					tmp = 'US'
 				if "GlobalSign" in tmp:
-					tmp = 'Belgium'
+					tmp = 'BE'
 				Owner = line[23].split('O=')[1].split('=')[0].split(',')
 				if len(Owner) > 1:
 					Owner = ''.join(Owner[:-1])
@@ -126,5 +126,5 @@ def CADetail(request, *args, **kwargs):
 					Owner = Owner[0]
 				TotalCnt.append([line[0],Owner,tmp])
 	context['data'] = TotalCnt
-	return JsonResponse(context,safe=False)
+	return render(request,"CAAnalysis/caDetail.html",context)
 

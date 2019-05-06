@@ -104,7 +104,7 @@ $("#cp_submit").click(function(e) {
 					    	options: {
 						        title: {
 						            display: true,
-						            text: object["Country"] + ' Government top100 Content Provider External Usage',
+						            text: $("select[name=season]").val() + " " + object["Country"] + ' Government top100 Content Provider External Usage',
 						            fontColor: '#FFF',
 							          fontSize: 24
 						        },
@@ -116,6 +116,7 @@ $("#cp_submit").click(function(e) {
 						        }
 						    }
 						});
+						showdetailSpecific(myPieChart);
 					} else if(filetype === 0){
 						//TODO: if [all comparison] - bar chart
 						var myPieChart = new Chart('chart', {
@@ -130,7 +131,7 @@ $("#cp_submit").click(function(e) {
 				    	options: {
 				        title: {
 				            display: true,
-				            text: 'G8 Government top100 Content Provider External Usage',
+				            text: $("select[name=season]").val() + ' G8 Government top100 Content Provider External Usage',
 				            fontColor: '#FFF',
 				            fontSize: 24
 				        },
@@ -157,8 +158,8 @@ $("#cp_submit").click(function(e) {
 						    }
 					    }
 						});
+						showdetailAll(myPieChart);
 					}
-					showdetail(myPieChart);
 					scrollgraph();
 				}catch{
 					console.log("bad response!");
@@ -178,15 +179,49 @@ $("#cp_submit").click(function(e) {
 })
 
 
+function senddetailform(country, date) {
+	var form = document.createElement("form");
+	form.method = "POST";
+	form.action = "CPDetail";
+	var CSRF = $('input[name=csrfmiddlewaretoken]').val();
+	var csrf_t = document.createElement("input");
+	csrf_t.value = CSRF;
+	csrf_t.name = "csrfmiddlewaretoken";
+	var element1 = document.createElement("input");  
+	element1.value = country;
+	element1.name = "filetype";
+	var element2 = document.createElement("input"); 
+	element2.value = date;
+	element2.name = "season";
+	form.appendChild(csrf_t);
+	form.appendChild(element1);
+	form.appendChild(element2);
+	document.body.appendChild(form);
+	form.submit();
+}
+
+countrycode = {'USA':'1', 'Canada':'2','France':'3','Germany':'4','Italy':'5','Japan':'6','UK':'7','Taiwan':'8'}
 // get chart label name for post
-function showdetail(chartptx) {
+function showdetailAll(chartptx) {
 	$("#chart").click( function(evt){
     var activePoints = chartptx.getElementsAtEvent(evt);
     var clickedElementindex = activePoints[0]["_index"];
-    var label = chartptx.data.labels[clickedElementindex];
-    var url = "http://example.com/?label=" + label;
-    alert(url);
-});
+    var country = chartptx.data.labels[clickedElementindex];
+    country = countrycode[country];
+    var date = chartptx.options.title.text;
+    date = date.split(" ")[0];
+    senddetailform(country, date);
+  });
+}
+function showdetailSpecific(chartptx){
+	$("#chart").click( function(evt){
+    var activePoints = chartptx.getElementsAtEvent(evt);
+    var clickedElementindex = activePoints[0]["_index"];
+    var text = chartptx.options.title.text.split(" ");
+    var country = countrycode[text[1]];
+    var date = text[0];
+    senddetailform(country, date);
+  });
 }
 	
 </script>
