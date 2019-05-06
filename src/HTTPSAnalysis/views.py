@@ -71,36 +71,72 @@ def HTTPS_Request(request, *args, **kwargs):
 ##################
 # further detail #
 ##################
-# def HTTPSHSTSDetail(request, *args, **kwargs):
-# 	data = request.POST
-# 	country = data['filetype']
-# 	season = data['season']
+def HTTPSHSTSDetail(request, *args, **kwargs):
+	data = request.POST
+	country = int(data['filetype'])
+	season = data['season']
 
-# 	f = open(confpath,"r")
-# 	conf = json.loads(f.read())
-# 	context = {
-# 		"data" : 0,
-# 		"message": "no",
-# 		"date": "0",
-# 		"Country" : "no"
-# 	}
-# 	if str(dataDate) not in conf['DateList']:
-# 		context['message'] = 'season invalid : ' + str(dataDate)
-# 		return JsonResponse(context,safe=False)
-# 	if country < 1 or country > 8:
-# 		context['message'] = 'countrycode invalid : ' + str(country)
-# 		return JsonResponse(context,safe=False)
-# 	########################
-# 	# load data and return #
-# 	########################
-# 	filepath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
-# 	filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
-# 	TotalList = []
-# 	with open(filepath, encoding="utf-8") as f:
-# 		for line in f:
-# 			line = line.split(',')
-# 			if "hostname" not in line[0]:
-# 				line[0],
+	f = open(confpath,"r")
+	conf = json.loads(f.read())
+	context = {
+		"data" : 0,
+		"message": "no",
+		"date": "0",
+		"Country" : "no"
+	}
+	if str(season) not in conf['DateList']:
+		context['message'] = 'season invalid : ' + str(season)
+		return JsonResponse(context,safe=False)
+	if country < 1 or country > 8:
+		context['message'] = 'countrycode invalid : ' + str(country)
+		return JsonResponse(context,safe=False)
+
+	context['message'] = 'OK'
+	context['Country'] = conf['CountryList'][country-1]
+	context['date'] = season
+	########################
+	# load data and return #
+	########################
+	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
+	filepath = os.path.join(tmppath, season+"_"+context['Country']+"scan_result_stat_final.csv")
+	Total = []
+	with open(filepath,'r',encoding='utf-8') as f:
+		c = csv.reader(f)
+		for line in c:
+			isHTTPS,isHSTS = "No","No"
+			if "Ready" in line[2]:
+				isHTTPS = "Yes"
+				if 'present' in line[17]:
+					isHSTS = "Yes"
+			if "host_name" not in line[0]:
+				Total.append([line[0],isHTTPS,isHSTS])
+	# print("Totallen = ",len(Total))
+	################################
+	# ssllab abort so hsts unknown #
+	################################
+	filepath = os.path.join(tmppath,"SSLAbort.txt")
+	with open(filepath,"r",encoding='utf-8') as f:
+		for line in f:
+			line = line.split(',')
+			if conf['CountryList'][country-1] in line[0].strip():
+				Total.append([line[1].strip(),"Yes","Unknown"])	
+	#########################
+	# find non https domain #
+	#########################
+	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/fastscan")
+	filepath = os.path.join(tmppath, season+"_"+context['Country']+"_gov_fast_scan_result.txt")
+	cnt = 0
+	with open(filepath,"r",encoding='utf-8') as f:
+		for line in f:
+			if "The website doesnt support HTTPS :" in line:
+				line = line.split(': ')[1].strip()
+				Total.append([line,"No","No"])
+				cnt+=1
+		# print("cnt = ",cnt)
+	# print("Total len = ",len(Total))
+	context['data'] = Total
+	print(len(Total))
+	return JsonResponse(context,safe=False)
 
 ######################
 # find non https url #
