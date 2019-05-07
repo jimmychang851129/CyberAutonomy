@@ -1,6 +1,9 @@
 :root {
   --main-color: #4db8ff;
 }
+body {
+  background-image: url("../bg.jpg");
+}
 .navbar-nav {
     display:table;
     width:100%;
@@ -26,7 +29,11 @@
 .menuborder {
   border-right: white solid 1px;
 }
-
+.search-banner {
+  background-image: url("../bg-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .two-columns {
   width: 50%;
   box-sizing: border-box;
@@ -111,4 +118,12 @@
 }
 .table tr:hover {
   background-color: #000;
+}
+footer {
+  color: #FFF;
+  text-shadow: 0 0px 8px #6591ff;
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+  flex: 0 0 auto;
 }
