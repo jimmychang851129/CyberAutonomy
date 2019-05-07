@@ -1,9 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import csv,os,json
-from util.util import ReadFile
+from urllib.parse import urlparse
 filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 confpath = os.path.join(filedir, "config/config.json")
+
+def parseurl(longurl):
+	uri = urlparse(longurl)
+	result = '{uri.scheme}://{uri.netloc}{uri.path}'.format(uri=uri)
+	return result
 
 # Create your views here.
 def TLSHome_page(request, *args, **kwargs):
@@ -42,7 +47,7 @@ def TLS_Request(request, *args, **kwargs):
 		TotalData = []
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		for i in range(len(conf['CountryList'])):
-			cntList = [0]*12
+			cntList = [0,0,0,0,0,0,0,0,0,0,0,0]
 			filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][i]+"scan_result_stat_final.csv")
 			with open(filepath, encoding="utf-8") as f:
 				c = csv.reader(f)
@@ -53,12 +58,11 @@ def TLS_Request(request, *args, **kwargs):
 				cntList[k] += cntList[k-1]
 			TotalData.append(cntList)
 		context['data'] = TotalData
-		print("context = ",context)
 		return JsonResponse(context,safe=False)
 	else:
 		context['filetype'] = '1'
 		context["Country"] = conf["CountryList"][country-1]
-		cntList = [0]*12
+		cntList = [0,0,0,0,0,0,0,0,0,0,0,0]
 		tmppath = os.path.join(filedir, conf['Savedir']+str(dataDate)+"/thoroughscan")
 		filepath = os.path.join(tmppath, dataDate+"_"+conf['CountryList'][country-1]+"scan_result_stat_final.csv")
 		with open(filepath, encoding="utf-8") as f:
@@ -66,12 +70,11 @@ def TLS_Request(request, *args, **kwargs):
 			for line in c:
 				if "Ready" in line[2]:
 					for j in range(4,15):
-						if "False" not in line[j]:
+						if "false" not in line[j].lower():
 							cntList[j-4] += 1
 					if 'present' not in line[17]:
 						cntList[11] += 1
 		context['data'] = cntList
-		print("context = ",context)
 		return JsonResponse(context,safe=False)
 
 
@@ -106,11 +109,10 @@ def OverallTLSDetail(request, *args, **kwargs):
 		c = csv.reader(f)
 		for line in c:
 			if "Ready" in line[2]:
-				Total.append([line[0],line[-1]]+line[4:15])
+				Total.append([parseurl(line[0]),line[-1]]+line[4:15])
 			elif line[0] != "host_name":
-				Total.append([line[0],0]+["True"]*11)
+				Total.append([parseurl(line[0]),0]+["TRUE"]*11)
 	context['data'] = Total
-	print("context = ",context)
 	# return JsonResponse(context,safe=False)
 	return render(request,"TLSAnalysis/tlsDetail.html",context)
 
@@ -144,7 +146,7 @@ def SpecificTLSDetail(request, *args, **kwargs):
 	with open(filepath, encoding="utf-8") as f:
 		c = csv.reader(f)
 		for line in c:
-			if "True" in line[4+attack]:
+			if "true" in line[4+attack].lower():
 				UrlCollection.append(line[0])
 	context["data"] = UrlCollection
 	return JsonResponse(context,safe=False)

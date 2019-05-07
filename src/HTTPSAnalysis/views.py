@@ -1,10 +1,16 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import csv,os,json
+from urllib.parse import urlparse
 # from util.util import hello
 
 filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 confpath = os.path.join(filedir, "config/config.json")
+
+def parseurl(longurl):
+	uri = urlparse(longurl)
+	result = '{uri.scheme}://{uri.netloc}{uri.path}'.format(uri=uri)
+	return result
 
 # Create your views here.
 def HTTPSHome_page(request, *args, **kwargs):
@@ -100,45 +106,48 @@ def HTTPSHSTSDetail(request, *args, **kwargs):
 	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/thoroughscan")
 	filepath = os.path.join(tmppath, season+"_"+context['Country']+"scan_result_stat_final.csv")
 	Total = []
-	with open(filepath,'r',encoding='utf-8') as f:
-		c = csv.reader(f)
-		for line in c:
-			isHTTPS,isHSTS = "No","No"
-			if "Ready" in line[2]:
-				isHTTPS = "Yes"
-				if 'present' in line[17]:
-					isHSTS = "Yes"
-			if "host_name" not in line[0]:
-				Total.append([line[0],isHTTPS,isHSTS])
+	try:
+		with open(filepath,'r',encoding='utf-8') as f:
+			c = csv.reader(f)
+			for line in c:
+				isHTTPS,isHSTS = "No","No"
+				if "Ready" in line[2]:
+					isHTTPS = "Yes"
+					if 'present' in line[17]:
+						isHSTS = "Yes"
+				else:
+					isHTTPS = "https Configuration Error"
+				if "host_name" not in line[0]:
+					Total.append([parseurl(line[0]),isHTTPS,isHSTS])
+	except:
+		print(filepath,"file not foundQQ")
 	# print("Totallen = ",len(Total))
 	################################
 	# ssllab abort so hsts unknown #
 	################################
-	filepath = os.path.join(tmppath,"SSLAbort.txt")
-	with open(filepath,"r",encoding='utf-8') as f:
-		for line in f:
-			line = line.split(',')
-			if conf['CountryList'][country-1] in line[0].strip():
-				Total.append([line[1].strip(),"Yes","Unknown"])	
+	# filepath = os.path.join(tmppath,"SSLAbort.txt")
+	# with open(filepath,"r",encoding='utf-8') as f:
+	# 	for line in f:
+	# 		line = line.split(',')
+	# 		if conf['CountryList'][country-1] in line[0].strip():
+	# 			Total.append([parseurl(line[1].strip()),"Yes","Unknown"])	
 	#########################
 	# find non https domain #
 	#########################
 	tmppath = os.path.join(filedir, conf['Savedir']+str(season)+"/fastscan")
 	filepath = os.path.join(tmppath, season+"_"+context['Country']+"_gov_fast_scan_result.txt")
 	cnt = 0
-	with open(filepath,"r",encoding='utf-8') as f:
-		for line in f:
-			if "The website doesnt support HTTPS :" in line:
-				line = line.split(': ')[1].strip()
-				Total.append([line,"No","No"])
-				cnt+=1
+	try:
+		with open(filepath,"r",encoding='utf-8') as f:
+			for line in f:
+				if "The website doesnt support HTTPS :" in line:
+					line = line.split(': ')[1].strip()
+					Total.append([line,"No","No"])
+					cnt+=1
+	except:
+		print(filepath,"file not foundQQ")
 		# print("cnt = ",cnt)
 	# print("Total len = ",len(Total))
 	context['data'] = Total
 	print(len(Total))
 	return render(request,"HTTPSAnalysis/httpsDetail.html",context)
-
-######################
-# find non https url #
-######################
-

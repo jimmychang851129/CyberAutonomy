@@ -9,7 +9,7 @@ CountryList = ["United States","Canada","France","Germany","Italy","Japan","Unit
 
 def parseurl(longurl):
 	uri = urlparse(longurl)
-	result = '{uri.scheme}://{uri.netloc}/'.format(uri=uri)
+	result = '{uri.scheme}://{uri.netloc}{uri.path}'.format(uri=uri)
 	return result
 
 # Create your views here.
@@ -133,7 +133,7 @@ def CPDetail(request, *args, **kwargs):
 			if tmpsite.strip() not in dependent:
 				if line[0].strip() != CurSite:
 					if CurSite != "":
-						Total.append([CurSite]+cnt_list)
+						Total.append([parseurl(CurSite)]+cnt_list)
 					cnt_list = [0,0,0]
 					CurSite = line[0].strip()
 				if "image" in line[1]:
@@ -142,6 +142,6 @@ def CPDetail(request, *args, **kwargs):
 					cnt_list[1] += 1
 				if "json" in line[1]:
 					cnt_list[2] += 1
-		Total.append([CurSite]+cnt_list)
+		Total.append([parseurl(CurSite)]+cnt_list)
 	context['data'] = Total
 	return render(request,"CPAnalysis/cpDetail.html",context)

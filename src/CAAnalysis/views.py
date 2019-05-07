@@ -1,10 +1,17 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import csv,os,json
+from urllib.parse import urlparse
 
 filedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 confpath = os.path.join(filedir, "config/config.json")
 CAList = ['US','Canada',"FR","DE","IT","JP","GB","TW"]
+
+def parseurl(longurl):
+	uri = urlparse(longurl)
+	result = '{uri.scheme}://{uri.netloc}{uri.path}'.format(uri=uri)
+	return result
+
 # Create your views here.
 def CAHome_page(request, *args, **kwargs):
 	f = open(confpath,"r")
@@ -124,7 +131,7 @@ def CADetail(request, *args, **kwargs):
 					Owner = ''.join(Owner[:-1])
 				else:
 					Owner = Owner[0]
-				TotalCnt.append([line[0],Owner,tmp])
+				TotalCnt.append([parseurl(line[0]),Owner,tmp])
 	context['data'] = TotalCnt
 	return render(request,"CAAnalysis/caDetail.html",context)
 

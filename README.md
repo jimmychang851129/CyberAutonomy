@@ -5,6 +5,12 @@
 virtualenv使用教學請看[note](https://hackmd.io/gnNUv5YOQdin9mHmafaEqg?both)
 用python3.6 pip install requirements.txt
 
+## Data location
+
+[dropbox](https://www.dropbox.com/sh/ya8pumwyfttcrjc/AAArSHNYOn8FrM-NcxyJn3Z-a?dl=1)
+
+put this file in the directory
+
 ## environment
 
 python == 3.6
