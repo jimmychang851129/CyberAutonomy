@@ -54,6 +54,12 @@
 	<hr>
 	<div id="chartcontainer" class="row" style="background-color: black;">
 	</div>
+	<!-- pop out modal -->
+	<div id="attackcontainer" class="modal">
+		<div id="attackbox" class="modal-content">
+			<span class="close">&times;</span>
+		</div>
+	</div>
 
 	<div class="row">
 		{% include "footer.html" %}
@@ -201,7 +207,7 @@
 				    	options: {
 					        title: {
 					            display: true,
-					            text: object["Country"] + ' Government top100 TLS Vulnerabilities',
+					            text: $("select[name=season]").val() + ' ' + object["Country"] + ' Government top100 TLS Vulnerabilities',
 					            fontColor: '#FFF',
 						          fontSize: 24
 					        },
@@ -281,4 +287,54 @@
     });
   }
 	
+	// close the modal when (x) is clicked
+	function closePopup(argument) {
+		$(".close").click(function(e) {
+			$("#attackcontainer").css('display','none');
+			// clear content
+			$("#attackbox").remove();
+			$("#attackcontainer").append('<div id="attackbox" class="modal-content"><span class="close">&times;</span></div>')
+		})
+	}
+	
+	attackcode = {'Beast':'0','Heartbleed':'1','Poodle':'2','Freak':'3','Logjam':'4','Drown':'5','Sweet32':'6','Cross Protocol':'7','RC4':'8','Renegotiation':'9','CRIME':'10'}
+	function showdetailSpecific(chartptx) {
+		$("#chart").click( function(evt){
+	    var activePoints = chartptx.getElementsAtEvent(evt);
+	    var clickedElementindex = activePoints[0]["_index"];
+	    var attackname = chartptx.data.labels[clickedElementindex];
+	    var attack = attackcode[attackname];
+	    var text = chartptx.options.title.text.split(" ");
+	    var country = countrycode[text[1]];
+	    var date = text[0];
+	    $.ajax({
+	      type: 'POST',
+	      url: 'SpecificTLSDetail',
+	      data: {
+	      	'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val(),
+	      	'season': date,
+					'country': country,
+					'attack': attack,
+	      },
+	      dataType: "html",      
+	      success: function(data){
+	      	var object = JSON.parse(data);
+	      	var title = object["date"] + ' ' + object["Country"] + ' ' + attackname + ' Vulnerability Sites';
+	      	$("#attackbox").append('<h3>'+title+'</h3>');
+	      	$("#attackbox").append('<hr>');
+	      	for (var i = object["data"].length - 1; i >= 0; i--) {
+	      		var urlshow = object["data"][i];
+	      		urlshowcomponent = "<pre>"+urlshow+"</pre>";
+	      		$("#attackbox").append(urlshowcomponent);
+	      	}
+	      	$("#attackcontainer").css('display','block');
+	      	closePopup();
+	      },
+				complete: function(xhr, status) {
+	        console.log("TLS detail received!");
+	      }
+	    })
+	  });
+	}
+
 </script>
