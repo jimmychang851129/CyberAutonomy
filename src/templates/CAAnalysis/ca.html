@@ -122,7 +122,7 @@ $.ajax({
 					var myPieChart = new Chart('chart', {
 				    type: 'bar',
 				    data: {
-				    	labels: ['USA','Canada','France','Germany','Italy','Japan','UK','Taiwan'],
+				    	labels: ['US','Canada','France','Germany','Italy','Japan','UK','Taiwan'],
 				    	datasets: [{
 				    		data: object["data"],
 				    		backgroundColor: ["rgb(176, 122, 161, 1)","rgba(78, 121, 167, 1)","rgba(242, 142, 43, 1)","rgba(225, 87, 89, 1)","rgba(118, 183, 178, 1)","rgba(89, 161, 79, 1)","rgba(237, 201, 72, 1)","rgba(255, 255, 255, 1)"],
@@ -200,7 +200,7 @@ function senddetailform(country, date) {
 	form.submit();
 }
 
-countrycode = {'USA':'1', 'Canada':'2','France':'3','Germany':'4','Italy':'5','Japan':'6','UK':'7','Taiwan':'8'}
+countrycode = {'US':'1', 'Canada':'2','France':'3','Germany':'4','Italy':'5','Japan':'6','UK':'7','Taiwan':'8'}
 // get chart label name for post
 function showdetailAll(chartptx) {
 	$("#chart").click( function(evt){
