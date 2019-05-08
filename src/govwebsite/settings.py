@@ -27,7 +27,7 @@ SECRET_KEY = '+)6a(&@j-3x!y_7zw-sr)%k$($8#tjctpybe_5sz-fvaft(zv_'
 # turn off when start running
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

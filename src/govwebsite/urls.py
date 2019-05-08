@@ -48,5 +48,5 @@ urlpatterns = [
     path('testTLS',testTLSApp,name='testTLS'),
     path('testCAApp',testCAApp,name='testCAApp'),
     path('testCPApp',testCPApp,name='testCPApp'),
-
+    path('',home_page,name='homepage')
 ]

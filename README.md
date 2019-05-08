@@ -82,3 +82,33 @@ $ docker rm cyber
 ```
 docker rmi cyberautonomy
 ```
+
+## Deploy to heroku
+
+1. 把setting.py的ALLOWED_HOST欄位改成 ['*']
+2. Dockerfile的CMD更改 0.0.0.0:$PORT，因為Heroku會自動分配一個port給我們，我們也不能指定要哪個port，所以不用EXPOSE，只要用他給的環境變數
+
+```
+
+$ heroku login 
+
+$ heroku container:login
+
+$ git clone https://github.com/jimmychang851129/CyberAutonomy.git
+
+$ heroku create  // create app
+
+$ heroku container:push web
+
+$ heroku container:release web
+
+$ heroku rename:apps <new name>
+
+```
+
+
+### Reference
+
+[heroku dockerfile deploy](https://devcenter.heroku.com/articles/container-registry-and-runtime#building-and-pushing-image-s)
+
+[heroku app rename](https://devcenter.heroku.com/articles/renaming-apps)
