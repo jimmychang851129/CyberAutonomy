@@ -7,7 +7,7 @@
 	<meta charset="utf-8"></meta>
 	<link rel='stylesheet' href="{% static 'style/bootstrap.min.css' %}"></link>
 	<link rel="stylesheet" href="{% static 'style/style.css' %}"></link>
-	<title>G8 Government Websites TLS vulnerability</title>
+	<title>G7 Government Websites TLS vulnerability</title>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -28,8 +28,8 @@
 		<div class="col-md-12 search-banner">
 			<form id="tls_search" class="select-panel form-group">
 				{% csrf_token %}
-				<label>Please Choose for Scanning Country:</label>
-				<!-- Add season with ajax -->
+				<p class="form-description">Websites are vulnerable due to misconfigurations and outdated protocol versions.</p>
+				<label>Scanning Country:</label>
 				<select class="form-control" name="filetype">
 					<option value="0">Overall Comparison</option>
 					<option value="1">USA</option>
@@ -153,7 +153,7 @@
 				    	options: {
 				        title: {
 				            display: true,
-				            text: $("select[name=season]").val() + ' G8 Government top100 Vulnerabilities Resilience',
+				            text: $("select[name=season]").val() + ' G7 Government top100 Vulnerabilities Resilience',
 				            fontColor: '#FFF',
 				            fontSize: 24
 				        },
@@ -273,12 +273,15 @@
 				var csrf_t = document.createElement("input"); 
 				csrf_t.value = CSRF;
 				csrf_t.name = "csrfmiddlewaretoken";
+				csrf_t.type = "hidden";
 				var element1 = document.createElement("input");  
 				element1.value = country;
 				element1.name = "filetype";
+				element1.type = "hidden";
 				var element2 = document.createElement("input"); 
 				element2.value = date;
 				element2.name = "season";
+				element2.type = "hidden";
 				form.appendChild(csrf_t);
 				form.appendChild(element1);
 				form.appendChild(element2);

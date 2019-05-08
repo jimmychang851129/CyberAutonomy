@@ -5,7 +5,8 @@
 	<meta charset="utf-8"></meta>
 	<link rel='stylesheet' href="{% static 'style/bootstrap.min.css' %}"></link>
 	<link rel="stylesheet" href="{% static 'style/style.css' %}"></link>
-	<title>G8 Government Websites Cyber Autonomy</title>
+	<script src="{% static 'script/jquery.min.js' %}"></script>
+	<title>G7 Government Websites Cyber Autonomy</title>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -23,39 +24,33 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-lg-6 two-columns" style="background: grey;">
-			<div class="banner">An Investigation of Cyber Autonomy on Government Websites</div>
-		</div>
-		<div class="col-lg-6 two-columns" style="background: var(--main-color);">
-			<div class="text-banner">
-					<p>Hsu-Chun Hsiao</p>
-					<p>Tiffany Hyun-Jin Kim</p>
-					<p>Yu-Ming Ku</p>
-					<p>Chun-Ming Chang</p>
-					<p>Hung-Fang Chen</p>
-					<p>Yu-Jen Chen</p>
-					<p>Chun-Wen Wang</p>
-					<p>Wei Jeng</p>
-			<table width="100%" align="center">
-					
-				<tbody>
-					<tr style="border-spacing: 5px;">
-					<td valign="middle" align="right"></td>
-					<td valign="middle">National Taiwan University</td>
-					<td valign="middle">HRL Laboratories</td>
-					<td valign="middle">Cornell University</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="home-banner">
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+  		<a class="next" onclick="plusSlides(1)">❯</a>
+			<h1 class="slides"><span style="font-size: 60px;">An Investigation of</span><br> Cyber Autonomy on <br><span style="color: #56d02e; float: right;">Government Websites</span></h1>
+			<div class="slides" style="display: none;">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-6">
+					<h2>
+					<p class="title">Introduction</p>
+					<br>
+					<p class="context">We aim to investigate cyber autonomy among government websites. Gathering top 100 for each Group of Seven (G7) countries, 3 crucial elements of security concerns are measured below:</p>
+					</h2>	
+				</div>
+				<div class="col-lg-4">
+					<h3>
+						<p class="title">HTTPS</p>
+						<p class="context">Any en-route, off-path adversary are capable of hijacking route.</p>
+						<p class="title">Certificate Authority</p>
+						<p class="context">Rogue CAs can easily spoof certificates.</p>
+						<p class="title">Content Provider</p>
+						<p class="context">Loading resources from untrusted server or foreign server, chances are that malicious code will be executed.</p>
+					</h3>
+				</div>
 			</div>
 		</div>
 	</div>
-	<hr>
 	<div class="row">
-		<div class="col-lg-6 two-columns" style="background: var(--main-color);"><div class="text-banner">From a national security viewpoint, a higher degree of cyber autonomy is crucial to reduce the reliance on external, oftentimes un-trustworthy entities, in order to achieve better resilience against adversaries. Over a two-year period, we measured HTTPS adoption rates, the autonomy status of CAs, and the autonomy sta-tus of CPs on G7 government websites. We find that approximately 85% of web resources loaded by G7 government sites originatefrom the United States. Because a governmentwebsites are considered critical information infrastructures, we expect this study to raise awareness of their complex dependency,thereby reducing the risk of blindly trusting external entities when using critical government services.</div></div>
-		<div class="col-lg-6 two-columns" style="background: grey;">
-			<div class="banner">G8 Government Websites Cyber Autonomy Abstract</div>
-		</div>
 	</div>
 
 </div>
@@ -66,3 +61,17 @@
 
 </body>
 </html>
+<script>
+	var slideIndex = 1;
+	function plusSlides(next) {
+		var slides = $(".slides");
+		console.log(slides);
+		for(i = 0 ; i < slides.length; i++){
+			slides.css("display","none");
+		}
+		slideIndex = slideIndex + next;
+		if(slideIndex > slides.length) {slideIndex = 1;}
+		if(slideIndex == 0) {slideIndex = slides.length;}
+		slides[slideIndex-1].style.display = "block";
+	}
+</script>

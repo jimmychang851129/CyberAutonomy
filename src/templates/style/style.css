@@ -29,48 +29,95 @@ body {
 .menuborder {
   border-right: white solid 1px;
 }
+.form-description {
+  font-family:Trebuchet MS;
+}
 .search-banner {
   background-image: url("../bg-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
-.two-columns {
-  width: 50%;
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.home-banner {
+  width: 100%;
+  background-image: url("../home-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   box-sizing: border-box;
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-box-pack: center;
   flex-direction: normal;
-  justify-content: center;
   height: 400px;
-  padding: 0 3%;
+  padding-top: 1%;
 }
-
-.banner {
-  color: #fff;
-  max-width: 100%;
+.home-banner h1 {
+  padding-top: 14%;
+  padding-right: 8%;
+  float: right;
+  color: white;
+  text-shadow: 0 0px 3px #56d02e;
+}
+.home-banner h2 {
   text-align: center;
-  font-weight: 600;
+  padding-top: 8%;
+  padding-left: 5%;
+  color: white;
+  text-shadow: 0 0px 3px #56d02e;
+}
+.home-banner h2 p.title {
+  float: right;
+  font-size: 40px;
+  font-weight: 300;  
+}
+.home-banner h2 p.context {
+  float: left;
+  padding-top: 15px;
+  font-size: 20px;
+  text-align: left;
+}
+.home-banner h3 {
+  padding-top: 8%;
+  text-shadow: 0 0px 3px black;
+  float: left;
+}
+.home-banner h3 p.title {
   font-size: 30px;
-  line-height: 50px;
-  bottom: 12vw;
-  padding: 20%;
-  text-shadow: 0 0px 8px rgba(0,0,0,.8);
+  font-weight: 600;
+  color: #56d02e;
+  text-shadow: 0 0px 0.1px white;
+  text-decoration: underline;
+  text-decoration-color: #333;
 }
-
-.text-banner {
-  color: #000;
-  max-width: 100%;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 20px;
-  bottom: 12vw;
-  padding: 10%;
-  text-shadow: 0 0px 8px rgba(255,255,255,.8);
-  border-spacing: 20px 10px;
-  border-collapse: separate;
+.home-banner h3 p.context {
+  color: #FFF;
+  font-weight: 10;
+  padding: 5px 0px;
+  font-size: 18px;
 }
 
 .search-button {
